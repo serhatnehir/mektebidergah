@@ -1,0 +1,817 @@
+{
+  "id": "src_1793478218088",
+  "courseId": "crs_1793477575693",
+  "name": "Nebiler Silsilesi 2",
+  "metadata": {
+    "workTitle": "Nebiler Silsilesi 2",
+    "author": "Osman Nuri Topbaş",
+    "publisher": "Erkam Yayınları",
+    "pubYear": "",
+    "extra": ""
+  },
+  "customCss": "",
+  "footnotes": {
+    "footnote-001-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-5.xhtml#footnote-001\">[1]</a>",
+    "footnote-000-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-5.xhtml#footnote-000\">[2]</a>",
+    "footnote-001": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-5.xhtml#footnote-001-backlink\">[1]</a>. Hakikatte Allah Teâlâ’nın helâl kıldığı hayvanların etinden yemenin hiçbir mahzuru yoktur. Burada bahsedilen, o kavmin kendisine mahsus bir tercihidir.</p>",
+    "footnote-000": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-5.xhtml#footnote-000-backlink\">[2]</a>. <span class=\"idebold\">Yakîn:</span> Şüpheden kurtulmuş, doğru, sağlam, kuvvetli ve kesin bilgi; mutlak kanaat ve tam bir itmi’nân.</p>",
+    "footnote-019-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-019\">[3]</a>",
+    "footnote-018-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-018\">[4]</a>",
+    "footnote-017-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-017\">[5]</a>",
+    "footnote-016-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-016\">[6]</a>",
+    "footnote-015-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-015\">[7]</a>",
+    "footnote-014-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-014\">[8]</a>",
+    "footnote-013-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-013\">[9]</a>",
+    "footnote-012-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-012\">[10]</a>",
+    "footnote-011-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-011\">[11]</a>",
+    "footnote-010-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-010\">[12]</a>",
+    "footnote-009-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-009\">[13]</a>",
+    "footnote-008-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-008\">[14]</a>",
+    "footnote-007-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-007\">[15]</a>",
+    "footnote-006-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-006\">[16]</a>",
+    "footnote-005-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-005\">[17]</a>",
+    "footnote-004-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-004\">[18]</a>",
+    "footnote-003-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-003\">[19]</a>",
+    "footnote-002-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-002\">[20]</a>",
+    "footnote-019": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-019-backlink\">[3]</a>. Bu bölümde Yusuf -aleyhisselâm- ile alâkalı rivâyetlerin pek çoğu İsmâil Hakkı Bursevî’nin <span class=\"ideitalik\">Rûhu’l-Beyân</span> isimli tefsirinden alınmıştır.</p>",
+    "footnote-018": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-018-backlink\">[4]</a>. Bkz. Buhârî, Deavât, 1.</p>",
+    "footnote-017": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-017-backlink\">[5]</a>. <span class=\"idebold\">Ahsenü’l-kasas:</span> En güzel anlatış veya en güzel kıssa, hikâye, menkıbe mânâlarına gelir. Kıssa kelimesi, esâsen izi sürülmeye ve tâkip edilmeye değer hâl mânâsınadır. Bir haber veya hikâyenin kıssa adını alabilmesi, izlenmeye ve yazılmaya değer bir husûsiyet taşımasına bağlıdır.</p>",
+    "footnote-016": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-016-backlink\">[6]</a>. Bkz. Yûsuf, 102.</p>",
+    "footnote-015": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-015-backlink\">[7]</a>. Bkz. Yûsuf, 111.</p>",
+    "footnote-014": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-014-backlink\">[8]</a>. Bkz. Kurtubî, <span class=\"ideitalik\">el-Câmî,</span> IX, 120.</p>",
+    "footnote-013": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-013-backlink\">[9]</a>. Hadis şârihleri, “zamanın yaklaşması” ifâdesini, kıyâmete yakın ya da sabaha yakın (seher vakti) olarak açıklamışlardır.</p>",
+    "footnote-012": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-012-backlink\">[10]</a>. Sâdık rüyânın, nübüvvetin kırk altıda biri olması husûsu şöyle açıklanmıştır: Rasûl-i Ekrem -sallâllâhu aleyhi ve sellem-’in peygamberliği 23 sene sürmüştür. Nübüvvetin ilk altı ayı, sâdık rüyâlar şeklinde gerçekleştiğinden, bu süre (altı ay) yirmi üç yılın “kırk altıda bir”ine tekâbül etmektedir. Rüyâ hakkında geniş bilgi için bkz. Osman Nûri TOPBAŞ, <span class=\"ideitalik\">Îmândan İhsâna</span><span class=\"ideitalik\"> TASAVVUF,</span> s. 389-395.</p>",
+    "footnote-011": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-011-backlink\">[11]</a>. Allah Teâlâ Yahyâ ve Îsâ -aleyhimesselâm-’a vahyi bülûğ çağlarından itibâren göndermiştir. Bunun gibi bazı kullarını önceden hazırlayıp dilediği vakit kendilerine nübüvvet kapılarını açmıştır. Allah -celle celâlühû- bazı kullarına da, daha küçük yaşlarındayken velâyet kapısını açar. Velîlerden Sehl bin Abdullâh et-Tüsterî bunlardandır. Bu da gösteriyor ki, velâyet ve nübüvvet için bülûğ çağına veya kırk yaşına gelme şartı yoktur. Ancak enbiyânın ekserîsine sünnetullâh îcâbı kemâl devresi olan kırk yaşından sonra nübüvvet verilmiştir. Böylece tebliğ vazifesi umûmiyetle kırk yaşından sonra başlamıştır.</p>",
+    "footnote-010": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-010-backlink\">[12]</a>. Bkz. Bursevî, <span class=\"ideitalik\">Rûhu’l-Beyân</span>, Yusuf Sûresi, 20. âyetin tefsîri.</p>",
+    "footnote-009": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-009-backlink\">[13]</a>. Taberî, Muhammed b. Cerîr, <span class=\"ideitalik\">Câmiu’l-Beyân an Te’vîli Âyi’l-Kur’ân</span>, I-XXIV, thk. Ahmed Muhammed Şâkir, Müessesetü’r-Risâle, 1420/2000, XVI, 59.</p>",
+    "footnote-008": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-008-backlink\">[14]</a>. Önceki peygamberler ve ümmetlerinin her yerde ibâdet etmelerine şerîatleri müsâade etmemişti. İbâdetlerini ancak husûsî mekânlarda yapabiliyorlardı. Rasûlullâh -sallâllâhu aleyhi ve sellem-’in hasâisinden, yâni mübârek zâtına mahsus keyfiyetlerden biri olarak bütün yeryüzü O’nun ümmeti için ibâdet mahalli kılınmış ve temiz sayılmıştır. Nitekim Allah Rasûlü -sallâllâhu aleyhi ve sellem-:</p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"ideitalik\"> “…Yeryüzü benim için mescid ve</span><span class=\"ideitalik\"> temiz kılındı...”</span> buyurmuştur. (Buhârî, Teyemmüm, 1)</p>",
+    "footnote-007": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-007-backlink\">[15]</a>. <span class=\"idebold\">Töhmet:</span> Kesin delil ile ispatlanmadığı hâlde bir suç işlendiği sanılan veya böyle bir şüphe uyandıran durum.</p>",
+    "footnote-006": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-006-backlink\">[16]</a>. Yûsuf Sûresi’nin 52 ve 53. âyetlerinin Züleyhâ’nın sözü olduğu da söylenmiştir. Bu durumda mânâ şöyle olur: <span class=\"idebold\">“Bununla beraber ben kendimi temize </span><span class=\"idebold\">çıkarmak, nefsimi tebrie etmek çabasında değilim. Yâni Yusuf’un arkasından, </span><span class=\"idebold\">kendisine hıyânet etmediğimi bilsin diye hakikati îtiraf ederken, kendimi büsbütün </span><span class=\"idebold\">tezkiye ve tebrie edip, temize çıkarmıyorum. Ne yaptıysam onun gözü </span><span class=\"idebold\">önünde yaptım, arkasından, yâni yokluğunda ona hâinlik etmedim.”</span> İşte Aziz’in hanımı bu şekilde îtiraf ve istiğfâr ederek, gerçeği ikrâr etti. Hazret-i Yusuf’un da Allah katında bilinen iffeti ve nezâheti, halkın nazarında da böyle parlak bir şekilde ortaya çıkmış oldu.</p>",
+    "footnote-005": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-005-backlink\">[17]</a>. Bkz. Seyyid Ali Hemedânî, <span class=\"ideitalik\">Zahîratü’l-Mülûk</span><span class=\"ideitalik\">,</span> haz: Necdet Yılmaz, İstanbul, 2003, s. 118-119.</p>",
+    "footnote-004": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-004-backlink\">[18]</a>. Bkz. <span class=\"ideitalik\">Rûhu’l-Beyân</span>, IV, 310.</p>",
+    "footnote-003": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-003-backlink\">[19]</a>. <span class=\"idebold\">“Yemin</span><span class=\"idebold\"> ederiz ki Allah, Sen’i hakîkaten bizden üstün kılmıştır.”</span> (Yûsuf, 91)</p>",
+    "footnote-002": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-9.xhtml#footnote-002-backlink\">[20]</a>. Cenâb-ı Hak, zaman ve mekândan münezzehtir. Bu yüzden hâdîs-i şerîfteki “dünyâ semâsına iner” beyânı müteşâbihâttan kabûl edilmiş ve insanlara keyfiyeti meçhûl bir şekilde, mânen yaklaşmayı ifâde sadedinde olduğu bildirilmiştir.</p>",
+    "footnote-025-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-025\">[21]</a>",
+    "footnote-024-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-024\">[22]</a>",
+    "footnote-023-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-023\">[23]</a>",
+    "footnote-022-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-022\">[24]</a>",
+    "footnote-021-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-021\">[25]</a>",
+    "footnote-020-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-020\">[26]</a>",
+    "footnote-025": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-025-backlink\">[21]</a>. <span class=\"idebold\">Tecliye:</span> Kelime mânâsı “cilâlama” olan bu ıstılah, tasavvufta, gönül aynasının mâsivâ kirinden, yâni Allah’tan gayrı matlub ve düşüncelerin kesâfetinden tamamen temizlenerek Allah aşkının ve zikrullâhın nûruyla letâfete bürünmesi, saf, berrak ve parlak bir hâle gelmesi demektir.</p>",
+    "footnote-024": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-024-backlink\">[22]</a>. Râbıta hakkında tafsîlatlı bilgi için bkz. Osman Nûri TOPBAŞ, <span class=\"ideitalik\">Îmândan İhsâna TASAVVUF</span>, s. 249-257.</p>",
+    "footnote-023": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-023-backlink\">[23]</a>. Bu hususta tafsîlâtlı bilgi için bkz. Osman Nûri TOPBAŞ, <span class=\"ideitalik\">Îmândan İhsâna TASAVVUF,</span> s. 415-418.</p>",
+    "footnote-022": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-022-backlink\">[24]</a>. İ. Hakkı Bursevî, <span class=\"ideitalik\">Rûhu’l-Beyân,</span> V, 226.</p>",
+    "footnote-021": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-021-backlink\">[25]</a>. Bkz. Kelabâzî, <span class=\"ideitalik\">Taarruf,</span> Çev. S. Uludağ, s. 214. Tevessül ile alâkalı tafsîlatlı bilgi için bkz. Osman Nûri TOPBAŞ, <span class=\"ideitalik\">Îmândan İhsâna TASAVVUF,</span> s. 399-410.</p>",
+    "footnote-020": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-10.xhtml#footnote-020-backlink\">[26]</a>. Mevzuyla alâkalı tafsîlatlı bilgi için bkz. Osman Nûri TOPBAŞ, <span class=\"ideitalik\">Îmândan İhsâna TASAVVUF,</span> s. 255-257.</p>",
+    "footnote-026-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-13.xhtml#footnote-026\">[27]</a>",
+    "footnote-026": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-13.xhtml#footnote-026-backlink\">[27]</a>. Bkz. Yâsîn Sûresi, 21.</p>",
+    "footnote-043-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-043\">[28]</a>",
+    "footnote-042-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-042\">[29]</a>",
+    "footnote-041-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-041\">[30]</a>",
+    "footnote-040-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-040\">[31]</a>",
+    "footnote-039-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-039\">[32]</a>",
+    "footnote-038-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-038\">[33]</a>",
+    "footnote-037-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-037\">[34]</a>",
+    "footnote-036-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-036\">[35]</a>",
+    "footnote-035-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-035\">[36]</a>",
+    "footnote-034-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-034\">[37]</a>",
+    "footnote-033-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-033\">[38]</a>",
+    "footnote-032-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-032\">[39]</a>",
+    "footnote-031-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-031\">[40]</a>",
+    "footnote-030-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-030\">[41]</a>",
+    "footnote-029-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-029\">[42]</a>",
+    "footnote-028-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-028\">[43]</a>",
+    "footnote-027-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-027\">[44]</a>",
+    "footnote-043": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-043-backlink\">[28]</a>. Firavun, İsrâîloğullarını köle olarak kullandığı ve ağır işlerde onlardan istifâde ettiği için yeni doğan erkek çocuklarını bir sene keser, bir sene kesmezdi. Hârûn -aleyhisselâm- da işte bu kesilmeyen senede dünyâya gelmişti.</p>",
+    "footnote-042": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-042-backlink\">[29]</a>. <span class=\"ideitalik\">Rûhu’l-Beyân</span>, I, 371, (el-Bakara, 49 tefsîrinde).</p>",
+    "footnote-041": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-041-backlink\">[30]</a>. Bkz. <span class=\"ideitalik\">Fusûsu’l-Hikem Tercüme ve Şerhi</span>, IV, 126.</p>",
+    "footnote-040": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-040-backlink\">[31]</a>. Fahr-i Râzî’nin beyânına göre, Mûsâ -aleyhisselâm- Kıptîyi öldürmeye kastetmemişti. Diğer taraftan Kıptî bir müşrikti. Bu sebeple kısas lâzım gelmezdi. Aynı zamanda bu hâdise sehven meydana geldiği için de kısas söz konusu olamazdı.</p>",
+    "footnote-039": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-039-backlink\">[32]</a>. Bkz. Heysemî, VIII, 203.</p>",
+    "footnote-038": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-038-backlink\">[33]</a>. İşârî tefsîr, âyetlerin zâhir mânâlarının ötesinde ifâde ettikleri ince mânâları ortaya çıkarmak demektir. İşârî tefsirde üç vasfın bulunması şarttır.</p>\n\t\t\t\t\t<p class=\"normalnesil\">a. Zâhirî mânâyı muhâfaza,</p>\n\t\t\t\t\t<p class=\"normalnesil\">b. İşâret edilen mânâya delil teşkil edecek mazmunların (birtakım sembollerin) olması,</p>\n\t\t\t\t\t<p class=\"normalnesil\">c. Yapılan açıklamanın, Kitâb ve Sünnet muhtevâsı içinde olması.</p>",
+    "footnote-037": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-037-backlink\">[34]</a>. Cenâb-ı Hakk’ın kalben ve muhabbetle bilinmesi.</p>",
+    "footnote-036": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-036-backlink\">[35]</a>. Daha önce de ifâde edildiği gibi, Mûsâ -aleyhisselâm- Kıptîye öldürmek kastıyla değil, tâzir maksadıyla vurmuştu. Fakat murâd-ı ilâhî olarak Kıptî ölüverdi.</p>",
+    "footnote-035": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-035-backlink\">[36]</a>. Bkz. A‘râf Sûresi, 109-126; Yûnus Sûresi, 76-82; Tâhâ Sûresi, 56-73; Şuarâ Sûresi, 34-51. âyetler.</p>",
+    "footnote-034": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-034-backlink\">[37]</a>. Benzer rivâyetler için bkz. Hâkim, <span class=\"ideitalik\">Müstedrek</span>, II, 630, hadis no: 4102-4105; Elmalılı, IV, 2276; Ebû Nuaym, <span class=\"ideitalik\">Hilye</span>, V, 55.</p>",
+    "footnote-033": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-033-backlink\">[38]</a>. Bkz. en-Necm, 9.</p>",
+    "footnote-032": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-032-backlink\">[39]</a>. <span class=\"idebold\">Telvîn:</span> Temkîne ulaşma yolunda geçirilen değişik hâller, bir hâlden diğer bir hâle geçiş.</p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"idebold\"> Temkîn:</span> İstikâmette derinleşmek, sâbitleşmek; Hakk’a erme hâlinin gönülde karar kılarak makâma dönüşmesi.</p>",
+    "footnote-031": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-031-backlink\">[40]</a>. Bkz. el-Makdisî, <span class=\"ideitalik\">Sırların Çözümü ve Hazînelerin Anahtarları,</span> s. 58-59.</p>",
+    "footnote-030": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-030-backlink\">[41]</a>. Bkz: Buhârî, Salât, 1; Müslim, Îmân, 263.</p>",
+    "footnote-029": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-029-backlink\">[42]</a>. Bkz. Buhârî, Tefsîr, 18/2, 3, 4; Enbiyâ, 27; Müslim, Fedâil, 170/2380.</p>",
+    "footnote-028": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-028-backlink\">[43]</a>. Hızır -aleyhisselâm- bu üç hâdisenin hikmetini anlatırken <span class=\"idebold\">“Onu</span><span class=\"idebold\"> kusurlu hâle getirmek istedim”</span>, <span class=\"idebold\">“Böylece istedik ki”</span>, <span class=\"idebold\">“Rabbin istedi ki</span><span class=\"idebold\">”</span> diye üç farklı fâilden bahsetmiştir. Mutasavvıflar bu ifâdelerin, evliyânın üç değişik tasarruf şekline işâret ettiğini söylerler.</p>\n\t\t\t\t\t<p class=\"normalnesil\"> Birincisi, Cenâb-ı Hakk’ın velîsini tasarrufta serbest bırakması, onun istediği şeyi yaratmasıdır. Buna şu hadîs-i şerîf de delil getirilmiştir:</p>\n\t\t\t\t\t<p class=\"normalnesil\"> <span class=\"ideitalik\">“Allah Teâlâ’nın</span><span class=\"ideitalik\"> nice saçı-başı dağınık, kapılardan kovulan, îtibar görmeyen kulu vardır</span><span class=\"ideitalik\"> ki, bir şeyin olması için yemin etse, Allah o şeyi</span><span class=\"ideitalik\"> tahakkuk ettirir.”</span> (Müslim, Birr, 138/2622)</p>\n\t\t\t\t\t<p class=\"normalnesil\"> İkincisi, kulun irâdesinin Allâh’ın irâdesine uygun düşerek bir tasarrufun gerçekleştirilmesidir.</p>\n\t\t\t\t\t<p class=\"normalnesil\"> Üçüncüsü de Allâh’ın irâde buyurması ile tahakkuk eden tasarruflardır.</p>",
+    "footnote-027": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-16.xhtml#footnote-027-backlink\">[44]</a>. Bu mevzuyla ilgili olarak tafsîlâtlı bilgi için bkz. Osman Nûri Topbaş, <span class=\"ideitalik\">Îmândan </span><span class=\"ideitalik\">İhsâna TASAVVUF</span>, s. 341-368.</p>",
+    "footnote-045-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-17.xhtml#footnote-045\">[45]</a>",
+    "footnote-044-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi2-17.xhtml#footnote-044\">[46]</a>",
+    "footnote-045": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-17.xhtml#footnote-045-backlink\">[45]</a>. Nedâmet kelimesi, son tercümelerde merhamet olarak çevrilmiştir.</p>",
+    "footnote-044": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi2-17.xhtml#footnote-044-backlink\">[46]</a>. Bkz. el-A’râf, 150; Tâhâ, 90-94.</p>"
+  },
+  "toc": [
+    {
+      "title": "cover",
+      "pageNo": 1,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi2",
+      "pageNo": 2,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi2-1",
+      "pageNo": 3,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "KUR’ÂN-I KERÎM IŞIĞINDA NEBÎLER SİLSİLESİ-2",
+      "pageNo": 4,
+      "level": 1,
+      "anchor": "_idParaDest-1"
+    },
+    {
+      "title": "NebilerSilsilesi2-3",
+      "pageNo": 5,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi2-4",
+      "pageNo": 6,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Tevhîd Sancağını Maşrıka ve Mağribe Taşıyan HAZRET-İ ZÜLKARNEYN -aleyhisselâm-",
+      "pageNo": 7,
+      "level": 1,
+      "anchor": "_idParaDest-2"
+    },
+    {
+      "title": "Zülkarneyn -aleyhisselâm-’ın Mühim Vasıfları",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-3"
+    },
+    {
+      "title": "Tevhîde Dâvet Seferleri",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-4"
+    },
+    {
+      "title": "Ye’cûc ve Me’cûc Kavmi",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-5"
+    },
+    {
+      "title": "Hazret-i Zülkarneyn’in İbret ve Hikmet Dolu Kıssalarından",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-6"
+    },
+    {
+      "title": "CİHÂD VE EMR-İ Bİ’L-MA‘RÛF",
+      "pageNo": 8,
+      "level": 1,
+      "anchor": "_idParaDest-7"
+    },
+    {
+      "title": "NebilerSilsilesi2-7",
+      "pageNo": 9,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi2-8",
+      "pageNo": 10,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Muhabbet ve Hasretle Kavrularak Sabırda Âbideleşen HAZRET-İ YÂKUB -aleyhisselâm- ve Bir Müddet Kölelik, Sonra Zindanda Binbir Çile ve Iztırâbı Müteâkip Mısır’a ve Gönüllere Sultan Olan HAZRET-İ YUSUF -aleyhisselâm-",
+      "pageNo": 11,
+      "level": 1,
+      "anchor": "_idParaDest-8"
+    },
+    {
+      "title": "Kıssaların En Güzeli: Yusuf Kıssası",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-9"
+    },
+    {
+      "title": "Hazret-i Yusuf’un Rüyâsı",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-10"
+    },
+    {
+      "title": "Rüyâ Üç Kısımdır",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-11"
+    },
+    {
+      "title": "Kalbi Öldüren Ateş: Kıskançlık",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-12"
+    },
+    {
+      "title": "Sinsi Plân",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-13"
+    },
+    {
+      "title": "Belâ Ağızdan Çıkan Söze Bağlıdır",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-14"
+    },
+    {
+      "title": "Kardeşlerinin İhâneti",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-15"
+    },
+    {
+      "title": "Hazret-i Yusuf’un Kuyuya Atılması",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-16"
+    },
+    {
+      "title": "Sabr-ı Cemîl",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-17"
+    },
+    {
+      "title": "Hazret-i Yusuf’un Kuyudan Çıkarılıp Satılması",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-18"
+    },
+    {
+      "title": "Hazret-i Yusuf ve Züleyhâ",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-19"
+    },
+    {
+      "title": "Yusuf’u Gören Kadınlar Ellerini Kesti",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-20"
+    },
+    {
+      "title": "Zindan",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-21"
+    },
+    {
+      "title": "Hazret-i Yusuf’un Rüyâları Tâbir Etmesi",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-22"
+    },
+    {
+      "title": "Mısır Pâdişâhının Rüyâsı",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-23"
+    },
+    {
+      "title": "Darvan Kıssası",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-24"
+    },
+    {
+      "title": "Hazret-i Yusuf’un Firâseti",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-25"
+    },
+    {
+      "title": "Allah, Köleyi Sultân Eder",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-26"
+    },
+    {
+      "title": "Züleyhâ ile Evlenmesi",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-27"
+    },
+    {
+      "title": "Erzak Almaya Gelen Kardeşleri ve Hazret-i Yusuf’un Güzel Plânı",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-28"
+    },
+    {
+      "title": "Ben Senin Kardeşin Yusuf’um!",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-29"
+    },
+    {
+      "title": "Hazret-i Yusuf’un Bünyamin’i Alıkoyması",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-30"
+    },
+    {
+      "title": "Mükâfat Kapısını Açan Çile",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-31"
+    },
+    {
+      "title": "Allâh’ın Rahmetinden Ümit Kesilmez",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-32"
+    },
+    {
+      "title": "Dâsitânî Bir Af",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-33"
+    },
+    {
+      "title": "Gömleğimi Babamın Gözlerine Sürün",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-34"
+    },
+    {
+      "title": "Hazret-i Yâkub’un Gözlerinin Açılması",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-35"
+    },
+    {
+      "title": "Vuslat ve Gerçekleşen Rüyâ",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-36"
+    },
+    {
+      "title": "Yusuf Sûresi’nin Son Âyetleri",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-37"
+    },
+    {
+      "title": "RÂBITA, İSTİÂNE ve İSTİĞÂSE",
+      "pageNo": 12,
+      "level": 1,
+      "anchor": "_idParaDest-38"
+    },
+    {
+      "title": "Hâl İn‘ikâsları",
+      "pageNo": 12,
+      "level": 2,
+      "anchor": "_idParaDest-39"
+    },
+    {
+      "title": "Râbıta-i Mevt",
+      "pageNo": 12,
+      "level": 2,
+      "anchor": "_idParaDest-40"
+    },
+    {
+      "title": "NebilerSilsilesi2-11",
+      "pageNo": 13,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi2-12",
+      "pageNo": 14,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Gönülleri Vecde Getiren Hitâbeti Sebebiyle Kendisine Hatîbü’l-Enbiyâ Denilen HAZRET-İ ŞUAYB -aleyhisselâm-",
+      "pageNo": 15,
+      "level": 1,
+      "anchor": "_idParaDest-41"
+    },
+    {
+      "title": "Medyenliler",
+      "pageNo": 15,
+      "level": 2,
+      "anchor": "_idParaDest-42"
+    },
+    {
+      "title": "Son Îkazlar",
+      "pageNo": 15,
+      "level": 2,
+      "anchor": "_idParaDest-43"
+    },
+    {
+      "title": "Üstten Gelen Korkunç Sayha",
+      "pageNo": 15,
+      "level": 2,
+      "anchor": "_idParaDest-44"
+    },
+    {
+      "title": "Eykeliler",
+      "pageNo": 15,
+      "level": 2,
+      "anchor": "_idParaDest-45"
+    },
+    {
+      "title": "Gökten Gelen Azap: Kavuran Alevler",
+      "pageNo": 15,
+      "level": 2,
+      "anchor": "_idParaDest-46"
+    },
+    {
+      "title": "Helâkten Sonra",
+      "pageNo": 15,
+      "level": 2,
+      "anchor": "_idParaDest-47"
+    },
+    {
+      "title": "NebilerSilsilesi2-14",
+      "pageNo": 16,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi2-15",
+      "pageNo": 17,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Ahmak Firavun’u Kızıldeniz’in Girdaplarında Yok Eden Mûcizeli, Asâlı HAZRET-İ MÛSÂ -aleyhisselâm- ve O’na Yardımcı Kılınan Sâlih Kardeşi HAZRET-İ HÂRÛN -aleyhisselâm-",
+      "pageNo": 18,
+      "level": 1,
+      "anchor": "_idParaDest-48"
+    },
+    {
+      "title": "Firavun’u Korkutan Rüyâ",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-49"
+    },
+    {
+      "title": "Hazret-i Mûsâ Firavun’un Sarayında",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-50"
+    },
+    {
+      "title": "Kıptînin Ölümü",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-51"
+    },
+    {
+      "title": "Mısır’dan Medyen’e",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-52"
+    },
+    {
+      "title": "Şuayb -aleyhisselâm-’ın Hazret-i Mûsâ’yı Yanına Çağırması",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-53"
+    },
+    {
+      "title": "Mûsâ -aleyhisselâm-’ın Safura ile Evlenmesi",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-54"
+    },
+    {
+      "title": "Mûsâ -aleyhisselâm-’ın Asâsı",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-55"
+    },
+    {
+      "title": "Medyen’den Mısır’a Gidiş ve Tuvâ Vâdîsi",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-56"
+    },
+    {
+      "title": "İki Büyük Mûcize ile Verilen Nübüvvet",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-57"
+    },
+    {
+      "title": "Ahmak Firavun",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-58"
+    },
+    {
+      "title": "Mûcize ile Sihrin Müsâbakası",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-59"
+    },
+    {
+      "title": "Sihirbazların Secdeye Kapanması",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-60"
+    },
+    {
+      "title": "Mâşıta Hâtun",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-61"
+    },
+    {
+      "title": "Âsiye Vâlidemizin Şehîd Edilmesi",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-62"
+    },
+    {
+      "title": "Kule",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-63"
+    },
+    {
+      "title": "Ayrı Ayrı Mûcizeler",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-64"
+    },
+    {
+      "title": "Firavun’un Sefil Propagandası",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-65"
+    },
+    {
+      "title": "Mısır’dan Çıkış",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-66"
+    },
+    {
+      "title": "Kızıldeniz: Selâmet ve Felâket Deryâsı",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-67"
+    },
+    {
+      "title": "Kabûl Edilmeyen Îmân: Firavun Îmânı",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-68"
+    },
+    {
+      "title": "Kızıldeniz’i Geçtikten Sonra",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-69"
+    },
+    {
+      "title": "Eriha Beldesinde Amâlikalılar’la Harb Etme İmtihânı ve Tih Sahrâsı",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-70"
+    },
+    {
+      "title": "Tevrât’ın Nüzûlü",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-71"
+    },
+    {
+      "title": "Kırk Sayısının Hikmeti",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-72"
+    },
+    {
+      "title": "Mûsâ -aleyhisselâm-’ın Allâh’ı Görmek İstemesi",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-73"
+    },
+    {
+      "title": "Tûr Dağı’ndaki Bir Mülâkât",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-74"
+    },
+    {
+      "title": "Altın Buzağı",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-75"
+    },
+    {
+      "title": "İnek Kurbân Edilmesi",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-76"
+    },
+    {
+      "title": "Peygamber Efendimiz’in Mîrâc’da Hazret-i Mûsâ ile Görüşmesi",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-77"
+    },
+    {
+      "title": "Kârûn",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-78"
+    },
+    {
+      "title": "Çirkin İftirâ",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-79"
+    },
+    {
+      "title": "Mûsâ -aleyhisselâm- ile Hızır -aleyhisselâm-",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-80"
+    },
+    {
+      "title": "Üç Sâlih Kişi",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-81"
+    },
+    {
+      "title": "Mûsâ -aleyhisselâm-’ın Cennetteki Komşusu",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-82"
+    },
+    {
+      "title": "Mûsâ -aleyhisselâm-’ın Fezâili, Şemâili ve Sıfatları",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-83"
+    },
+    {
+      "title": "BUGÜNKÜ YAHÛDÎLİK",
+      "pageNo": 19,
+      "level": 1,
+      "anchor": "_idParaDest-84"
+    },
+    {
+      "title": "Yahûdîlikte Tanrı Telâkkîsi",
+      "pageNo": 19,
+      "level": 2,
+      "anchor": "_idParaDest-85"
+    },
+    {
+      "title": "Tevrât",
+      "pageNo": 19,
+      "level": 2,
+      "anchor": "_idParaDest-86"
+    },
+    {
+      "title": "Talmut",
+      "pageNo": 19,
+      "level": 2,
+      "anchor": "_idParaDest-87"
+    },
+    {
+      "title": "Peygamber Anlayışı",
+      "pageNo": 19,
+      "level": 2,
+      "anchor": "_idParaDest-88"
+    },
+    {
+      "title": "Âhiret Telâkkîsi",
+      "pageNo": 19,
+      "level": 2,
+      "anchor": "_idParaDest-89"
+    },
+    {
+      "title": "NebilerSilsilesi2-18",
+      "pageNo": 20,
+      "level": 1,
+      "anchor": ""
+    }
+  ],
+  "pagesIndex": [
+    {
+      "pageNo": 1,
+      "title": "cover",
+      "fileName": "sayfa_1.html"
+    },
+    {
+      "pageNo": 2,
+      "title": "NebilerSilsilesi2",
+      "fileName": "sayfa_2.html"
+    },
+    {
+      "pageNo": 3,
+      "title": "NebilerSilsilesi2-1",
+      "fileName": "sayfa_3.html"
+    },
+    {
+      "pageNo": 4,
+      "title": "KUR’ÂN-I KERÎM IŞIĞINDA NEBÎLER SİLSİLESİ-2",
+      "fileName": "sayfa_4.html"
+    },
+    {
+      "pageNo": 5,
+      "title": "NebilerSilsilesi2-3",
+      "fileName": "sayfa_5.html"
+    },
+    {
+      "pageNo": 6,
+      "title": "NebilerSilsilesi2-4",
+      "fileName": "sayfa_6.html"
+    },
+    {
+      "pageNo": 7,
+      "title": "Tevhîd Sancağını Maşrıka ve Mağribe Taşıyan HAZRET-İ ZÜLKARNEYN -aleyhisselâm-",
+      "fileName": "sayfa_7.html"
+    },
+    {
+      "pageNo": 8,
+      "title": "CİHÂD VE EMR-İ Bİ’L-MA‘RÛF",
+      "fileName": "sayfa_8.html"
+    },
+    {
+      "pageNo": 9,
+      "title": "NebilerSilsilesi2-7",
+      "fileName": "sayfa_9.html"
+    },
+    {
+      "pageNo": 10,
+      "title": "NebilerSilsilesi2-8",
+      "fileName": "sayfa_10.html"
+    },
+    {
+      "pageNo": 11,
+      "title": "Muhabbet ve Hasretle Kavrularak Sabırda Âbideleşen HAZRET-İ YÂKUB -aleyhisselâm- ve Bir Müddet Kölelik, Sonra Zindanda Binbir Çile ve Iztırâbı Müteâkip Mısır’a ve Gönüllere Sultan Olan HAZRET-İ YUSUF -aleyhisselâm-",
+      "fileName": "sayfa_11.html"
+    },
+    {
+      "pageNo": 12,
+      "title": "RÂBITA, İSTİÂNE ve İSTİĞÂSE",
+      "fileName": "sayfa_12.html"
+    },
+    {
+      "pageNo": 13,
+      "title": "NebilerSilsilesi2-11",
+      "fileName": "sayfa_13.html"
+    },
+    {
+      "pageNo": 14,
+      "title": "NebilerSilsilesi2-12",
+      "fileName": "sayfa_14.html"
+    },
+    {
+      "pageNo": 15,
+      "title": "Gönülleri Vecde Getiren Hitâbeti Sebebiyle Kendisine Hatîbü’l-Enbiyâ Denilen HAZRET-İ ŞUAYB -aleyhisselâm-",
+      "fileName": "sayfa_15.html"
+    },
+    {
+      "pageNo": 16,
+      "title": "NebilerSilsilesi2-14",
+      "fileName": "sayfa_16.html"
+    },
+    {
+      "pageNo": 17,
+      "title": "NebilerSilsilesi2-15",
+      "fileName": "sayfa_17.html"
+    },
+    {
+      "pageNo": 18,
+      "title": "Ahmak Firavun’u Kızıldeniz’in Girdaplarında Yok Eden Mûcizeli, Asâlı HAZRET-İ MÛSÂ -aleyhisselâm- ve O’na Yardımcı Kılınan Sâlih Kardeşi HAZRET-İ HÂRÛN -aleyhisselâm-",
+      "fileName": "sayfa_18.html"
+    },
+    {
+      "pageNo": 19,
+      "title": "BUGÜNKÜ YAHÛDÎLİK",
+      "fileName": "sayfa_19.html"
+    },
+    {
+      "pageNo": 20,
+      "title": "NebilerSilsilesi2-18",
+      "fileName": "sayfa_20.html"
+    }
+  ]
+}
