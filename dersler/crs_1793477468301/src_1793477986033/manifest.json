@@ -1,0 +1,1096 @@
+{
+  "id": "src_1793477986033",
+  "courseId": "crs_1793477468301",
+  "name": "Riyazü's Salihin 7",
+  "metadata": {
+    "workTitle": "Riyazü's Salihin 7",
+    "author": "İmam Nevevî",
+    "publisher": "Erkam Yayınları",
+    "pubYear": "",
+    "extra": ""
+  },
+  "customCss": "\nbody, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {\r\n  margin: 0;\r\n  padding: 0;\r\n  border-width: 0;\r\n}\r\ntd, th {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntbody {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntr {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\nthead {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntfoot {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntable {\r\n  border-collapse: collapse;\r\n}\r\nli {\r\n  display: block;\r\n}\r\nbody {\r\n  -epub-hyphens: auto;\r\n}\r\n@page {\r\n  margin: 0.5px 0.5px 0.5px 0.5px;\r\n}\r\n.leftFloat {\r\n  float: left;\r\n}\r\n.rightFloat {\r\n  float: right;\r\n}\r\n.kitapickapak {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 2em;\r\n  margin: 0.25em 0;\r\n}\r\n.kitapickapak2 {\r\n  text-align: center;\r\n  font-size: 1.40em;\r\n  margin: 0.25em 0;\r\n}\r\n.normal {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n}\r\n.normal2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-weight: bold;\r\n}\r\n.normal3 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n}\r\n.normal4 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.normalnesililk {\r\n  text-align: justify;\r\n  text-indent: 0;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesilsplit {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil5mmbefore {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.normalnesilson {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0 1em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-weight: bold;\r\n}\r\n.normalnesil3 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n}\r\n.normalnesil4 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.indentmetinilk {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinilk2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinson {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-bottom: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetin {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  font-size: 1em;\r\n}\r\n.indentmetintek {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  margin-bottom: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinitalik {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  font-style: italic;\r\n  font-size: 1em;\r\n}\r\n.indentmetinbold {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-weight: bold;\r\n  font-size: 1em;\r\n}\r\n.baslik {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.5em;\r\n  margin-bottom: 1em;\r\n}\r\n.Arapca {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.5em;\r\n}\r\n.h1baslik {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n  margin-bottom: 1em;\r\n}\r\n.h2baslik {\r\n  text-align: justify;\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  margin: 0.85em 0 0.50em 0;\r\n}\r\n.h2baslikbol {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  margin: 0.85em 0 0.50em 0;\r\n}\r\n.solbaslik {\r\n  text-align: justify;\r\n  margin: 0.85em 0 0.20em 0;\r\n  font-size: 1.1em;\r\n  font-weight: bold;\r\n}\r\n.sagbaslik {\r\n  text-align: right;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  font-size: 1.1em;\r\n  font-weight: bold;\r\n}\r\n.bolum {\r\n  font-size: 2em;\r\n  text-align: center;\r\n  font-weight: normal;\r\n}\r\n.kapakmetin {\r\n  text-align: center;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n}\r\n.kunye {\r\n  text-align: left;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n  margin-left: 3em;\r\n}\r\n.kunyenesil {\r\n  text-align: center;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n}\r\n.idebold {\r\n  font-weight: bold;\r\n}\r\n.ideitalik {\r\n  font-style: italic;\r\n}\r\n.idebolditalik {\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.ortaitalik {\r\n  text-align: center;\r\n  margin-bottom: 1em;\r\n  font-style: italic;\r\n}\r\n.ortayazi {\r\n  text-align: center;\r\n  font-style: normal;\r\n  font-size: 1.5em;\r\n  margin: 20px;\r\n}\r\n.sagic {\r\n  float: right;\r\n  text-align: justify;\r\n  font-style: normal;\r\n  margin: 0 0 30px 30px;\r\n  width: 40%;\r\n  clear: both;\r\n}\r\n.sagitalik {\r\n  text-align: right;\r\n  font-style: italic;\r\n}\r\n.sagbold {\r\n  text-align: right;\r\n  font-weight: bold;\r\n}\r\n.sagnormal {\r\n  text-align: right;\r\n  margin-top: 1em;\r\n  margin-bottom: 1em;\r\n  font-style: normal;\r\n}\r\n.sagbolditalik {\r\n  text-align: right;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.rightimage {\r\n  float: right;\r\n  margin-bottom: 15px;\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n.leftimage {\r\n  float: left;\r\n  margin-bottom: 15px;\r\n  margin-right: 15px;\r\n  margin-top: 15px;\r\n}\r\n.resimalti {\r\n  text-align: center;\r\n  font-style: italic;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n  font-size: 0.8em;\r\n}\r\n.clrb {\r\n  clear: both;\r\n}\r\n.resim {\r\n  padding: 10px;\r\n  text-align: center;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n}\r\n.generictable {\r\n  width: 100%;\r\n  border: 0;\r\n  border-collapse: collapse;\r\n}\r\n.generictable td, th {\r\n  border: 1px solid #ffffff;\r\n  background-color: #eeeeee;\r\n  margin: 0;\r\n  padding: 0.2em 0.3em;\r\n  font-family: Arial , sans-serif;\r\n  font-size: 0.8em;\r\n  text-align: left;\r\n}\r\n.tablo25 {\r\n  width: 25%;\r\n  display: inline-block;\r\n}\r\n.tablo50 {\r\n  width: 50%;\r\n  display: inline-block;\r\n}\r\n.tablo75 {\r\n  width: 75%;\r\n  display: inline-block;\r\n}\r\n.tablo100 {\r\n  width: 100%;\r\n  display: inline-block;\r\n}\r\n.ustyazi {\r\n  vertical-align: super;\r\n}\r\n.altyazi {\r\n  vertical-align: sub;\r\n  font-size: 13px;\r\n}\r\n",
+  "footnotes": {},
+  "toc": [
+    {
+      "title": "RiyazusSalihin_7",
+      "pageNo": 1,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "RiyazusSalihin_7-1",
+      "pageNo": 2,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "RiyazusSalihin_7-2",
+      "pageNo": 3,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "BAĞIŞ VE BENZERİ İYİLİKLERİ BAŞA KAKMA YASAĞI",
+      "pageNo": 4,
+      "level": 1,
+      "anchor": "_idParaDest-1"
+    },
+    {
+      "title": "ÖVÜNME VE HADDİ AŞMA YASAĞI",
+      "pageNo": 5,
+      "level": 1,
+      "anchor": "_idParaDest-2"
+    },
+    {
+      "title": "ÜÇ GÜNDEN FAZLA İLİŞKİ KESME YASAĞI",
+      "pageNo": 6,
+      "level": 1,
+      "anchor": "_idParaDest-3"
+    },
+    {
+      "title": "FISILDAŞMA YASAĞI",
+      "pageNo": 7,
+      "level": 1,
+      "anchor": "_idParaDest-4"
+    },
+    {
+      "title": "GEREKSİZ VE AŞIRI CEZALANDIRMA YASAĞI",
+      "pageNo": 8,
+      "level": 1,
+      "anchor": "_idParaDest-5"
+    },
+    {
+      "title": "CANLILARI YAKMA YASAĞI",
+      "pageNo": 9,
+      "level": 1,
+      "anchor": "_idParaDest-6"
+    },
+    {
+      "title": "ZENGİNİN BORCUNU GECİKTİRMESİ",
+      "pageNo": 10,
+      "level": 1,
+      "anchor": "_idParaDest-7"
+    },
+    {
+      "title": "BAĞIŞTAN DÖNMENİN KERÂHETİ",
+      "pageNo": 11,
+      "level": 1,
+      "anchor": "_idParaDest-8"
+    },
+    {
+      "title": "YETİM MALI YEMENİN HARAMLIĞI",
+      "pageNo": 12,
+      "level": 1,
+      "anchor": "_idParaDest-9"
+    },
+    {
+      "title": "FAİZİN ŞİDDETLE YASAKLANMASI",
+      "pageNo": 13,
+      "level": 1,
+      "anchor": "_idParaDest-10"
+    },
+    {
+      "title": "GÖSTERİŞ (RİYA) YASAĞI",
+      "pageNo": 14,
+      "level": 1,
+      "anchor": "_idParaDest-11"
+    },
+    {
+      "title": "RİYA OLMADIĞI HALDE RİYA SANILAN DURUMLAR",
+      "pageNo": 15,
+      "level": 1,
+      "anchor": "_idParaDest-12"
+    },
+    {
+      "title": "ŞEHVETLE BAKMA YASAĞI",
+      "pageNo": 16,
+      "level": 1,
+      "anchor": "_idParaDest-13"
+    },
+    {
+      "title": "HALVET YASAĞI",
+      "pageNo": 17,
+      "level": 1,
+      "anchor": "_idParaDest-14"
+    },
+    {
+      "title": "KADIN - ERKEK BENZEŞMESİ YASAĞI",
+      "pageNo": 18,
+      "level": 1,
+      "anchor": "_idParaDest-15"
+    },
+    {
+      "title": "ŞEYTANA VE KÂFİRLERE BENZEME YASAĞI",
+      "pageNo": 19,
+      "level": 1,
+      "anchor": "_idParaDest-16"
+    },
+    {
+      "title": "BOYAMA YASAĞI",
+      "pageNo": 20,
+      "level": 1,
+      "anchor": "_idParaDest-17"
+    },
+    {
+      "title": "YARIM TIRAŞ YASAĞI",
+      "pageNo": 21,
+      "level": 1,
+      "anchor": "_idParaDest-18"
+    },
+    {
+      "title": "SAÇA SAÇ EKLETME VE DÖĞME YAPTIRMA YASAĞI",
+      "pageNo": 22,
+      "level": 1,
+      "anchor": "_idParaDest-19"
+    },
+    {
+      "title": "BEYAZ KILLARI YOLMA YASAĞI",
+      "pageNo": 23,
+      "level": 1,
+      "anchor": "_idParaDest-20"
+    },
+    {
+      "title": "SAĞ ELLE TAHÂRETLENMENİN KERÂHETİ",
+      "pageNo": 24,
+      "level": 1,
+      "anchor": "_idParaDest-21"
+    },
+    {
+      "title": "TEK AYAKKABI İLE GEZMENİN MEKRUH OLDUĞU",
+      "pageNo": 25,
+      "level": 1,
+      "anchor": "_idParaDest-22"
+    },
+    {
+      "title": "ATEŞİ YANAR HALDE BIRAKMA YASAĞI",
+      "pageNo": 26,
+      "level": 1,
+      "anchor": "_idParaDest-23"
+    },
+    {
+      "title": "BOŞU BOŞUNA KÜLFET VE ZAHMET VERME YASAĞI",
+      "pageNo": 27,
+      "level": 1,
+      "anchor": "_idParaDest-24"
+    },
+    {
+      "title": "ÖLÜYE AĞIT YAKMA YASAĞI",
+      "pageNo": 28,
+      "level": 1,
+      "anchor": "_idParaDest-25"
+    },
+    {
+      "title": "FALCILARA VE KÂHİNLERE İNANMA YASAĞI",
+      "pageNo": 29,
+      "level": 1,
+      "anchor": "_idParaDest-26"
+    },
+    {
+      "title": "UĞURSUZLUĞA İNANMA YASAĞI",
+      "pageNo": 30,
+      "level": 1,
+      "anchor": "_idParaDest-27"
+    },
+    {
+      "title": "CANLI RESMİ YAPMA VE BULUNDURMA YASAĞI",
+      "pageNo": 31,
+      "level": 1,
+      "anchor": "_idParaDest-28"
+    },
+    {
+      "title": "KÖPEK EDİNME YASAĞI",
+      "pageNo": 32,
+      "level": 1,
+      "anchor": "_idParaDest-29"
+    },
+    {
+      "title": "HAYVANLARA ÇAN TAKMANIN KERÂHETİ",
+      "pageNo": 33,
+      "level": 1,
+      "anchor": "_idParaDest-30"
+    },
+    {
+      "title": "PİSLİK YİYEN DEVEYE BİNME YASAĞI",
+      "pageNo": 34,
+      "level": 1,
+      "anchor": "_idParaDest-31"
+    },
+    {
+      "title": "MESCİDE TÜKÜRME YASAĞI",
+      "pageNo": 35,
+      "level": 1,
+      "anchor": "_idParaDest-32"
+    },
+    {
+      "title": "MESCİDDE GÜRÜLTÜ YAPMANIN KERÂHETİ",
+      "pageNo": 36,
+      "level": 1,
+      "anchor": "_idParaDest-33"
+    },
+    {
+      "title": "KÖTÜ KOKULARLA MESCİDE GELME YASAĞI",
+      "pageNo": 37,
+      "level": 1,
+      "anchor": "_idParaDest-34"
+    },
+    {
+      "title": "HUTBE OKUNURKEN DİZLERİNİ DİKİP OTURMANIN KERÂHETİ",
+      "pageNo": 38,
+      "level": 1,
+      "anchor": "_idParaDest-35"
+    },
+    {
+      "title": "KURBAN KESMEK İSTEYEREK ZİLHİCCE AYININ ONUNA ULAŞAN KİMSENİN KURBANI KESİNCEYE KADAR SAÇINDAN VE TIRNAKLARINDAN BİR ŞEY ALMASININ NEHYEDİLMİŞ OLDUĞU",
+      "pageNo": 39,
+      "level": 1,
+      "anchor": "_idParaDest-36"
+    },
+    {
+      "title": "ÜZERİNE YEMİN EDİLMESİ YASAKLANANLAR",
+      "pageNo": 40,
+      "level": 1,
+      "anchor": "_idParaDest-37"
+    },
+    {
+      "title": "BİLEREK YALAN YERE YEMİN ETMENİN BÜYÜK GÜNAH OLUŞU",
+      "pageNo": 41,
+      "level": 1,
+      "anchor": "_idParaDest-38"
+    },
+    {
+      "title": "YEMİNİ BOZUP KEFÂRETİNİ VERMEK",
+      "pageNo": 42,
+      "level": 1,
+      "anchor": "_idParaDest-39"
+    },
+    {
+      "title": "SÖZ ARASINDA SÖYLENEN YEMİN LAFIZLARININ YEMİN SAYILMADIĞI VE KEFÂRET GEREKMEDİĞİ",
+      "pageNo": 43,
+      "level": 1,
+      "anchor": "_idParaDest-40"
+    },
+    {
+      "title": "DOĞRU BİLE OLSA ALIŞ VERİŞTE YEMİN MEKRUHTUR",
+      "pageNo": 44,
+      "level": 1,
+      "anchor": "_idParaDest-41"
+    },
+    {
+      "title": "ALLAH RIZÂSI İÇİN İSTEMEK",
+      "pageNo": 45,
+      "level": 1,
+      "anchor": "_idParaDest-42"
+    },
+    {
+      "title": "SULTANA VE BAŞKALARINA ŞEHİNŞÂHDEMENİN HARAM OLUŞU",
+      "pageNo": 46,
+      "level": 1,
+      "anchor": "_idParaDest-43"
+    },
+    {
+      "title": "FÂSIK, BİD’ATÇI VE BUNLAR GİBİLERİNE SEYYİD VE BENZERİ ADLARLA HİTAP EDİLMESİNİN YASAKLANMASI",
+      "pageNo": 47,
+      "level": 1,
+      "anchor": "_idParaDest-44"
+    },
+    {
+      "title": "ATEŞLİ HASTALIKLARA SÖVMENİN MEKRUHLUĞU",
+      "pageNo": 48,
+      "level": 1,
+      "anchor": "_idParaDest-45"
+    },
+    {
+      "title": "RÜZGÂRA SÖVMENİN YASAKLIĞI VE RÜZGÂR ESTİĞİNDE NE DENİLECEĞİ",
+      "pageNo": 49,
+      "level": 1,
+      "anchor": "_idParaDest-46"
+    },
+    {
+      "title": "HOROZA SÖVMENİN MEKRUH OLUŞU",
+      "pageNo": 50,
+      "level": 1,
+      "anchor": "_idParaDest-47"
+    },
+    {
+      "title": "İNSANIN “ŞU YILDIZ SAYESİNDE YAĞMURA KAVUŞTUK” DEMESİ YASAKLANMIŞTIR",
+      "pageNo": 51,
+      "level": 1,
+      "anchor": "_idParaDest-48"
+    },
+    {
+      "title": "MÜSLÜMANA KÂFİR DEMENİN HARAM OLUŞU",
+      "pageNo": 52,
+      "level": 1,
+      "anchor": "_idParaDest-49"
+    },
+    {
+      "title": "KÖTÜ SÖZ VE FENA KONUŞMANIN YASAK OLUŞU",
+      "pageNo": 53,
+      "level": 1,
+      "anchor": "_idParaDest-50"
+    },
+    {
+      "title": "KONUŞMADA DİKKAT EDİLMESİGEREKEN ÖZELLİKLER",
+      "pageNo": 54,
+      "level": 1,
+      "anchor": "_idParaDest-51"
+    },
+    {
+      "title": "“NEFSİM MURDAR OLDU” DEMENİN MEKRUH OLUŞU",
+      "pageNo": 55,
+      "level": 1,
+      "anchor": "_idParaDest-52"
+    },
+    {
+      "title": "ÜZÜME KERM DEMENİN MEKRUH OLUŞU",
+      "pageNo": 56,
+      "level": 1,
+      "anchor": "_idParaDest-53"
+    },
+    {
+      "title": "BİR KADININ GÜZELLİĞİNİ BİR ERKEĞE ANLATMANIN YASAK OLUŞU",
+      "pageNo": 57,
+      "level": 1,
+      "anchor": "_idParaDest-54"
+    },
+    {
+      "title": "İNSANIN DUÂ EDERKEN, “ALLAHIM DİLERSEN BENİ BAĞIŞLA” DEMESİNİN MEKRUHLUĞU VE İSTEĞİNİ KESİN BİR DİLLE İFADE ETMENİN GEREKTİĞİ",
+      "pageNo": 58,
+      "level": 1,
+      "anchor": "_idParaDest-55"
+    },
+    {
+      "title": "“ALLAH VE FİLANCA DİLERSE” DEMENİN MEKRUH OLUŞU",
+      "pageNo": 59,
+      "level": 1,
+      "anchor": "_idParaDest-56"
+    },
+    {
+      "title": "YATSIDAN SONRA KONUŞMANIN MEKRUH OLDUĞU",
+      "pageNo": 60,
+      "level": 1,
+      "anchor": "_idParaDest-57"
+    },
+    {
+      "title": "KADININ KOCASININ ÇAĞRISINA UYMA ZORUNDA OLUŞU",
+      "pageNo": 61,
+      "level": 1,
+      "anchor": "_idParaDest-58"
+    },
+    {
+      "title": "KOCASI YANINDA BULUNAN BİR KADININONUN İZNİNİ ALMADAN NAFİLE ORUÇ TUTMASININ HARAM OLDUĞU",
+      "pageNo": 62,
+      "level": 1,
+      "anchor": "_idParaDest-59"
+    },
+    {
+      "title": "İMAMA UYAN KİMSENİN İMAMDAN ÖNCE BAŞINI RÜKÛ VE SECDEDEN KALDIRMASININ HARAM OLUŞU",
+      "pageNo": 63,
+      "level": 1,
+      "anchor": "_idParaDest-60"
+    },
+    {
+      "title": "NAMAZDA ELİ BÖĞÜRE KOYMANIN MEKRUH OLUŞU",
+      "pageNo": 64,
+      "level": 1,
+      "anchor": "_idParaDest-61"
+    },
+    {
+      "title": "NAMAZ KILMANIN MEKRUH OLDUĞU HALLER",
+      "pageNo": 65,
+      "level": 1,
+      "anchor": "_idParaDest-62"
+    },
+    {
+      "title": "NAMAZDA GÖZLERİ SEMAYA DİKMENİN YASAK OLUŞU",
+      "pageNo": 66,
+      "level": 1,
+      "anchor": "_idParaDest-63"
+    },
+    {
+      "title": "BİR MAZERETİ OLMAKSIZIN NAMAZDA BAŞINI SAĞA SOLA ÇEVİRMENİN MEKRUH OLUŞU",
+      "pageNo": 67,
+      "level": 1,
+      "anchor": "_idParaDest-64"
+    },
+    {
+      "title": "KABİRLERE DOĞRU NAMAZ KILMANIN YASAK OLDUĞU",
+      "pageNo": 68,
+      "level": 1,
+      "anchor": "_idParaDest-65"
+    },
+    {
+      "title": "NAMAZ KILAN KİMSENİN ÖNÜNDENGEÇMENİN HARAM OLUŞU",
+      "pageNo": 69,
+      "level": 1,
+      "anchor": "_idParaDest-66"
+    },
+    {
+      "title": "MÜEZZİN KÂMETE BAŞLAYINCA NAFİLE KILMANIN MEKRUH OLUŞU",
+      "pageNo": 70,
+      "level": 1,
+      "anchor": "_idParaDest-67"
+    },
+    {
+      "title": "ORUCU SADECE CUMA GÜNÜ TUTMANIN VE CUMA GECESİNİ NAMAZA AYIRMANIN MEKRUH OLUŞU",
+      "pageNo": 71,
+      "level": 1,
+      "anchor": "_idParaDest-68"
+    },
+    {
+      "title": "İFTAR ETMEDEN ORUCU BİRBİRİNE EKLEMENİN HARAM OLUŞU",
+      "pageNo": 72,
+      "level": 1,
+      "anchor": "_idParaDest-69"
+    },
+    {
+      "title": "KABİR ÜZERİNE OTURMANIN HARAM OLUŞU",
+      "pageNo": 73,
+      "level": 1,
+      "anchor": "_idParaDest-70"
+    },
+    {
+      "title": "KABRİ KİREÇLEMENİN VE ÜZERİNE BİNA YAPMANIN YASAK OLUŞU",
+      "pageNo": 74,
+      "level": 1,
+      "anchor": "_idParaDest-71"
+    },
+    {
+      "title": "KÖLENİN EFENDİSİNDEN KAÇMASININ AĞIR BİR HARAM OLUŞU",
+      "pageNo": 75,
+      "level": 1,
+      "anchor": "_idParaDest-72"
+    },
+    {
+      "title": "ŞER’Î CEZALARIN UYGULANMAMASI İÇİNARACI OLMANIN HARAM OLUŞU",
+      "pageNo": 76,
+      "level": 1,
+      "anchor": "_idParaDest-73"
+    },
+    {
+      "title": "HALKIN GEÇECEĞİ YOLA, GÖLGELENECEĞİ YERE, SU KENARLARINA VE BENZERİ YERLERE ABDEST BOZMANIN YASAK OLUŞU",
+      "pageNo": 77,
+      "level": 1,
+      "anchor": "_idParaDest-74"
+    },
+    {
+      "title": "DURGUN SULARI İDRAR VE BENZERİ PİSLİKLERLE KİRLETMENİN YASAK OLUŞU",
+      "pageNo": 78,
+      "level": 1,
+      "anchor": "_idParaDest-75"
+    },
+    {
+      "title": "BİR BABANIN MAL BAĞIŞLARKEN ÇOCUKLARI ARASINDA AYIRIM YAPMASININ DOĞRU OLMADIĞI",
+      "pageNo": 79,
+      "level": 1,
+      "anchor": "_idParaDest-76"
+    },
+    {
+      "title": "YAS TUTMANIN YASAK OLUŞU",
+      "pageNo": 80,
+      "level": 1,
+      "anchor": "_idParaDest-77"
+    },
+    {
+      "title": "SİMSARLIK VE SATIŞ ÜZERİNE SATIŞ YAPMANIN YASAK OLUŞU",
+      "pageNo": 81,
+      "level": 1,
+      "anchor": "_idParaDest-78"
+    },
+    {
+      "title": "ŞERİATIN İZİN VERDİĞİ YERLERDEN BAŞKA ALANDA MALI TELEF ETMENİN YASAK OLUŞU",
+      "pageNo": 82,
+      "level": 1,
+      "anchor": "_idParaDest-79"
+    },
+    {
+      "title": "SİLÂHLA ŞAKALAŞMANIN YASAK OLUŞU",
+      "pageNo": 83,
+      "level": 1,
+      "anchor": "_idParaDest-80"
+    },
+    {
+      "title": "EZANDAN SONRA MESCİDDEN ÇIKMANIN MEKRUH OLUŞU",
+      "pageNo": 84,
+      "level": 1,
+      "anchor": "_idParaDest-81"
+    },
+    {
+      "title": "ÖZRÜ OLMAKSIZIN GÜZEL KOKUYU REDDETMENİN MEKRUH OLDUĞU",
+      "pageNo": 85,
+      "level": 1,
+      "anchor": "_idParaDest-82"
+    },
+    {
+      "title": "KİŞİYİ YÜZÜNE KARŞI ÖVMEK",
+      "pageNo": 86,
+      "level": 1,
+      "anchor": "_idParaDest-83"
+    },
+    {
+      "title": "BULAŞICI HASTALIK OLAN YERDEN DIŞARI KAÇMANIN VE BÖYLE BİR YERE GİRMENİN MEKRUH OLDUĞU",
+      "pageNo": 87,
+      "level": 1,
+      "anchor": "_idParaDest-84"
+    },
+    {
+      "title": "SİHİR VE BÜYÜ YAPMANINKESİNLİKLE HARAM OLDUĞU",
+      "pageNo": 88,
+      "level": 1,
+      "anchor": "_idParaDest-85"
+    },
+    {
+      "title": "DÜŞMAN ELİNE GEÇMESİNDEN KORKULDUĞUNDA MUSHAF İLE KÂFİRLERİN YURDUNA YOLCULUĞUN YASAK KILINDIĞI",
+      "pageNo": 89,
+      "level": 1,
+      "anchor": "_idParaDest-86"
+    },
+    {
+      "title": "ALTIN VE GÜMÜŞ KAP KULLANMANIN YASAK OLUŞU",
+      "pageNo": 90,
+      "level": 1,
+      "anchor": "_idParaDest-87"
+    },
+    {
+      "title": "ERKEĞİN SARI RENK İLE BOYANMIŞ ELBİSE GİYMESİNİN HARAM OLUŞU",
+      "pageNo": 91,
+      "level": 1,
+      "anchor": "_idParaDest-88"
+    },
+    {
+      "title": "BİR GÜNÜ AKŞAMA KADAR SUSARAK GEÇİRMENİN YASAK OLUŞU",
+      "pageNo": 92,
+      "level": 1,
+      "anchor": "_idParaDest-89"
+    },
+    {
+      "title": "KENDİ BABASI OLMAYAN BİRİNİ BABASI DİYE GÖSTERMENİN, KENDİ EFENDİSİ OLMAYAN BİRİNİ EFENDİ KABUL ETMENİN HARAM OLDUĞU",
+      "pageNo": 93,
+      "level": 1,
+      "anchor": "_idParaDest-90"
+    },
+    {
+      "title": "ALLAH VE ResûlÜ’NÜN YASAKLADIĞIŞEYLERDEN SAKINMAK",
+      "pageNo": 94,
+      "level": 1,
+      "anchor": "_idParaDest-91"
+    },
+    {
+      "title": "İLÂHÎ BİR YASAĞI ÇİĞNEYEN KİMSENİN NE DİYECEĞİ",
+      "pageNo": 95,
+      "level": 1,
+      "anchor": "_idParaDest-92"
+    },
+    {
+      "title": "BELLİ BİR KONUYA AİT OLMAYAN İLGİ ÇEKİCİ HADİSLER BÖLÜMÜ",
+      "pageNo": 96,
+      "level": 1,
+      "anchor": "_idParaDest-93"
+    },
+    {
+      "title": "İSTİĞFAR BÖLÜMÜ",
+      "pageNo": 97,
+      "level": 1,
+      "anchor": "_idParaDest-94"
+    },
+    {
+      "title": "ALLAH TEALA’NIN CENNETTE MÜ’MİNLERE HAZIRLADIĞI NİMETLER BÖLÜMÜ",
+      "pageNo": 98,
+      "level": 1,
+      "anchor": "_idParaDest-95"
+    }
+  ],
+  "pagesIndex": [
+    {
+      "pageNo": 1,
+      "title": "RiyazusSalihin_7",
+      "fileName": "sayfa_1.html"
+    },
+    {
+      "pageNo": 2,
+      "title": "RiyazusSalihin_7-1",
+      "fileName": "sayfa_2.html"
+    },
+    {
+      "pageNo": 3,
+      "title": "RiyazusSalihin_7-2",
+      "fileName": "sayfa_3.html"
+    },
+    {
+      "pageNo": 4,
+      "title": "BAĞIŞ VE BENZERİ İYİLİKLERİ BAŞA KAKMA YASAĞI",
+      "fileName": "sayfa_4.html"
+    },
+    {
+      "pageNo": 5,
+      "title": "ÖVÜNME VE HADDİ AŞMA YASAĞI",
+      "fileName": "sayfa_5.html"
+    },
+    {
+      "pageNo": 6,
+      "title": "ÜÇ GÜNDEN FAZLA İLİŞKİ KESME YASAĞI",
+      "fileName": "sayfa_6.html"
+    },
+    {
+      "pageNo": 7,
+      "title": "FISILDAŞMA YASAĞI",
+      "fileName": "sayfa_7.html"
+    },
+    {
+      "pageNo": 8,
+      "title": "GEREKSİZ VE AŞIRI CEZALANDIRMA YASAĞI",
+      "fileName": "sayfa_8.html"
+    },
+    {
+      "pageNo": 9,
+      "title": "CANLILARI YAKMA YASAĞI",
+      "fileName": "sayfa_9.html"
+    },
+    {
+      "pageNo": 10,
+      "title": "ZENGİNİN BORCUNU GECİKTİRMESİ",
+      "fileName": "sayfa_10.html"
+    },
+    {
+      "pageNo": 11,
+      "title": "BAĞIŞTAN DÖNMENİN KERÂHETİ",
+      "fileName": "sayfa_11.html"
+    },
+    {
+      "pageNo": 12,
+      "title": "YETİM MALI YEMENİN HARAMLIĞI",
+      "fileName": "sayfa_12.html"
+    },
+    {
+      "pageNo": 13,
+      "title": "FAİZİN ŞİDDETLE YASAKLANMASI",
+      "fileName": "sayfa_13.html"
+    },
+    {
+      "pageNo": 14,
+      "title": "GÖSTERİŞ (RİYA) YASAĞI",
+      "fileName": "sayfa_14.html"
+    },
+    {
+      "pageNo": 15,
+      "title": "RİYA OLMADIĞI HALDE RİYA SANILAN DURUMLAR",
+      "fileName": "sayfa_15.html"
+    },
+    {
+      "pageNo": 16,
+      "title": "ŞEHVETLE BAKMA YASAĞI",
+      "fileName": "sayfa_16.html"
+    },
+    {
+      "pageNo": 17,
+      "title": "HALVET YASAĞI",
+      "fileName": "sayfa_17.html"
+    },
+    {
+      "pageNo": 18,
+      "title": "KADIN - ERKEK BENZEŞMESİ YASAĞI",
+      "fileName": "sayfa_18.html"
+    },
+    {
+      "pageNo": 19,
+      "title": "ŞEYTANA VE KÂFİRLERE BENZEME YASAĞI",
+      "fileName": "sayfa_19.html"
+    },
+    {
+      "pageNo": 20,
+      "title": "BOYAMA YASAĞI",
+      "fileName": "sayfa_20.html"
+    },
+    {
+      "pageNo": 21,
+      "title": "YARIM TIRAŞ YASAĞI",
+      "fileName": "sayfa_21.html"
+    },
+    {
+      "pageNo": 22,
+      "title": "SAÇA SAÇ EKLETME VE DÖĞME YAPTIRMA YASAĞI",
+      "fileName": "sayfa_22.html"
+    },
+    {
+      "pageNo": 23,
+      "title": "BEYAZ KILLARI YOLMA YASAĞI",
+      "fileName": "sayfa_23.html"
+    },
+    {
+      "pageNo": 24,
+      "title": "SAĞ ELLE TAHÂRETLENMENİN KERÂHETİ",
+      "fileName": "sayfa_24.html"
+    },
+    {
+      "pageNo": 25,
+      "title": "TEK AYAKKABI İLE GEZMENİN MEKRUH OLDUĞU",
+      "fileName": "sayfa_25.html"
+    },
+    {
+      "pageNo": 26,
+      "title": "ATEŞİ YANAR HALDE BIRAKMA YASAĞI",
+      "fileName": "sayfa_26.html"
+    },
+    {
+      "pageNo": 27,
+      "title": "BOŞU BOŞUNA KÜLFET VE ZAHMET VERME YASAĞI",
+      "fileName": "sayfa_27.html"
+    },
+    {
+      "pageNo": 28,
+      "title": "ÖLÜYE AĞIT YAKMA YASAĞI",
+      "fileName": "sayfa_28.html"
+    },
+    {
+      "pageNo": 29,
+      "title": "FALCILARA VE KÂHİNLERE İNANMA YASAĞI",
+      "fileName": "sayfa_29.html"
+    },
+    {
+      "pageNo": 30,
+      "title": "UĞURSUZLUĞA İNANMA YASAĞI",
+      "fileName": "sayfa_30.html"
+    },
+    {
+      "pageNo": 31,
+      "title": "CANLI RESMİ YAPMA VE BULUNDURMA YASAĞI",
+      "fileName": "sayfa_31.html"
+    },
+    {
+      "pageNo": 32,
+      "title": "KÖPEK EDİNME YASAĞI",
+      "fileName": "sayfa_32.html"
+    },
+    {
+      "pageNo": 33,
+      "title": "HAYVANLARA ÇAN TAKMANIN KERÂHETİ",
+      "fileName": "sayfa_33.html"
+    },
+    {
+      "pageNo": 34,
+      "title": "PİSLİK YİYEN DEVEYE BİNME YASAĞI",
+      "fileName": "sayfa_34.html"
+    },
+    {
+      "pageNo": 35,
+      "title": "MESCİDE TÜKÜRME YASAĞI",
+      "fileName": "sayfa_35.html"
+    },
+    {
+      "pageNo": 36,
+      "title": "MESCİDDE GÜRÜLTÜ YAPMANIN KERÂHETİ",
+      "fileName": "sayfa_36.html"
+    },
+    {
+      "pageNo": 37,
+      "title": "KÖTÜ KOKULARLA MESCİDE GELME YASAĞI",
+      "fileName": "sayfa_37.html"
+    },
+    {
+      "pageNo": 38,
+      "title": "HUTBE OKUNURKEN DİZLERİNİ DİKİP OTURMANIN KERÂHETİ",
+      "fileName": "sayfa_38.html"
+    },
+    {
+      "pageNo": 39,
+      "title": "KURBAN KESMEK İSTEYEREK ZİLHİCCE AYININ ONUNA ULAŞAN KİMSENİN KURBANI KESİNCEYE KADAR SAÇINDAN VE TIRNAKLARINDAN BİR ŞEY ALMASININ NEHYEDİLMİŞ OLDUĞU",
+      "fileName": "sayfa_39.html"
+    },
+    {
+      "pageNo": 40,
+      "title": "ÜZERİNE YEMİN EDİLMESİ YASAKLANANLAR",
+      "fileName": "sayfa_40.html"
+    },
+    {
+      "pageNo": 41,
+      "title": "BİLEREK YALAN YERE YEMİN ETMENİN BÜYÜK GÜNAH OLUŞU",
+      "fileName": "sayfa_41.html"
+    },
+    {
+      "pageNo": 42,
+      "title": "YEMİNİ BOZUP KEFÂRETİNİ VERMEK",
+      "fileName": "sayfa_42.html"
+    },
+    {
+      "pageNo": 43,
+      "title": "SÖZ ARASINDA SÖYLENEN YEMİN LAFIZLARININ YEMİN SAYILMADIĞI VE KEFÂRET GEREKMEDİĞİ",
+      "fileName": "sayfa_43.html"
+    },
+    {
+      "pageNo": 44,
+      "title": "DOĞRU BİLE OLSA ALIŞ VERİŞTE YEMİN MEKRUHTUR",
+      "fileName": "sayfa_44.html"
+    },
+    {
+      "pageNo": 45,
+      "title": "ALLAH RIZÂSI İÇİN İSTEMEK",
+      "fileName": "sayfa_45.html"
+    },
+    {
+      "pageNo": 46,
+      "title": "SULTANA VE BAŞKALARINA ŞEHİNŞÂHDEMENİN HARAM OLUŞU",
+      "fileName": "sayfa_46.html"
+    },
+    {
+      "pageNo": 47,
+      "title": "FÂSIK, BİD’ATÇI VE BUNLAR GİBİLERİNE SEYYİD VE BENZERİ ADLARLA HİTAP EDİLMESİNİN YASAKLANMASI",
+      "fileName": "sayfa_47.html"
+    },
+    {
+      "pageNo": 48,
+      "title": "ATEŞLİ HASTALIKLARA SÖVMENİN MEKRUHLUĞU",
+      "fileName": "sayfa_48.html"
+    },
+    {
+      "pageNo": 49,
+      "title": "RÜZGÂRA SÖVMENİN YASAKLIĞI VE RÜZGÂR ESTİĞİNDE NE DENİLECEĞİ",
+      "fileName": "sayfa_49.html"
+    },
+    {
+      "pageNo": 50,
+      "title": "HOROZA SÖVMENİN MEKRUH OLUŞU",
+      "fileName": "sayfa_50.html"
+    },
+    {
+      "pageNo": 51,
+      "title": "İNSANIN “ŞU YILDIZ SAYESİNDE YAĞMURA KAVUŞTUK” DEMESİ YASAKLANMIŞTIR",
+      "fileName": "sayfa_51.html"
+    },
+    {
+      "pageNo": 52,
+      "title": "MÜSLÜMANA KÂFİR DEMENİN HARAM OLUŞU",
+      "fileName": "sayfa_52.html"
+    },
+    {
+      "pageNo": 53,
+      "title": "KÖTÜ SÖZ VE FENA KONUŞMANIN YASAK OLUŞU",
+      "fileName": "sayfa_53.html"
+    },
+    {
+      "pageNo": 54,
+      "title": "KONUŞMADA DİKKAT EDİLMESİGEREKEN ÖZELLİKLER",
+      "fileName": "sayfa_54.html"
+    },
+    {
+      "pageNo": 55,
+      "title": "“NEFSİM MURDAR OLDU” DEMENİN MEKRUH OLUŞU",
+      "fileName": "sayfa_55.html"
+    },
+    {
+      "pageNo": 56,
+      "title": "ÜZÜME KERM DEMENİN MEKRUH OLUŞU",
+      "fileName": "sayfa_56.html"
+    },
+    {
+      "pageNo": 57,
+      "title": "BİR KADININ GÜZELLİĞİNİ BİR ERKEĞE ANLATMANIN YASAK OLUŞU",
+      "fileName": "sayfa_57.html"
+    },
+    {
+      "pageNo": 58,
+      "title": "İNSANIN DUÂ EDERKEN, “ALLAHIM DİLERSEN BENİ BAĞIŞLA” DEMESİNİN MEKRUHLUĞU VE İSTEĞİNİ KESİN BİR DİLLE İFADE ETMENİN GEREKTİĞİ",
+      "fileName": "sayfa_58.html"
+    },
+    {
+      "pageNo": 59,
+      "title": "“ALLAH VE FİLANCA DİLERSE” DEMENİN MEKRUH OLUŞU",
+      "fileName": "sayfa_59.html"
+    },
+    {
+      "pageNo": 60,
+      "title": "YATSIDAN SONRA KONUŞMANIN MEKRUH OLDUĞU",
+      "fileName": "sayfa_60.html"
+    },
+    {
+      "pageNo": 61,
+      "title": "KADININ KOCASININ ÇAĞRISINA UYMA ZORUNDA OLUŞU",
+      "fileName": "sayfa_61.html"
+    },
+    {
+      "pageNo": 62,
+      "title": "KOCASI YANINDA BULUNAN BİR KADININONUN İZNİNİ ALMADAN NAFİLE ORUÇ TUTMASININ HARAM OLDUĞU",
+      "fileName": "sayfa_62.html"
+    },
+    {
+      "pageNo": 63,
+      "title": "İMAMA UYAN KİMSENİN İMAMDAN ÖNCE BAŞINI RÜKÛ VE SECDEDEN KALDIRMASININ HARAM OLUŞU",
+      "fileName": "sayfa_63.html"
+    },
+    {
+      "pageNo": 64,
+      "title": "NAMAZDA ELİ BÖĞÜRE KOYMANIN MEKRUH OLUŞU",
+      "fileName": "sayfa_64.html"
+    },
+    {
+      "pageNo": 65,
+      "title": "NAMAZ KILMANIN MEKRUH OLDUĞU HALLER",
+      "fileName": "sayfa_65.html"
+    },
+    {
+      "pageNo": 66,
+      "title": "NAMAZDA GÖZLERİ SEMAYA DİKMENİN YASAK OLUŞU",
+      "fileName": "sayfa_66.html"
+    },
+    {
+      "pageNo": 67,
+      "title": "BİR MAZERETİ OLMAKSIZIN NAMAZDA BAŞINI SAĞA SOLA ÇEVİRMENİN MEKRUH OLUŞU",
+      "fileName": "sayfa_67.html"
+    },
+    {
+      "pageNo": 68,
+      "title": "KABİRLERE DOĞRU NAMAZ KILMANIN YASAK OLDUĞU",
+      "fileName": "sayfa_68.html"
+    },
+    {
+      "pageNo": 69,
+      "title": "NAMAZ KILAN KİMSENİN ÖNÜNDENGEÇMENİN HARAM OLUŞU",
+      "fileName": "sayfa_69.html"
+    },
+    {
+      "pageNo": 70,
+      "title": "MÜEZZİN KÂMETE BAŞLAYINCA NAFİLE KILMANIN MEKRUH OLUŞU",
+      "fileName": "sayfa_70.html"
+    },
+    {
+      "pageNo": 71,
+      "title": "ORUCU SADECE CUMA GÜNÜ TUTMANIN VE CUMA GECESİNİ NAMAZA AYIRMANIN MEKRUH OLUŞU",
+      "fileName": "sayfa_71.html"
+    },
+    {
+      "pageNo": 72,
+      "title": "İFTAR ETMEDEN ORUCU BİRBİRİNE EKLEMENİN HARAM OLUŞU",
+      "fileName": "sayfa_72.html"
+    },
+    {
+      "pageNo": 73,
+      "title": "KABİR ÜZERİNE OTURMANIN HARAM OLUŞU",
+      "fileName": "sayfa_73.html"
+    },
+    {
+      "pageNo": 74,
+      "title": "KABRİ KİREÇLEMENİN VE ÜZERİNE BİNA YAPMANIN YASAK OLUŞU",
+      "fileName": "sayfa_74.html"
+    },
+    {
+      "pageNo": 75,
+      "title": "KÖLENİN EFENDİSİNDEN KAÇMASININ AĞIR BİR HARAM OLUŞU",
+      "fileName": "sayfa_75.html"
+    },
+    {
+      "pageNo": 76,
+      "title": "ŞER’Î CEZALARIN UYGULANMAMASI İÇİNARACI OLMANIN HARAM OLUŞU",
+      "fileName": "sayfa_76.html"
+    },
+    {
+      "pageNo": 77,
+      "title": "HALKIN GEÇECEĞİ YOLA, GÖLGELENECEĞİ YERE, SU KENARLARINA VE BENZERİ YERLERE ABDEST BOZMANIN YASAK OLUŞU",
+      "fileName": "sayfa_77.html"
+    },
+    {
+      "pageNo": 78,
+      "title": "DURGUN SULARI İDRAR VE BENZERİ PİSLİKLERLE KİRLETMENİN YASAK OLUŞU",
+      "fileName": "sayfa_78.html"
+    },
+    {
+      "pageNo": 79,
+      "title": "BİR BABANIN MAL BAĞIŞLARKEN ÇOCUKLARI ARASINDA AYIRIM YAPMASININ DOĞRU OLMADIĞI",
+      "fileName": "sayfa_79.html"
+    },
+    {
+      "pageNo": 80,
+      "title": "YAS TUTMANIN YASAK OLUŞU",
+      "fileName": "sayfa_80.html"
+    },
+    {
+      "pageNo": 81,
+      "title": "SİMSARLIK VE SATIŞ ÜZERİNE SATIŞ YAPMANIN YASAK OLUŞU",
+      "fileName": "sayfa_81.html"
+    },
+    {
+      "pageNo": 82,
+      "title": "ŞERİATIN İZİN VERDİĞİ YERLERDEN BAŞKA ALANDA MALI TELEF ETMENİN YASAK OLUŞU",
+      "fileName": "sayfa_82.html"
+    },
+    {
+      "pageNo": 83,
+      "title": "SİLÂHLA ŞAKALAŞMANIN YASAK OLUŞU",
+      "fileName": "sayfa_83.html"
+    },
+    {
+      "pageNo": 84,
+      "title": "EZANDAN SONRA MESCİDDEN ÇIKMANIN MEKRUH OLUŞU",
+      "fileName": "sayfa_84.html"
+    },
+    {
+      "pageNo": 85,
+      "title": "ÖZRÜ OLMAKSIZIN GÜZEL KOKUYU REDDETMENİN MEKRUH OLDUĞU",
+      "fileName": "sayfa_85.html"
+    },
+    {
+      "pageNo": 86,
+      "title": "KİŞİYİ YÜZÜNE KARŞI ÖVMEK",
+      "fileName": "sayfa_86.html"
+    },
+    {
+      "pageNo": 87,
+      "title": "BULAŞICI HASTALIK OLAN YERDEN DIŞARI KAÇMANIN VE BÖYLE BİR YERE GİRMENİN MEKRUH OLDUĞU",
+      "fileName": "sayfa_87.html"
+    },
+    {
+      "pageNo": 88,
+      "title": "SİHİR VE BÜYÜ YAPMANINKESİNLİKLE HARAM OLDUĞU",
+      "fileName": "sayfa_88.html"
+    },
+    {
+      "pageNo": 89,
+      "title": "DÜŞMAN ELİNE GEÇMESİNDEN KORKULDUĞUNDA MUSHAF İLE KÂFİRLERİN YURDUNA YOLCULUĞUN YASAK KILINDIĞI",
+      "fileName": "sayfa_89.html"
+    },
+    {
+      "pageNo": 90,
+      "title": "ALTIN VE GÜMÜŞ KAP KULLANMANIN YASAK OLUŞU",
+      "fileName": "sayfa_90.html"
+    },
+    {
+      "pageNo": 91,
+      "title": "ERKEĞİN SARI RENK İLE BOYANMIŞ ELBİSE GİYMESİNİN HARAM OLUŞU",
+      "fileName": "sayfa_91.html"
+    },
+    {
+      "pageNo": 92,
+      "title": "BİR GÜNÜ AKŞAMA KADAR SUSARAK GEÇİRMENİN YASAK OLUŞU",
+      "fileName": "sayfa_92.html"
+    },
+    {
+      "pageNo": 93,
+      "title": "KENDİ BABASI OLMAYAN BİRİNİ BABASI DİYE GÖSTERMENİN, KENDİ EFENDİSİ OLMAYAN BİRİNİ EFENDİ KABUL ETMENİN HARAM OLDUĞU",
+      "fileName": "sayfa_93.html"
+    },
+    {
+      "pageNo": 94,
+      "title": "ALLAH VE ResûlÜ’NÜN YASAKLADIĞIŞEYLERDEN SAKINMAK",
+      "fileName": "sayfa_94.html"
+    },
+    {
+      "pageNo": 95,
+      "title": "İLÂHÎ BİR YASAĞI ÇİĞNEYEN KİMSENİN NE DİYECEĞİ",
+      "fileName": "sayfa_95.html"
+    },
+    {
+      "pageNo": 96,
+      "title": "BELLİ BİR KONUYA AİT OLMAYAN İLGİ ÇEKİCİ HADİSLER BÖLÜMÜ",
+      "fileName": "sayfa_96.html"
+    },
+    {
+      "pageNo": 97,
+      "title": "İSTİĞFAR BÖLÜMÜ",
+      "fileName": "sayfa_97.html"
+    },
+    {
+      "pageNo": 98,
+      "title": "ALLAH TEALA’NIN CENNETTE MÜ’MİNLERE HAZIRLADIĞI NİMETLER BÖLÜMÜ",
+      "fileName": "sayfa_98.html"
+    }
+  ]
+}
