@@ -1,0 +1,1020 @@
+{
+  "id": "src_1793478214559",
+  "courseId": "crs_1793477575693",
+  "name": "Nebiler Silsilesi 1",
+  "metadata": {
+    "workTitle": "Nebiler Silsilesi 1",
+    "author": "Osman Nuri Topbaş",
+    "publisher": "Erkam Yayınları",
+    "pubYear": "",
+    "extra": ""
+  },
+  "customCss": "",
+  "footnotes": {
+    "footnote-012-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-012\">[1]</a>",
+    "footnote-011-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-011\">[2]</a>",
+    "footnote-010-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-010\">[3]</a>",
+    "footnote-009-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-009\">[4]</a>",
+    "footnote-008-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-008\">[5]</a>",
+    "footnote-007-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-007\">[6]</a>",
+    "footnote-006-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-006\">[7]</a>",
+    "footnote-005-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-005\">[8]</a>",
+    "footnote-004-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-004\">[9]</a>",
+    "footnote-003-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-003\">[10]</a>",
+    "footnote-002-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-002\">[11]</a>",
+    "footnote-001-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-001\">[12]</a>",
+    "footnote-000-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-000\">[13]</a>",
+    "footnote-012": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-012-backlink\">[1]</a>.  Peygamberliğin kesbî değil, vehbî olduğu, şu âyet-i kerîmelerden de anlaşılmaktadır:</p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"idebold\">“İşte bu </span>(peygamberlik)<span class=\"idebold\">, Allâh’ın fazlıdır; onu dilediğine verir...” </span>(el-Cum‘a, 4)</p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"idebold\">“Onlara bir âyet geldiğinde, «Allâh’ın elçilerine verilenin benzeri bize de verilmedikçe kesinlikle inanmayız.» dediler. Allâh</span><span class=\"idebold\">, peygamberliği kime vereceğini daha iyi bilir...”</span> (el-En’am, 124)  </p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"idebold\">“Sen, bu Kitâb’ın sana vahyolunacağını ummuyordun. </span>(Bu)<span class=\"idebold\"> ancak Rabbinden bir rahmet </span>(olarak gelmiş)<span class=\"idebold\">’tir...”</span> (el-Kasas, 86)</p>",
+    "footnote-011": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-011-backlink\">[2]</a>.  Rasûlullâh -sallâllâhu aleyhi ve sellem- dünyâda da âhirette de rahmettir. Dünyâda hidâyeti ile, âhirette şefâati ile. Hadîs-i şerîflerde genişçe anlatıldığı üzere, mahşerde bütün insanlar düz ve geniş bir arâzide toplanacak. Korkunç sıkıntılar içinde hesaba çekilmeyi bekleyen insanlar, sonunda bir kurtarıcı aramaya başlayacaklar. Kendilerine başvurdukları büyük peygamberlerden yardım göremeyince Rasûlullâh -sallâllâhu aleyhi ve sellem-’e gelip yalvaracaklar. O zaman Peygamber-i Zîşân Efendimiz, Arş-ı Rahmân’ın altında secdeye kapanarak Cenâb-ı Hak’tan ümmetini dileyecek. Kendisine büyük şefâat yetkisi verilince, önce doğrudan cennete gireceklere, belli bir süre sonra da kelime-i şehâdeti söylemekten başka iyiliği bulunmayan günahkârlara şefâat edecek ve onları cennete götürecektir. (Buhârî, Rikak 51, Tevhîd 36, Tefsîru sûre (17), 5; Müslim, Îmân 322, 326, 327)</p>",
+    "footnote-010": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-010-backlink\">[3]</a>.  Bkz. Taberânî, <span class=\"ideitalik\">el-Mu‘cemü’l-Kebîr</span>, XII, 94-95.</p>",
+    "footnote-009": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-009-backlink\">[4]</a>.  Bununla birlikte bu kâidenin istisnâsı olarak, Hazret-i Peygamber -sallâllâhu aleyhi ve sellem-’in cennetle müjdelediği kimseler, bir mânâda te’mînât altında sayılırlar. (Aşere-i Mübeşşere gibi).</p>",
+    "footnote-008": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-008-backlink\">[5]</a>.  Söz sahibini hatırlatır. Ve söyleyenin şân ve kudretine göre bir yücelik ve mükemmellik arz eder. Dolayısıyla Kur’ân-ı Kerîm’in müthiş belâgat ve fesâhati, onun sâhibi olan Cenâb-ı Hakk’ın kudret ve azametinin şânına göre olduğundan -münkirler dâhil- bütün beşeriyeti âciz ve hayrân bırakmıştır. Hele Kur’ân-ı Kerîm’in sehl-i mümtenî vasfında olması, apayrı bir ilâhî sırdır ki, herkes onun sâhibi tarafından ne kadar kolay beyân edilmiş olduğunu idrâk eder, ancak bir benzerini yapmaya aslâ muktedir olamaz… </p>",
+    "footnote-007": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-007-backlink\">[6]</a>.  Hâdisenin tafsîlâtı için bkz. Muhammed Hamîdullah, <span class=\"ideitalik\">Kur’ân-ı Kerîm Târihi</span>, İstanbul 1993, s. 94-95.</p>",
+    "footnote-006": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-006-backlink\">[7]</a>.  Nitekim Amerika’da yayınlanan <span class=\"ideitalik\">The World Almanac Books</span>’un 1996 yıllığındaki<span class=\"ideitalik\"> </span>istatistiklere bakıldığında, dünya genelinde hristiyan ve yahudî nüfusuna nisbetle Müslümanların sayısının sürekli yükselmekte olduğu görülmektedir.</p>",
+    "footnote-005": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-005-backlink\">[8]</a>.  Bu yapılamayacağı gibi Kur’ân-ı Kerîm’e herhangi bir zarar da verilemeyecektir. Yâni önceki ilâhî kitaplarda yaşanan tahrif ve tahrip keyfiyeti Kur’ân için söz konusu olmayacaktır. Çünkü Kur’ân-ı Kerîm: <span class=\"idebold\">«Şüphesiz Kur’ân’ı Biz indirdik ve onu Biz koruyacağız.» </span>(el-Hicr, 9) ilâhî beyânıyla sâbit olduğu üzere ilâhî muhâfaza altındadır. Nitekim onun bu ilâhî sıyânet ve korunmuşluğuna en bariz delillerden biri de, Rusya misâlidir. Ruslar, milyonlarca Müslümanı dinlerinden tamamen koparmak için ellerinden gelen her şeyi yaptılar, ancak Kur’ân’ın bir harfine bile dokunamadılar.</p>",
+    "footnote-004": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-004-backlink\">[9]</a>.  <span class=\"idebold\">İnzâr:</span> Ebedî âlemdeki hazîn neticelerin vehâmetiyle korkutarak emir, nehiy ve îkazlarda bulunmak.</p>",
+    "footnote-003": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-003-backlink\">[10]</a>.  Bkz. Sühreverdî, <span class=\"ideitalik\">Avârif,</span> sf. 5-6.</p>",
+    "footnote-002": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-002-backlink\">[11]</a>.  Sühreverdî, <span class=\"ideitalik\">Avârif</span>, sf. 8.</p>",
+    "footnote-001": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-001-backlink\">[12]</a>.  Bu hususla ilgili olarak İslâm âlimlerinden, meşhur muhaddis ve müfessir Süyûtî der ki:</p>\n\t\t\t\t\t<p class=\"normalnesil\">“Bir kimse şu ilimleri elde etmeden Kur’ân’ı tefsîr etmeye kalkışmamalıdır. Bunlar; lügat, nahiv, sarf, iştikak, meânî, beyân, bedî, kıraat, kelâm, usûl-i fıkıh, sebeb-i nüzûl ve kıssalar, nâsih-mensuh, fıkıh, mücmel ve müphem âyetleri açıklayan hadîsler ve ilm-i mevhibe. Bu son ilim, ilmi ile amel eden kimseye Allâh tarafından verilen bir ilimdir. <span class=\"ideitalik\">“İlmiyle amel edene, Allâh bilmediğini öğretir.”</span> hadîsi buna işâret eder.” (Süyûtî, <span class=\"ideitalik\">el-İtkân</span>, IV, 213-215)</p>",
+    "footnote-000": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-5.xhtml#footnote-000-backlink\">[13]</a>.  <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABeUlEQVRIS8WTa23FMAyFPw9BIZTBCiEQwmCBEAiFUAiFUAiF0DEIhDLIfsTZrDTdlfbQtWS1sY/tYzuRnDPPEBFxQHx5BPwPEZEJCECUJ05gAPiTCYiIqwk7vlFE1o5/BpZfExCRCCxAvIFMwBuwd0gMPyKgO6ySgFfgaDBORAKwA++KWQzkBFZyzrcKDB1bBObvcFpoBcbqB7wWjWqbAXdXeKIwz4BrfB7YemQrkTbGYIKSGG4JqPOgdBC4djcBx03M0uB6E1xVd41jwDBWZ7cDUyzfJLUEdnTcnfiENvFC2VfiSzzg7NMSkVmf04jedhHx+h0Ap7qZPBvaoZWc80mZVqq2dpyRsqcMnKabXG0U0rmje3N2TW5HIXaiU0QPvV0FQ2DUs69Y/Z+boofaZiB0ckaDq6+BhO5dNZiklySVkP3XhB7YTacO8L34JheB6yg3W6QpttNcLsoUE3oJ9XwC6SEBDfi8SA/YrjfEBsp463omJXvBtvoBmO4X6effaD8AAAAASUVORK5CYII=\" alt=\"\">: Allâh hidâyet vermez. Bu ifâde Kur’ân-ı Kerîm’de tam 26 âyette geçmektedir. Nitekim:</p>\n\t\t\t\t\t<p class=\"normalnesil\"><img src=\"data:image/png;base64,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\" alt=\"\"></p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"idebold\">“…Allâh, zâlim kimseleri hidâyete erdirmez.”</span> (el-Bakara, 258)</p>\n\t\t\t\t\t<p class=\"normalnesil\"><img src=\"data:image/png;base64,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\" alt=\"\"></p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"idebold\">“…Allâh, kâfirleri hidâyete iletmez.” </span>(el-Bakara, 264)</p>\n\t\t\t\t\t<p class=\"normalnesil\"><img src=\"data:image/png;base64,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\" alt=\"\"></p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"idebold\">“…Allâh, fâsıklar topluluğuna hidâyet vermez.” </span>(el-Mâide, 108) âyetleri, bunun birer misâlidir.</p>",
+    "footnote-052-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-052\">[14]</a>",
+    "footnote-051-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-051\">[15]</a>",
+    "footnote-050-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-050\">[16]</a>",
+    "footnote-049-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-049\">[17]</a>",
+    "footnote-048-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-048\">[18]</a>",
+    "footnote-047-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-047\">[19]</a>",
+    "footnote-046-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-046\">[20]</a>",
+    "footnote-045-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-045\">[21]</a>",
+    "footnote-044-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-044\">[22]</a>",
+    "footnote-043-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-043\">[23]</a>",
+    "footnote-042-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-042\">[24]</a>",
+    "footnote-041-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-041\">[25]</a>",
+    "footnote-040-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-040\">[26]</a>",
+    "footnote-039-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-039\">[27]</a>",
+    "footnote-038-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-038\">[28]</a>",
+    "footnote-037-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-037\">[29]</a>",
+    "footnote-036-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-036\">[30]</a>",
+    "footnote-035-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-035\">[31]</a>",
+    "footnote-034-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-034\">[32]</a>",
+    "footnote-033-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-033\">[33]</a>",
+    "footnote-032-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-032\">[34]</a>",
+    "footnote-031-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-031\">[35]</a>",
+    "footnote-030-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-030\">[36]</a>",
+    "footnote-029-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-029\">[37]</a>",
+    "footnote-028-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-028\">[38]</a>",
+    "footnote-027-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-027\">[39]</a>",
+    "footnote-026-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-026\">[40]</a>",
+    "footnote-025-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-025\">[41]</a>",
+    "footnote-024-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-024\">[42]</a>",
+    "footnote-023-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-023\">[43]</a>",
+    "footnote-022-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-022\">[44]</a>",
+    "footnote-021-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-021\">[45]</a>",
+    "footnote-020-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-020\">[46]</a>",
+    "footnote-019-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-019\">[47]</a>",
+    "footnote-018-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-018\">[48]</a>",
+    "footnote-017-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-017\">[49]</a>",
+    "footnote-016-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-016\">[50]</a>",
+    "footnote-015-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-015\">[51]</a>",
+    "footnote-014-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-014\">[52]</a>",
+    "footnote-013-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-013\">[53]</a>",
+    "footnote-052": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-052-backlink\">[14]</a>.  <span class=\"idebold\">Mudill:</span> Müstehak olanları dalâlete sevk eden.</p>",
+    "footnote-051": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-051-backlink\">[15]</a>.  <span class=\"idebold\">Mütekebbir:</span> Her şeyde ve işte yücelik ve azametini gösteren.</p>",
+    "footnote-050": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-050-backlink\">[16]</a>.  <span class=\"idebold\">Hâdî:</span> Hidâyete eriştiren.</p>",
+    "footnote-049": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-049-backlink\">[17]</a>.  Bâzı âlimler, insan vücûdundaki cismânî varlıklarla kâinâttaki varlık ve hâdiseler arasında bir irtibat kurarlar. Kemikleri dağlara, kılları nebâtâta, damarları nehirlere, nefes almayı rüzgarlara, konuşmayı gök gürültüsüne… benzetirler. Yâni kâinâtın küçültülmüş şekli olan insanda bir bakıma kâinâttan esinti ve izler bulunmaktadır.</p>",
+    "footnote-048": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-048-backlink\">[18]</a>.  İnsanın aslî bir cevher olarak topraktan yaratılmış olmasına mukâbil cinler, dumansız ve parlak ateşten halk edilmişlerdir. Kesâfetleri yoktur. Fakat kesâfet sâhibi muhtelif varlıkların şekillerine bürünme, yâni temessül etme kâbiliyetleri vardır. Işık sür’atinde hareket kâbiliyetleri bulunmasına rağmen, birçok husûslarda insanlar gibi mütekâmil varlıklar değildirler. Seviye olarak insanlardan daha aşağıdadırlar. Sevgili Peygamberimiz kendine has bir özellik olarak hem insanlara hem de cinlere peygamber olarak gönderilmiştir. Bu sebeple O’na, insanların ve cinlerin Rasûlü mânâsında <span class=\"idebold\">“Rasûlü’s-sekaleyn”</span>; insanlara ve cinlere fetvâ veren İmâm-ı Gazâlî, Şeyhulislâm Ebussuûd Efendi ve emsâli İslâm âlimlerine <span class=\"idebold\">“müfti’s-sekaleyn”</span> ve ins ü cinne mânevî eğitimde bulunan mürşid-i kâmillere de <span class=\"idebold\">“mürşidü’s-sekaleyn”</span> denir.</p>",
+    "footnote-047": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-047-backlink\">[19]</a>.  Ayrıca bkz. Ebu’s-Suûd, <span class=\"ideitalik\">İrşâdü’l-Akli’s-Selîm</span>, II, 130; Aclûnî, <span class=\"ideitalik\">Keşfü’l-Hafâ</span>, II, 132.</p>",
+    "footnote-046": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-046-backlink\">[20]</a>.  <span class=\"idebold\">Gafûr:</span> Bütün günahları affeden.<span class=\"idebold\"> Rahîm: </span>Affedip bağışlayan, engin merhamet sâhibi. Mü’minleri âhirette mükâfatlandıracak olan.</p>",
+    "footnote-045": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-045-backlink\">[21]</a>.  Arapça’da “halk: yaratma” kelimesi “bir şeyi îcad etmek” mânâsına da geldiği için başka varlıklara da izâfe edilebilmektedir. Bu sebeple “Ahsenü’l-Hâlıkîn: Yaratanların en güzeli” denilirken, Allâh’tan başka bir hâlık (yaratıcı) olduğu anlamına gelmez. Meselâ “Aliyyün ahsenü’t-tullâb: Talebelerin en iyisi Ali’dir.” denildiğinde, sınıfta Ali ile beraber başka iyi talebelerin olması şart değildir. Sınıfta tek iyi talebe Ali olsa bile bu ifâde kullanılabilir ve bu “Ali çok iyi bir talebedir.” mânâsına gelir.</p>",
+    "footnote-044": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-044-backlink\">[22]</a>.  <span class=\"idebold\">Şem’</span>: Mum, çerağ, kandil.<span class=\"idebold\"> Pervâne:</span> Işığın (nûrun) etrâfında dönmeyi seven gece kelebeği.</p>",
+    "footnote-043": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-043-backlink\">[23]</a>.  <span class=\"idebold\">Tenezzül eylemek:</span> İnmek, kibirsizlik. <span class=\"idebold\">Vahdet:</span> Yüce Allâh’a âit teklik âlemi; kulları için vuslat âlemi, kurb-i ilâhî.</p>",
+    "footnote-042": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-042-backlink\">[24]</a>.  <span class=\"idebold\">Kesret</span>: Çokluk âlemi, bu dünyâ.</p>",
+    "footnote-041": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-041-backlink\">[25]</a>.  <span class=\"idebold\">Avâlim</span>: Âlemler.</p>",
+    "footnote-040": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-040-backlink\">[26]</a>.  <span class=\"idebold\">Halvet</span>: Yalnız ve tenhâ kalma.</p>",
+    "footnote-039": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-039-backlink\">[27]</a>.  <span class=\"idebold\">Alîm:</span> Ezelî ilmiyle, olmuş ve olacak her şeyi hakkıyla bilen. <span class=\"idebold\">Hakîm:</span> Bütün emir ve işleri yerli yerinde olan.</p>",
+    "footnote-038": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-038-backlink\">[28]</a>.  Nitekim Cenâb-ı Hak, İmâm-ı Âzam, İmâm Buhârî, Ahmed bin Hanbel Hazretleri, diğer mezhep imamlarımız ve tasavvuf büyüklerimiz gibi zâtları kıyâmete kadar dîninin devâmı için vesîle kılmıştır.</p>",
+    "footnote-037": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-037-backlink\">[29]</a>.  Bkz. Râzî, <span class=\"ideitalik\">Tefsîr</span>, XXXI, 114.</p>",
+    "footnote-036": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-036-backlink\">[30]</a>.  Cemâdât olarak bildiğimiz varlıkların bile kendilerine âit mükellefiyetin ağırlığını fark edebilecek bir şuura sâhip olduğu anlaşılmaktadır. Nitekim Efendimiz -aleyhissalâtü vesselâm- bir defasında beraberinde Hazret-i Ebû Bekir, Ömer ve Alî -radıyallâhu anhüm- olduğu hâlde Uhud Dağı’na çıkmışlardı. Uhud, sallanmaya başladı. Rasûlullâh -sallâllâhu aleyhi ve sellem- Efendimiz de: </p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"ideitalik\">“Sâkin ol ey Uhud! Üzerinde bir nebî, bir sıddîk ve iki şehîd var!”</span> (Tirmizî, Menâkıb, 18/3703) buyurdu.</p>\n\t\t\t\t\t<p class=\"normalnesil\">Öyle ki cemâdât, nebâtât ve hayvanâtın her biri kendi dillerinde Rab’lerini hamd ile tesbih etmektedirler. Bu husus âyet-i kerîmede şöyle beyân buyrulmaktadır:</p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"idebold\">“Yedi gök, yer ve bunlarda bulunan her şey O’nu tesbîh eder. O’nu hamd ile tesbîh etmeyen hiçbir şey yoktur. Ne var ki siz, onların tesbîhini anlayamazsınız! O, Halîm’dir, Gafûr’dur.”</span> (el-İsrâ, 44)</p>\n\t\t\t\t\t<p class=\"normalnesil\">Hurma kütüğünün Efendimiz’in hasretiyle enîni (inlemesi), (Buhârî, Menâkıb, 25) Kızıldeniz’in Hazret-i Mûsâ ile Firavun’u ayırdetmesi (el-Bakara, 50) bunun en güzel misâllerindendir.</p>\n\t\t\t\t\t<p class=\"normalnesil\">Diğer bir misâl de şudur: Japon bilim adamı Masaru Emoto, donmuş su kristalleri üzerinde yaptığı araştırmada, bunların düzgün, estetik ve altıgen şekillerden meydana geldiğini ve bu kristallerin insan eli değmemiş tabiî kaynak sularında, insanı büyüleyecek kadar düzgün ve güzel şekle sâhip olduğunu fark etmiştir. İki ayrı kaba bu sulardan alarak deney yapmıştır. Üzerine sevgi, şefkat, duâ ve minnettarlık ifâdelerinin fısıldandığı birinci kaptaki suyun kristallerinin tabiî ihtişamını koruduğunu; üzerine hakaret içeren sözlerin ve “şeytan” lafzının söylendiği suyun kristallerinin ise parçalanmış olduğunu ve bütün estetik özelliğini yitirerek şekillerinin bozulduğunu görmüştür. Aynı deneyde sular, güzel ve hoş mûsikîye ve rahatsız edici çirkin ritimlere de farklı tepki vermiştir. </p>\n\t\t\t\t\t<p class=\"normalnesil\">Masaru Emoto ulaştığı bu hakîkati daha da pekiştirmek için benzeri bir incelemeyi ayrı kavanozlara konulmuş haşlanmış pirinçler üzerinde de yapmıştır. Birinin içine “teşekkür” diğerinin içine “aptal” yazan kağıtlar bırakılan kavanozlara bir ay boyunca bu sözler telaffuz edildiğinde birinci kavanozdaki pirinçlerin beyazlığını ve tâzeliğini koruduğunu diğer kavanozdaki pirinçlerin ise karararak dışarıya kötü kokular vermekte olduğunu keşfetmiştir. (M. Akif Deniz, <span class=\"ideitalik\">İlk Adım</span>, Şubat, 2003)</p>",
+    "footnote-035": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-035-backlink\">[31]</a>.  Bkz. Taberî, Târih, I, 89-90.</p>",
+    "footnote-034": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-034-backlink\">[32]</a>.  Bkz. İbn-i Sa’d, <span class=\"ideitalik\">Tabakât</span>, I, 26.</p>",
+    "footnote-033": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-033-backlink\">[33]</a>.  Bkz. Bursevî, <span class=\"ideitalik\">Rûhu’l-Beyân</span>, I, 99 (el-Bakara, 31).</p>",
+    "footnote-032": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-032-backlink\">[34]</a>.  Bu âyetlerde “usr” (zorluk) ve “yüsr” (kolaylık) kelimeleri tekrar edilmiştir. Ancak “usr” elif-lâm takısı ile mârife olarak, “yüsr” ise nekra olarak gelmektedir. Arapça dil kâidelerine göre mârife kelimenin tekrar edilmesi aynı şeyi ifâde ederken, nekra kelimenin tekrarlanması farklı bir şeyi ifâde etmektedir. Bu sebeple “usr” iki defa tekrar edilmesine rağmen tek bir zorluk olarak kalmış, “yüsr” ise iki ayrı kolaylık olmuştur. (Bkz. Buhârî, Tefsîr, 94)</p>",
+    "footnote-031": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-031-backlink\">[35]</a>.  Mudğa/Bir çiğnem et: Âyet-i kerîmedeki bu tâbir, asrımızda yeni keşfedilen bir Kur’ân mûcizesidir. İnsan yaratılışının üçüncü safhasını teşkîl eden mudğa dönemi, sanki çiğnenmiş ve üzerinde diş izleri kalmış bir et görünümündedir. (Geniş bilgi için bkz. O. Nûri Topbaş, <span class=\"ideitalik\">Rahmet Esintileri</span>, s. 294-300)</p>",
+    "footnote-030": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-030-backlink\">[36]</a>.  Bkz. s. 61, dipnot 21.</p>",
+    "footnote-029": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-029-backlink\">[37]</a>.  Bkz. İ. Hakkı Bursevî, <span class=\"ideitalik\">Temâmü’l-Feyz</span> (thk. Ali Namlı), Basılmamış master tezi, İstanbul, 1994, s. 47.</p>",
+    "footnote-028": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-028-backlink\">[38]</a>.  Geniş bilgi için bkz. Osman Nûri TOPBAŞ, <span class=\"ideitalik\">Îmandan İhsâna Tasavvuf</span>, s. 309 vd.</p>",
+    "footnote-027": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-027-backlink\">[39]</a>.  Ayrıca bkz. el-Hicr, 33; Sâd, 76.</p>",
+    "footnote-026": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-026-backlink\">[40]</a>.  Ayrıca bkz. Sâd, 77-78.</p>",
+    "footnote-025": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-025-backlink\">[41]</a>.  Ayrıca bkz. el-A’râf, 14.</p>",
+    "footnote-024": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-024-backlink\">[42]</a>.  Ayrıca bkz. el-A’râf, 15.</p>",
+    "footnote-023": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-023-backlink\">[43]</a>.  Hadîs-i şerîf için bkz. sf. 140-141.</p>",
+    "footnote-022": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-022-backlink\">[44]</a>.  Bkz. et-Târık, 6-7.</p>",
+    "footnote-021": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-021-backlink\">[45]</a>.  Tesettür, mahlûkât arasında yalnız insana âit bir keyfiyettir. İnsan, Allâh -celle celâlühû-’nun lutfettiği insanlık haysiyet, vakar, hayâ ve ciddiyetini koruyabilmek için örtünmeye mecburdur. Aksi hâlde bu vasıfları zâyî etmiş olur. Kendisinin dûnundaki mahlûkların seviyesine düşer. Toplumda hayânın kaybolması, kıyâmet alâmetlerinin belli başlılarındandır. Hadîs-i şerîfte: </p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"ideitalik\">“Hayâ îmândandır!”</span> (Buhârî, Îmân, 3) buyrulur. Hazret-i Âdem ile Havvâ, cennette başka insanlar olmadığı hâlde birbirlerinden ve diğer mahlûkâttan hayâ ettiler. Telâş içinde, orada mevcut olan yapraklarla örtünmeye çalıştılar. Bu da gösteriyor ki, maddî olan örtünme ve onun mânevî bağlantısı olan edeb ve hayâ, insanoğlunun en mümtaz vasıflarından biridir. </p>",
+    "footnote-020": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-020-backlink\">[46]</a>.  Bkz. el-Bakara, 37.</p>",
+    "footnote-019": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-019-backlink\">[47]</a>.  Buradaki düşmanlık, şeytan ve cinler ile insanlar arasında, bir de insanların kendi aralarında muhtelif sebeplerle zuhur edecek ve kıyâmete kadar sürecek olan düşmanlıklardır.</p>",
+    "footnote-018": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-018-backlink\">[48]</a>.  Bkz. Yûnus, 58.</p>",
+    "footnote-017": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-017-backlink\">[49]</a>.  Ayrıca bkz. Yâsîn, 77.</p>",
+    "footnote-016": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-016-backlink\">[50]</a>.  Bkz. el-Kalem, 16-33.</p>",
+    "footnote-015": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-015-backlink\">[51]</a>.  Ezelde yalnız kendisi var olan Cenâb-ı Hak, insanlar ve cinlerin idrâkleri seviyesinde bilinmeyi murâd ettiğinden mâsivâyı, yâni kendisinden gayrı olan her şeyi yaratmıştır. Bu yaratışta ilk olan “Nûr-i Muhammedî”dir. Bu sebepledir ki Allâh Rasûlü -sallâllâhu aleyhi ve sellem-: <span class=\"ideitalik\">“Âdem rûh ile cesed arasında iken ben nebî idim.”</span> (Tirmizî, Menâkıb, 1) buyurmuştur. Buna göre Peygamber -aleyhissalâtü vesselâm-’ın cevheri demek olan Nûr-i Muhammedî’nin yaratılışta ilk olmasına mukâbil, bedene büründürülüp ba’s olunması (gönderilmesi) enbiyâ silsilesinde en sondur. Yukarıdaki ifâdede Nûr-i Muhammedî değil, beşer sıfatı ile ba’s olunan “Zât-ı Muhammedî” kastedilmektedir.</p>",
+    "footnote-014": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-014-backlink\">[52]</a>.  Burada iki mesele vardır: Birincisi <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAUCAYAAAC3WaJ+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAEeklEQVRoQ+2Z8bGkNgzGf7pJAdtB6CB0EErYDo4SKIESNhWEdEA6oATSASVsKlD+kHj4GYO975jLu0y+Gc++sz/ZsixLwieqyveAiLTAQ1VvOe7/KIeI1Ko6p8a+pDr/SxCRQUSaHO9Hg4jcRGQA2iPOpYfrCy4i8oj6G+AOdEnBE4hIKyJPEaly3BAicheRHvgKVOfszwERuec4AVpgUNVDm156uEANPP03xKKqd1Ud9iJZ3IGZ1w+owgzwxznt34eI1CIy8cIeVfWB2fqUdGnDbmed6L8BTU4+IVcBXY53IPfyetEcu32UtFf36jarTsYf2C2N+59AeyiXW/iqBvRAX8CrSvpKmxv6VjJnyHOD9wfznerjsprTrbQBI6DxAfvhHl2k20thuTQniEgnImOOFyIoEFI5ZIzzeA5r/scMMwX9lYfAd3vxnL54VQ9moHfwsdJ9/Z0jrBCR3gu/50Hx1wJ/AV+9jlgxa1Qpi0iH7/cnDiAiNyx3zqq6xvZORJZ4wgSeJIyTQYd55pQYG4Al0Z/DhOXrMDd1WChbIu4TW2cO/t2sgyJSY6H+HthjB3eAin3dsdq0wz4JwzkW5w9s67/BubXP/buIjKkzWB1DVetVMBUG7tjmlCB3YB7UpGRyDQvLQ473WRp2sFOO90pzuyofzOU+R49dOLBC9ZibEK4xj29jJc4O1mUU87yWKM+VGst5qRx5P+AuHORAtuq9LZkv7D/SF7tdY0o24t1I58MzXZM6JbgzVmTt9PB1Bx9/PymWU17yLLyixQ51xA5ZMcNPvkZD2eFO7AuHmiiKeP86f38w1+jtmRhbYjm2iFVhRpoTekwrJ7OPLrVuhp91GudWmD3axFjrOuoX7IQnNtTAw5N8QwTv7zx/hJixA2yw5P8b5kGTWn6YKUNPVOy4/J8EOdDxM4ncFqDB9rck9tITzaeqI57/1PLcL5FMDfzqf1ecYwB2BZIXTu/s5/n8SXmdUvlvil8R2GSKTr7BvH0m7fEPtpsZt4Hz77XpaCzizYm+hv1N61zX5HcwdlCKG65EH8zzu9Q4ZsyeTK4L+A/20Wbm2H5twZyj7+dJ+lOtXnXEJ60SpOQmMM8Ib+nadnOkFi7gtKSNOhNtPuhPrs3JYwLmiEOCv6x6pmRdv2z4ZMv3ce1RY5GyiVrWNi4/uvwjnjvgdNj+3j4X+qDziW0yVcT0fODFKNfYboXyvkKvXb+ZoEhhy4+P3NzROlWwxyrob3yNMcG/+e9Ov4M1Wo5v1kDBDX2lYTZadRzY6oa3t9s1NEwHSlWYt+y88VuaKzUFazfef2cLq4PzbmxpYUnpebLOemPWdVYn6QjCHOmbttpn4qSiZbPPk32UqbBbt8RrfGtj+2pQgoK4RLAKNrdQGD6uailDhH1X6ZMzOAVp50Cu+V72i/cg3vnDwZ8Le6wu6M+4pfCqFc2/wH0Ya5WsJ69cV+Glt+VPhhYriPoMrwhi79o9H3vmLII/H04Z2mX4YW/ulfAoUGn6XfsSiP2nS32VM5bgH42NPKC8906LAAAAAElFTkSuQmCC\" alt=\"\"> <span class=\"idebold\">“…Hiçbir günahkâr, başkasının günahını yüklenmez…”</span> (el-İsrâ, 15) buyrulduğu hâlde kâtil olan, öldürülenin günâhını nasıl yüklenir? Bu nokta birkaç şekilde îzâh edilmiştir: Bir hadîs-i şerîfte: <span class=\"ideitalik\">“Birbirine söven iki kişinin söyledikleri, zulme uğrayan haddi aşmadıkça başlayana âittir.”</span> (Müslim, Birr, 69) buyrulmaktadır. Yâni mazlum, haddi aşıp daha ileri gitmedikçe, ilk başlayan hem aynen kendi günâhını, hem de sebep olduğundan dolayı arkadaşının günâhının bir mislini yüklenir. Burada da “benim günâhım” demek, şâyet sana karşılık vererek el uzatırsam, gireceğim günâhın bir misli demektir. Şu hâlde biri haddi aşar, diğeri de karşılık verir, neticede her ikisi de ölürlerse, başlatan, iki cinayet, diğeri de bir cinâyet işlemiş olur. Beriki, karşılık vermeyecek olursa, bu bir cinâyetten de kurtulur. Fakat kâtil yine iki cinâyet işlemiş ve iki günah yüklenmiş olur ki, birisi mazlumu öldürmek, diğeri kendini cezâya lâyık bulup ateşe atmak cinâyetidir. Bundan başka “benim günâhım” demek “beni öldürmek günâhı”; “senin günâhın” da “daha önce işlediğin günahların” demek olur.</p>\n\t\t\t\t\t<p class=\"normalnesil\">İkincisi, insanın kendisi için Allâh’a isyan etmeyi istemesi câiz olmadığı gibi, başkasının isyânını istemesi de câiz değildir. O hâlde böyle bir muttakî kimsenin diğeri hakkında iki günah istemesi nasıl câiz olur? Buna da iki cevap vardır: Birincisi, bu sözden asıl maksat, diğerinin günâha girmesini istemek değil; ne kendinin, ne de onun günâha girmemesini istemek, günahtan uzaklaştıracak bir nasihat vermektir. İkincisi, isyan istemek câiz değilse de, isyan edenin cezalandırılmasını istemek câizdir. Bu itibar ile mânâ, ben günâha girmek istemem, sen ısrar edersen, ben de senin Allâh’tan cezanı isterim, demek de olabilir. Fakat birincisi daha uygundur. (Elmalılı, III, 1654) </p>",
+    "footnote-013": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-7.xhtml#footnote-013-backlink\">[53]</a>.  Kaynaklarımızda bu isim Şis olarak da geçmektedir. Türkçe telâffuzu açısından daha kolay olması ve halk arasında bu şekilde meşhur olması sebebiyle burada Şit olarak yazmayı tercih ettik.</p>",
+    "footnote-053-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-8.xhtml#footnote-053\">[54]</a>",
+    "footnote-053": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-8.xhtml#footnote-053-backlink\">[54]</a>.  <span class=\"idebold\">Rahmân</span>, mübâlağa sîğası olup “rahmeti bol olan” demektir. <span class=\"idebold\">Rahîm</span> ise istimrar ifâde ederek “rahmet eden ve rahmetini mahlûkâtına ulaştıran” demektir.</p>",
+    "footnote-054-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-11.xhtml#footnote-054\">[55]</a>",
+    "footnote-054": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-11.xhtml#footnote-054-backlink\">[55]</a>. İbn-i Kuteybe, <span class=\"ideitalik\">Maârif</span>, s. 10.</p>",
+    "footnote-056-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-12.xhtml#footnote-056\">[56]</a>",
+    "footnote-055-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-12.xhtml#footnote-055\">[57]</a>",
+    "footnote-056": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-12.xhtml#footnote-056-backlink\">[56]</a>.  Bkz. Buhârî, Ezân, 36; Müslim, Zekât, 91.</p>",
+    "footnote-055": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-12.xhtml#footnote-055-backlink\">[57]</a>.  Bkz. ez-Zümer, 22.</p>",
+    "footnote-059-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-15.xhtml#footnote-059\">[58]</a>",
+    "footnote-058-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-15.xhtml#footnote-058\">[59]</a>",
+    "footnote-057-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-15.xhtml#footnote-057\">[60]</a>",
+    "footnote-059": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-15.xhtml#footnote-059-backlink\">[58]</a>.  Ülü’l-azm peygamberler: En yüksek derecedeki peygamberler olup bunlar: Hazret-i Muhammed -sallâllâhu aleyhi ve sellem-, İbrâhîm, Mûsâ, Îsâ ve Nûh -aleyhimüsselâm-’dır. </p>",
+    "footnote-058": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-15.xhtml#footnote-058-backlink\">[59]</a>. Bkz. Hâkim, <span class=\"ideitalik\">Müstedrek</span>, II, 596/4007.</p>",
+    "footnote-057": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-15.xhtml#footnote-057-backlink\">[60]</a>.  İbn-i Hanbel, <span class=\"ideitalik\">ez-Zühd</span>, s. 50; İbn-i Esir, <span class=\"ideitalik\">el-Kâmil</span>, I, 69.</p>",
+    "footnote-062-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-19.xhtml#footnote-062\">[61]</a>",
+    "footnote-061-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-19.xhtml#footnote-061\">[62]</a>",
+    "footnote-060-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-19.xhtml#footnote-060\">[63]</a>",
+    "footnote-062": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-19.xhtml#footnote-062-backlink\">[61]</a>.  Bkz. Hâkim, <span class=\"ideitalik\">el-Müstedrek,</span> II, 614-616.</p>",
+    "footnote-061": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-19.xhtml#footnote-061-backlink\">[62]</a>.  Bkz. eş-Şuarâ, 129, 133, 134.</p>",
+    "footnote-060": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-19.xhtml#footnote-060-backlink\">[63]</a>.  Yâni Rabbimizin hüküm ve tasarrufları tamâmen doğrudur. O, haksızlık ve zulümden, yanlış ve hatâdan münezzehtir.</p>",
+    "footnote-063-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-22.xhtml#footnote-063\">[64]</a>",
+    "footnote-063": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-22.xhtml#footnote-063-backlink\">[64]</a>.  Kalîb: Kuyu, çukur.</p>",
+    "footnote-064-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-23.xhtml#footnote-064\">[65]</a>",
+    "footnote-064": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-23.xhtml#footnote-064-backlink\">[65]</a>.  Bkz. Müslim, Hacc, 147; Nevevî, <span class=\"ideitalik\">Şerhu Sahîhi Müslim, </span>VIII, 190; Ali el-Kàrî, <span class=\"ideitalik\">Mirkàtü’l-Mefâtîh</span>, V, 1774-1775.</p>",
+    "footnote-085-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-085\">[66]</a>",
+    "footnote-084-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-084\">[67]</a>",
+    "footnote-083-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-083\">[68]</a>",
+    "footnote-082-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-082\">[69]</a>",
+    "footnote-081-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-081\">[70]</a>",
+    "footnote-080-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-080\">[71]</a>",
+    "footnote-079-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-079\">[72]</a>",
+    "footnote-078-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-078\">[73]</a>",
+    "footnote-077-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-077\">[74]</a>",
+    "footnote-076-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-076\">[75]</a>",
+    "footnote-075-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-075\">[76]</a>",
+    "footnote-074-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-074\">[77]</a>",
+    "footnote-073-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-073\">[78]</a>",
+    "footnote-072-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-072\">[79]</a>",
+    "footnote-071-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-071\">[80]</a>",
+    "footnote-070-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-070\">[81]</a>",
+    "footnote-069-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-069\">[82]</a>",
+    "footnote-068-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-068\">[83]</a>",
+    "footnote-067-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-067\">[84]</a>",
+    "footnote-066-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-066\">[85]</a>",
+    "footnote-065-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-065\">[86]</a>",
+    "footnote-085": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-085-backlink\">[66]</a>.  Hazret-i İbrâhîm -aleyhisselâm-’ın büyük peygamberlerden biri olması, teslîmiyet ve tevekkülü ile dillere destan olması, daha ötesi “Halîlullâh: Allâh’ın dostu” olması sebebiyle cemiyetimizde büyük bir muhabbete mazhar olmuş, bunun tabiî bir neticesi olarak bir çok kimse evlâdına “Halil İbrâhîm” ismini vermiştir.</p>",
+    "footnote-084": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-084-backlink\">[67]</a>.  Bkz. İbn-i Esîr, <span class=\"ideitalik\">el-Kâmil</span>, I, 96; Taberî, <span class=\"ideitalik\">Târîh</span>, I, 237; Sâlebî, <span class=\"ideitalik\">Arâis</span>, s. 75.</p>",
+    "footnote-083": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-083-backlink\">[68]</a>.  <span class=\"idebold\">Hanîf</span>, bâtıl inançlardan, yanlış fikirlerden ve kötü ahlâktan sıyrılıp, dâimâ hakka ve hayra meyleden, müslim, muvahhid olmak sûretiyle dîni Allâh’a hâlis kılarak Allâh’a ibâdet eden, ecir ve mükâfâtı yalnız O’ndan bekleyen kimse demektir. Bu kelime İslâm’ın akîde, ahlâk ve muâmelât itibâriyle fârik bir vasfını gösterir. </p>\n\t\t\t\t\t<p class=\"normalnesil\">Hanîflik, Hazret-i İbrâhîm’in din ve milletinin vasfı olmakla beraber yalnız ona mahsus değil, umûmiyetle puta tapıcılığın zıddı olarak bütün peygamberlerin milletinin ve tevhîd dîninin adıdır. Hanîfler de, bütün şirk dinlerine karşı, dîni Allâh’a tahsis etmek ve ancak Allâh’a ibâdet etmek üzere dâvet ve mücâhedeyle vazîfeli olan peygamberlerin dinlerine uyan, bâtıldan sakınıp Hakk’a meyleden tevhîd ehli Müslümanlardır.</p>",
+    "footnote-082": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-082-backlink\">[69]</a>. Bkz. Taberî, <span class=\"ideitalik\">Târîh</span>, I, 239; İbn-i Esîr, <span class=\"ideitalik\">el-Kâmil</span>, I, 97.</p>",
+    "footnote-081": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-081-backlink\">[70]</a>.  Âyet şöyle de anlaşılmıştır: “<span class=\"idebold\">Sonra birbirlerine dönerek «</span>(Putları yalnız ve savunmasız bıraktığınız için) <span class=\"idebold\">asıl siz zâlimsiniz!»</span> <span class=\"idebold\">deyip birbirlerini suçladılar.”</span></p>",
+    "footnote-080": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-080-backlink\">[71]</a>.  Mel’ûn Henûn, sonradan yerin dibine batarak helâk olmuştur.</p>",
+    "footnote-079": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-079-backlink\">[72]</a>.  Bkz. Ahmed b. Hanbel, Zühd, 80; Taberî, <span class=\"ideitalik\">Târîh</span>, I, 242; İbn-i Esîr, <span class=\"ideitalik\">el-Kâmil</span>, I, 99.</p>",
+    "footnote-078": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-078-backlink\">[73]</a>.  Bkz. Taberî, <span class=\"ideitalik\">Târîh</span>, I, 242; İbn-i Esîr, <span class=\"ideitalik\">el-Kâmil</span>, I, 99; Ahmed b. Hanbel, Zühd, s. 80.</p>",
+    "footnote-077": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-077-backlink\">[74]</a>. Diyarbekrî, <span class=\"ideitalik\">Târîhu Hamîs</span>, I, 83.</p>",
+    "footnote-076": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-076-backlink\">[75]</a>.  Harran, ilk önce İbrâhîm -aleyhisselâm-’ın kardeşi Harân tarafından kurulduğu için bu ismi almıştır.</p>",
+    "footnote-075": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-075-backlink\">[76]</a>.  Bkz. Müslim, Fedâil, 154.</p>",
+    "footnote-074": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-074-backlink\">[77]</a>. Bkz. İbn-i Esîr, <span class=\"ideitalik\">el-Kâmil</span>, I, 90.</p>",
+    "footnote-073": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-073-backlink\">[78]</a>.  Ayrıca bkz. es-Sâffât, 98</p>",
+    "footnote-072": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-072-backlink\">[79]</a>.  İbrâhîm -aleyhisselâm- burada Rabbine doğru gitmek istediğini ifâde etmiştir. Rasûlullâh -sallâllâhu aleyhi ve sellem- Efendimiz hakkında ise: </p>\n\t\t\t\t\t<p class=\"normalnesil\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAAAVCAYAAAAQCrayAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAMZUlEQVR4Xu2c4ZnzNBLHf8PDd0IFr6mAUAHugFABvgouVICpgFwFmArOVwGmgjMV4KvgTAVzH2YUK7JsJ5vN7r7c/p9Hz9rSaCSNZkYjWVlRVZ4KEdkBRwBVrdepHwcR2QOjqg5btO94xzveFkSkBBrgg2f95n9PQOd/h9f0MUv4ZItgAzWwB4p1ssdBRApM+N0a3WtBRHYi0opItUV7DVzZXgUiUvlYdlu0rwEROYnIaYvuUfC5rlfKy6Wy/2eoaqeqhaoK8AVwUNVSVVugBUbgTercvQ60AEoe5EBdIQcRaaP3U+KMgnCHDIu3gLDAVOtk6xCRwuVw2KJ9IA7YePZbhK+EEvj7FtEj4M6xJzM/rrcNvlv7K0JESl9c79INVR1UdYyyCm6cUw+qXgSfbhFsoMWU5lGrfuF/dy6UFjiqahcIVHUUkX0i9DcDVe1EZMCi9XtwAGpV7bcIH4gGKGP5vzG0PE4Xt1Bgi3iu/RJo3rDc7oI7zQqzzWGd+mYEeTZrRHB2nCfMJ9VrtM8FufUMVESKWEjB2z9AcACIyAHo1/jLGz8Dfa7++da5eE0nKiIH31q9SYjIqzh4n+M0eorLd8D+Nfr2sSHjY1ZlG9HVQPui9qGqVydslR2xSCjktZiDA9/eZertgGqL/0K9ItTForAhbcP70EV1Dlu8XzIl/cvK6JqErcJB1rtb+NzTbsJDsSgUnjCnj0zYFnl02by4HmAR2FrfBmC3xedjTM8lb8zeNdYtl9vJn8stHo/qWy7ddAaqtirUmEMIGLGQGS/bMUfp6VYcMd4/+7lngX2p65JzjoEpxD/yAmd0InKU2z6mBBmdePqB+Mh01ttwG5+r2vWz1kbWP3j0Xl6t0DwLRORw47naoBapbOqBz2Gsy1dB7LyvyhQdMnkBO66Iop6CxBYeCrHz3GOmaFPe18B9zD+49DEDk96vzpeIdL5rjbEnc/7s89hzJdw2xlgfb3Kgjo5LQfVMg1sy0JGVD03esdwB9Akb+Feq2qjqCfjFy2JBxo7lKiwYwFXwugcWztvcMIsoK5bRPeiZHPHIMyhsDJf/iYXzOvWt0S1O4E45F9j8Z43GDSA2lh6TyybEPursVDU1tmtQYot6n+qsRAuP63Uo73iCDojdfCii90MYs0wfp+ps5Tvg7RSZogY43DOvV6Dh0l8MRHovC4u7WECz5IMuILYIVCwEdiKyl3yQ9BmR3S06UJ/8HIMDl4PrmTq9ZNQ9C3AFa8h8IHFD7eJ8Va2w9levjKzB26y36FbQA1+TGLYLPTiZIaG/amI3MDDJd+BOnm6AZweiqr2qHnLOM8LvK2U5nBYM8RqM2Bi7ONP73WG6GJelerYoH1Wt9On3CkM7X2K7oVjn4zYbJh0ZeNptlYrLejXwz6iscZu4C27r8TgK8hF1h+lglykrMnmLCD4mU1Rz6UcGLvU+C1UdVXWvqq3Y4lp7fpehPbkOjGmZoyZysO4Ha+B7orFnHaivLn8APzF3iB2XXnuIaLKOYi1icaMtg5MUW3HLiKSVJMx2fgfgB5/0PVPkMbBxXOBtfeCJ8D6L5j+mlB4pxxiZ+jSw0b8luCIsOoUYC07rnOfK1XJ7VBQigAFbRLbQc6NhBUQGUSVFO+yM7Bjrlj/Hupjq7gXErsQVazQ5+Lx/4allOlL6mss2d7he+oK62p8F5MbxLzg7gW5W4wb4oj9gtn6IihrytnxS1Z3OP4h23DDPrn/Bx6RIdabjBt6OgvuujbUYj9j31D7+IWTMHKg7pCPwLfB5ZoIGosE4s/P7ClYN3x3nCPwM/OoTW3rxl8nqGJzgj9iWs9ApSh24Dr8FniJSi4iK3Tmtn2JUcO5TkcnvotchLb8RQQ4DC3L3cfVyeV7TJfRDZuEaPa3JoINZhL2GjmkVP0RtNOmcXovQtuTPoIMejJmyM3x8FQvnllFfs0aodl9xcOfeePqdS2dXqmr8HhvjGZHsc30ZubS3vfqxg9tIK3budwo0Mj9CysLl12CR1edER1K+GDW5ejFcTqu2nUIsQNsDX2GLUIqOyyBj5FLvZ3oj891Uw+V2v4hoW5nsvcr1X+3I8LxQqC3mQ0wjIuUnMj9HOmFfrFoXYk5RPyR5QVmzCuL4Mn6JjccFWnv6FvgT/8rs9f4ko+hqW7Adl+2OZOACjvtccDkR32Krzg/AHy7cTqJjglgpw3OSV+IRc0ZmgS7bvxsQxjqwvHDVmPJ/xsL5oStYigqrF2QwugxS2sL//kkGsUyY5jE8V7iOAf92Re7EtuSz+kGOmbwOWyRyxrRnY6EKC7/6biGeL38+YbKb6V0KVT1iMqmJDF/tjnKqBznU2HhqmNnbSMQz0eMj8A0W+caOoGT5Qn8dZVXY1+3GHcSFbmYcRhE9H8TstsHm94I2hszPU4/YDqKPFsO4PNaZEJgEDOSDsSqT1zLRfoBzOx3wN/wDNfBfmey9CpUTndhHz+exf4pNWizsAnMCHXb+2Pp76+WBtva8dLLPDSX4TcwQG6epvRM7TFkrzz8xOYke+2i0J3Pm4oMqiCZPVXsRSUnB+XufS6zdo9j2pWOKRv7DtALu4OwY98BPIvKj8/tBRH4BvhOR75luAjRO27uyDs5n8Ho9N27hfZy7KK3RFphRBYz+tyeZG6dtMR0YsPEHGfRE7cm0ksdzEebpjMBTLHIrccUWW6SHOA/biu6YdK7095PYsU3rzx1Q+tw1mI6MWD86seirc57n3ciCHpyRBAiDTMZTYwb3HdPvshcR+q129jZEen4ECpmc1oX8vW7hjyfgV3/uXX57jMdn3rcRn6tozN95nQHTb1j+6WPF5ZwV2AehEug1OXry/BM+DmwuTlhbJ2yBBtvNDCvyPqpqGb0XTD6m9flqnfeOSWdqpjPXgXWUrP+I4rdoXgZMz7/Bdg0d9munoDell1cy7UCWxm73E0PCfzXhTNXzWkA9nZxGo3SM6tYxv4hvhU2sMl190ivSiN8BW+A3YhMYl3UL9IHngPV1iNpoYbpjho0z7UsX0TeZvIppjIF3SIcrZDS7q8al7DXUxZSqWRhnD5f35bzdY5JXMPVXva1qQWYh9Rty3kc8g0ziMXRJG4dMG130HOYh1pdj9B73X4l0hUz/cnJm2sUEHg1TRLnP8YjqHr1OlRlPl/RvpsdeJ9D0yXuQX6yLbVJ+wBfsiEaxhSRtp0veC+fdOa8ylVPCs4uea6aPv4vyJqOnTDrRhzpc2suJue6VkbyrTDs1k3OrnfeALWwwt82GaG65HFugiWUalzdMC/lc2JhCNSSOKdPpVOA7WL8ozGWnD+Sd4w4z+EXl9fKajJKn47mhP0XmvfRUBPr4OcNj533aOW3at6yMnLZO8ip8ASFv9LNxets5R7zUbktGIaPygkkGu7Rsqd4Cn130foiew3yXTDItSOTreUVU74jPB8wvWOf657RNJr8mMaqN8RwwI+vIz80+ep71LUM/62um30X0POPJwjxF5R1553Nk2en2zPV/iX+ufgmMC+NpsQh0xstpznJM8nJ6vONyoR7SuqH/K+3tvb9l0v/FsYMJdWDy3KETsw6wMjlPSVzhcB+VyCtSy8ai8ahE3kkemFa+Y6ZOQT5qOEXv1Uqbe6KI8hGJSAGjvEWDfXRy+VSZ/Jz8C650qBl+e0y/Z/O2QD/rU8RnH73PFscbeNVMu6fa/46eZnUwWS06uGsTUzQXfEzHFNXNfMwWv5dIRIHSBt35TEuZtrLVAvFpqexjSdF4q0zZjisU9BEJU+YeU9rS0yHKT1e+2ucqVcCC6dyoJXNc4OM8YvN9lYHfmpgigmahvNri8YjEFNUfvI+Fy3KMaHZMW9snLfBMzkm5QqeYH0PtnEcb+oDNqbK+KJZLNBHP0K8O3y0ldIXnK8/g0LgMBAaS47KEdqbTr5Ewm9sMLjYZJUz3PMjgXiqxEUWzsD16dPJ2g2KHNJJRcKdfNEqmM95cvdrLRxbOYp8jsbGC80qLlbebk3Mc5RXcqQNMxxLFFq3Tn5L3bB+ukdk1NCt1G1ai0kcnPIDYont0ulYHbvpvTPJM/1XorcK/+u3h9f5tnExfu8en9sG/Vh/f6jyJfZE/Yk6j3aJ/bvhX9xLfjeidl9GfAyKyf+p85yBv/L9mLeG55fBo3ORA/+oQkUrz9yM/KoTrH2/BMeTgDrTTG35T/47rINP/M2h1/ou4dzwz3h3oXxAexQ5vNQJ9x+Pg9xab98XpZfA/Vatwio/AW54AAAAASUVORK5CYII=\" alt=\"\"> <br><img src=\"data:image/png;base64,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\" alt=\"\"></p>\n\t\t\t\t\t<p class=\"normalnesil\"><span class=\"idebold\">“Kendisine âyetlerimizden bir kısmını gösterelim diye kulu </span>(Muhammed’i) <span class=\"idebold\">bir gece Mescid-i Haram’dan etrafını mübârek kıldığımız Mescid-i Aksâ’ya geceleyin götüren Allâh, her türlü noksanlıktan münezzehtir…” </span>(el-İsrâ, 1) buyrularak, o mübârek zâtın, bizzat Rabbi tarafından yüce dergâha doğru götürülüp yükseltildiği haber verilmektedir.</p>",
+    "footnote-071": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-071-backlink\">[80]</a>. Bkz. Râzî, XXVI, 133; Âlûsî, <span class=\"ideitalik\">Rûhu’l-Meânî</span>, XXIII, 128.</p>",
+    "footnote-070": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-070-backlink\">[81]</a>. Bkz. Râzî, XXVI, 133; Taberî, <span class=\"ideitalik\">Târîh</span>, I, 272-273; İbn-i Esîr, <span class=\"ideitalik\">el-Kâmil</span>, I, 111.</p>",
+    "footnote-069": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-069-backlink\">[82]</a>.  Bkz. Hâkim, <span class=\"ideitalik\">Müstedrek</span>, II, 605-606; Taberî, <span class=\"ideitalik\">Târîh</span>, I, 263-278.</p>",
+    "footnote-068": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-068-backlink\">[83]</a>. Bkz. Ali el-Müttakî, IV, 269/10449; Âlûsî, <span class=\"ideitalik\">Rûhu’l-Meânî</span>, VII, 197.</p>",
+    "footnote-067": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-067-backlink\">[84]</a>.  Bkz. Taberî, <span class=\"ideitalik\">Târîh</span>, I, 275; İbn-i Esîr, <span class=\"ideitalik\">el-Kâmil</span>, I, 112; Hâkim, <span class=\"ideitalik\">Müstedrek</span>, II, 606, no: 4040.</p>",
+    "footnote-066": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-066-backlink\">[85]</a>.  Vakıf: Yaratan’dan ötürü yaratılanlara merhamet, şefkat ve sevginin müesseseleşmiş şeklidir. Diğer bir ifâdeyle, Allâh’a adanan, temlîk ve temellükten men edilen mülkiyetlerdir. <span class=\"idebold\">Temlîk,</span> mülk olarak verme, satma; <span class=\"idebold\">temellük</span> ise mülk edinme, sâhiplenme, kendine mal etme mânâlarına gelir.</p>",
+    "footnote-065": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-26.xhtml#footnote-065-backlink\">[86]</a>.  Şavt: Hacer-i Esved’den başlayıp Kâbe’nin etrâfında yine Hacer-i Esved’e varacak şekilde bir kez dönmek. </p>",
+    "footnote-087-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-32.xhtml#footnote-087\">[87]</a>",
+    "footnote-086-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi1-32.xhtml#footnote-086\">[88]</a>",
+    "footnote-087": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-32.xhtml#footnote-087-backlink\">[87]</a>. Bkz. Râzî, <span class=\"ideitalik\">Tefsîr-i Kebîr</span>, XXII, 23-25.</p>",
+    "footnote-086": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi1-32.xhtml#footnote-086-backlink\">[88]</a>.  Bkz. Bakara Sûresi, 197. <span class=\"idebold\">Rafes</span>: Cinsî münâsebette bulunmak, bu konuyla ilgili sözler sarfetmek ve hattâ her nevî kötü söz söylemek gibi mânâlara gelmektedir. <span class=\"idebold\">Fısk:</span> Her türlü günah fiiller. <span class=\"idebold\">Cidâl</span>: Lüzûmsuz münâkaşa ve tartışmalar.</p>"
+  },
+  "toc": [
+    {
+      "title": "cover",
+      "pageNo": 1,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi1",
+      "pageNo": 2,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi1-1",
+      "pageNo": 3,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "KUR’ÂN-I KERÎM IŞIĞINDA  NEBÎLER SİLSİLESİ - 1",
+      "pageNo": 4,
+      "level": 1,
+      "anchor": "_idParaDest-1"
+    },
+    {
+      "title": "NebilerSilsilesi1-3",
+      "pageNo": 5,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "ÖNSÖZ",
+      "pageNo": 6,
+      "level": 1,
+      "anchor": "_idParaDest-2"
+    },
+    {
+      "title": "GİRİŞ",
+      "pageNo": 7,
+      "level": 1,
+      "anchor": "_idParaDest-3"
+    },
+    {
+      "title": "Kur’ân-ı Kerîm Kıssalarının Ehemmiyeti",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-4"
+    },
+    {
+      "title": "Kur’ân-ı Kerîm Kıssalarının Gâyeleri",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-5"
+    },
+    {
+      "title": "Kur’ân-ı Kerîm Kıssalarının Husûsiyetleri",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-6"
+    },
+    {
+      "title": "Tekrarların Hikmeti",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-7"
+    },
+    {
+      "title": "Kur’ân-ı Kerîm’de Peygamberler ve Kıssaları",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-8"
+    },
+    {
+      "title": "Kur’ân-ı Kerîm’in Yüceliği ve Peygamber Efendimiz’in Fazîleti",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-9"
+    },
+    {
+      "title": "NebilerSilsilesi1-6",
+      "pageNo": 8,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Meleklerin Secdeye Mecbûr Kılındığı HAZRET-İ ÂDEM",
+      "pageNo": 9,
+      "level": 1,
+      "anchor": "_idParaDest-10"
+    },
+    {
+      "title": "Yaratılışımızın Başlıca Sebep ve Hikmetleri",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-11"
+    },
+    {
+      "title": "Hazret-i Âdem -aleyhisselâm-’ın Yaratılması",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-12"
+    },
+    {
+      "title": "Meleklerin Cenâb-ı Hakk’a Suâl Sormalarının Hikmeti",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-13"
+    },
+    {
+      "title": "Rûhun Nefhedilmesi (Üfürülmesi)",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-14"
+    },
+    {
+      "title": "Rûhun Beş Devresi",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-15"
+    },
+    {
+      "title": "Meleklerin, Hazret-i Âdem -aleyhisselâm-’a  Secde Etmeleri",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-16"
+    },
+    {
+      "title": "Hazret-i Havvâ Vâlidemizin Yaratılması",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-17"
+    },
+    {
+      "title": "Cennet Hayatı",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-18"
+    },
+    {
+      "title": "Cennetten Yeryüzüne İndiriliş",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-19"
+    },
+    {
+      "title": "İnsan Hâlet-i Rûhiyesinin Zaaf Noktaları",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-20"
+    },
+    {
+      "title": "Hazret-i Âdem ile Havvâ Vâlidemizin Affedilmesi",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-21"
+    },
+    {
+      "title": "Yeryüzünde İlk Cinâyet",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-22"
+    },
+    {
+      "title": "Hazret-i Âdem -aleyhisselâm-’ın Kıssasından Alınacak İbretler",
+      "pageNo": 9,
+      "level": 2,
+      "anchor": "_idParaDest-23"
+    },
+    {
+      "title": "TEVBE ve İSTİĞFÂR",
+      "pageNo": 10,
+      "level": 1,
+      "anchor": "_idParaDest-24"
+    },
+    {
+      "title": "NebilerSilsilesi1-9",
+      "pageNo": 11,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi1-10",
+      "pageNo": 12,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Semâvî Hayranlığın Esrârını Taşıyan HAZRET-İ İDRÎS -aleyhisselâm-",
+      "pageNo": 13,
+      "level": 1,
+      "anchor": "_idParaDest-25"
+    },
+    {
+      "title": "KALB ve SIRLARI",
+      "pageNo": 14,
+      "level": 1,
+      "anchor": "_idParaDest-26"
+    },
+    {
+      "title": "1. Mühürlü ve Kilitli Kalbler",
+      "pageNo": 14,
+      "level": 2,
+      "anchor": "_idParaDest-27"
+    },
+    {
+      "title": "2. Hasta Kalbler",
+      "pageNo": 14,
+      "level": 2,
+      "anchor": "_idParaDest-28"
+    },
+    {
+      "title": "3. Gâfil Kalbler",
+      "pageNo": 14,
+      "level": 2,
+      "anchor": "_idParaDest-29"
+    },
+    {
+      "title": "4. Zâkir Kalbler",
+      "pageNo": 14,
+      "level": 2,
+      "anchor": "_idParaDest-30"
+    },
+    {
+      "title": "5. Diri Kalbler",
+      "pageNo": 14,
+      "level": 2,
+      "anchor": "_idParaDest-31"
+    },
+    {
+      "title": "NebilerSilsilesi1-13",
+      "pageNo": 15,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi1-14",
+      "pageNo": 16,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Tûfânı ile Yeryüzü Küfürden Temizlenen HAZRET-İ NÛH -aleyhisselâm-",
+      "pageNo": 17,
+      "level": 1,
+      "anchor": "_idParaDest-32"
+    },
+    {
+      "title": "Nûh -aleyhisselâm-’ın Kavminin Özellikleri",
+      "pageNo": 17,
+      "level": 2,
+      "anchor": "_idParaDest-33"
+    },
+    {
+      "title": "Uzun Teblîğ Yılları",
+      "pageNo": 17,
+      "level": 2,
+      "anchor": "_idParaDest-34"
+    },
+    {
+      "title": "Bedbaht Kavmin Azap Talebi",
+      "pageNo": 17,
+      "level": 2,
+      "anchor": "_idParaDest-35"
+    },
+    {
+      "title": "Gelen Azâb: Tûfân",
+      "pageNo": 17,
+      "level": 2,
+      "anchor": "_idParaDest-36"
+    },
+    {
+      "title": "Suların Çekilmesi",
+      "pageNo": 17,
+      "level": 2,
+      "anchor": "_idParaDest-37"
+    },
+    {
+      "title": "Âşûra Günü",
+      "pageNo": 17,
+      "level": 2,
+      "anchor": "_idParaDest-38"
+    },
+    {
+      "title": "Nûh Kavminin Helâk Sebeplerinden Başlıcaları",
+      "pageNo": 17,
+      "level": 2,
+      "anchor": "_idParaDest-39"
+    },
+    {
+      "title": "Nûh -aleyhisselâm’-ın Bâzı Vasıfları",
+      "pageNo": 17,
+      "level": 2,
+      "anchor": "_idParaDest-40"
+    },
+    {
+      "title": "SABIR",
+      "pageNo": 18,
+      "level": 1,
+      "anchor": "_idParaDest-41"
+    },
+    {
+      "title": "NebilerSilsilesi1-17",
+      "pageNo": 19,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi1-18",
+      "pageNo": 20,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Fırtınalarla Alt-Üst Edilen Âd Kavmi’nin Peygamberi HAZRET-İ HÛD -aleyhisselâm-",
+      "pageNo": 21,
+      "level": 1,
+      "anchor": "_idParaDest-42"
+    },
+    {
+      "title": "Âd Kavmi",
+      "pageNo": 21,
+      "level": 2,
+      "anchor": "_idParaDest-43"
+    },
+    {
+      "title": "İbret Dolu İlâhî Îkâzlar",
+      "pageNo": 21,
+      "level": 2,
+      "anchor": "_idParaDest-44"
+    },
+    {
+      "title": "Altüst Eden Kasırga",
+      "pageNo": 21,
+      "level": 2,
+      "anchor": "_idParaDest-45"
+    },
+    {
+      "title": "Hazret-i Hûd -aleyhisselâm-’ın Mûcizeleri",
+      "pageNo": 21,
+      "level": 2,
+      "anchor": "_idParaDest-46"
+    },
+    {
+      "title": "NebilerSilsilesi1-20",
+      "pageNo": 22,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi1-21",
+      "pageNo": 23,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Azgınlık ve Taşkınlıkları Sebebiyle Zelzelelerle Kökünden Sarsılan Semûd Kavmi’nin Peygamberi HAZRET-İ SÂLİH -aleyhisselâm-",
+      "pageNo": 24,
+      "level": 1,
+      "anchor": "_idParaDest-47"
+    },
+    {
+      "title": "Semûd Kavmi",
+      "pageNo": 24,
+      "level": 2,
+      "anchor": "_idParaDest-48"
+    },
+    {
+      "title": "Teblîğe Başlayış",
+      "pageNo": 24,
+      "level": 2,
+      "anchor": "_idParaDest-49"
+    },
+    {
+      "title": "Deve Mûcizesi",
+      "pageNo": 24,
+      "level": 2,
+      "anchor": "_idParaDest-50"
+    },
+    {
+      "title": "Nankörlük",
+      "pageNo": 24,
+      "level": 2,
+      "anchor": "_idParaDest-51"
+    },
+    {
+      "title": "Azgın Kavmin Korkunç Ses ve Zelzele ile Helâki",
+      "pageNo": 24,
+      "level": 2,
+      "anchor": "_idParaDest-52"
+    },
+    {
+      "title": "Semûd Kavminin Helâk Oluş Sebepleri",
+      "pageNo": 24,
+      "level": 2,
+      "anchor": "_idParaDest-53"
+    },
+    {
+      "title": "KAVİMLERİN HELÂKİ",
+      "pageNo": 25,
+      "level": 1,
+      "anchor": "_idParaDest-54"
+    },
+    {
+      "title": "NebilerSilsilesi1-24",
+      "pageNo": 26,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi1-25",
+      "pageNo": 27,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Nemrûd’un Zulüm ve Tehditlerine Meydan Okuyan, Ateş Yığınlarını Gül Bahçelerine Çeviren HAZRET-İ İBRÂHÎM -aleyhisselâm-",
+      "pageNo": 28,
+      "level": 1,
+      "anchor": "_idParaDest-55"
+    },
+    {
+      "title": "Nemrûd",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-56"
+    },
+    {
+      "title": "Rabbim Allâh’tır",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-57"
+    },
+    {
+      "title": "Tevhîde Dâvet",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-58"
+    },
+    {
+      "title": "Hazret-i İbrâhîm’in Putları Kırması",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-59"
+    },
+    {
+      "title": "Ateşin Gülistân Hâline Gelmesi",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-60"
+    },
+    {
+      "title": "İbrâhîm -aleyhisselâm-’ın Hicreti",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-61"
+    },
+    {
+      "title": "Nemrûd ve Keldânî Kabîlesinin Helâki",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-62"
+    },
+    {
+      "title": "Kuşların Canlanması",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-63"
+    },
+    {
+      "title": "İbrâhîm -aleyhisselâm-’ın Hacer Vâlidemizle Evliliği",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-64"
+    },
+    {
+      "title": "Kurban İmtihânı",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-65"
+    },
+    {
+      "title": "İshâk -aleyhisselâm-’ın Doğumu",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-66"
+    },
+    {
+      "title": "İbrâhîm -aleyhisselâm-’ın Hazret-i İsmâîl’i Ziyâreti",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-67"
+    },
+    {
+      "title": "Kâbe’nin İnşâsı",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-68"
+    },
+    {
+      "title": "İbrâhîm ve İsmâîl -aleyhimesselâm-’ın İlk Hacları ve İnsanları Hacca Dâvet Etmeleri",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-69"
+    },
+    {
+      "title": "İbrâhîm -Aleyhisselâm-’ın Duâ ve Yakarışları",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-70"
+    },
+    {
+      "title": "Hazret-i İbrâhîm’in Nasihatleri",
+      "pageNo": 28,
+      "level": 2,
+      "anchor": "_idParaDest-71"
+    },
+    {
+      "title": "NebilerSilsilesi1-27",
+      "pageNo": 29,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi1-28",
+      "pageNo": 30,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "İhlâs, Sadâkat, Tevekkül ve Teslîmiyeti ile Sembolleşen HAZRET-İ İSMÂÎL -aleyhisselâm-",
+      "pageNo": 31,
+      "level": 1,
+      "anchor": "_idParaDest-72"
+    },
+    {
+      "title": "Mûcizeleri",
+      "pageNo": 31,
+      "level": 2,
+      "anchor": "_idParaDest-73"
+    },
+    {
+      "title": "NebilerSilsilesi1-30",
+      "pageNo": 32,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Neslinden Benî İsrâîl Peygamberleri Gelen HAZRET-İ İSHÂK -aleyhisselâm-",
+      "pageNo": 33,
+      "level": 1,
+      "anchor": "_idParaDest-74"
+    },
+    {
+      "title": "Muhtelif Rivâyetlere Göre Mûcizeleri",
+      "pageNo": 33,
+      "level": 2,
+      "anchor": "_idParaDest-75"
+    },
+    {
+      "title": "TEVEKKÜL, TESLÎMİYET ve HAC",
+      "pageNo": 34,
+      "level": 1,
+      "anchor": "_idParaDest-76"
+    },
+    {
+      "title": "NebilerSilsilesi1-33",
+      "pageNo": 35,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi1-34",
+      "pageNo": 36,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Azgınlık ve Ahlâksızlıkta Her Türlü Bedbahtlığa Sürüklenen Sodom Halkını Hidâyete Çağıran HAZRET-İ LÛT -aleyhisselâm-",
+      "pageNo": 37,
+      "level": 1,
+      "anchor": "_idParaDest-77"
+    },
+    {
+      "title": "Sodom Halkı",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-78"
+    },
+    {
+      "title": "Korkunç Ses ve Yağan Pişmiş Taşlar",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-79"
+    },
+    {
+      "title": "Lût -aleyhisselâm-’ın Hanımları ve Evlâdları",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-80"
+    },
+    {
+      "title": "Lût Kavminde Bulunan Kötü Fiiller ve Helâk Sebepleri",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-81"
+    },
+    {
+      "title": "Pompei Halkının Helâki",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-82"
+    },
+    {
+      "title": "AHLÂK GÜZELLİĞİ ve NESLİN KORUNMASI",
+      "pageNo": 38,
+      "level": 1,
+      "anchor": "_idParaDest-83"
+    },
+    {
+      "title": "Neslin Korunması",
+      "pageNo": 38,
+      "level": 2,
+      "anchor": "_idParaDest-84"
+    },
+    {
+      "title": "NebilerSilsilesi1-37",
+      "pageNo": 39,
+      "level": 1,
+      "anchor": ""
+    }
+  ],
+  "pagesIndex": [
+    {
+      "pageNo": 1,
+      "title": "cover",
+      "fileName": "sayfa_1.html"
+    },
+    {
+      "pageNo": 2,
+      "title": "NebilerSilsilesi1",
+      "fileName": "sayfa_2.html"
+    },
+    {
+      "pageNo": 3,
+      "title": "NebilerSilsilesi1-1",
+      "fileName": "sayfa_3.html"
+    },
+    {
+      "pageNo": 4,
+      "title": "KUR’ÂN-I KERÎM IŞIĞINDA  NEBÎLER SİLSİLESİ - 1",
+      "fileName": "sayfa_4.html"
+    },
+    {
+      "pageNo": 5,
+      "title": "NebilerSilsilesi1-3",
+      "fileName": "sayfa_5.html"
+    },
+    {
+      "pageNo": 6,
+      "title": "ÖNSÖZ",
+      "fileName": "sayfa_6.html"
+    },
+    {
+      "pageNo": 7,
+      "title": "GİRİŞ",
+      "fileName": "sayfa_7.html"
+    },
+    {
+      "pageNo": 8,
+      "title": "NebilerSilsilesi1-6",
+      "fileName": "sayfa_8.html"
+    },
+    {
+      "pageNo": 9,
+      "title": "Meleklerin Secdeye Mecbûr Kılındığı HAZRET-İ ÂDEM",
+      "fileName": "sayfa_9.html"
+    },
+    {
+      "pageNo": 10,
+      "title": "TEVBE ve İSTİĞFÂR",
+      "fileName": "sayfa_10.html"
+    },
+    {
+      "pageNo": 11,
+      "title": "NebilerSilsilesi1-9",
+      "fileName": "sayfa_11.html"
+    },
+    {
+      "pageNo": 12,
+      "title": "NebilerSilsilesi1-10",
+      "fileName": "sayfa_12.html"
+    },
+    {
+      "pageNo": 13,
+      "title": "Semâvî Hayranlığın Esrârını Taşıyan HAZRET-İ İDRÎS -aleyhisselâm-",
+      "fileName": "sayfa_13.html"
+    },
+    {
+      "pageNo": 14,
+      "title": "KALB ve SIRLARI",
+      "fileName": "sayfa_14.html"
+    },
+    {
+      "pageNo": 15,
+      "title": "NebilerSilsilesi1-13",
+      "fileName": "sayfa_15.html"
+    },
+    {
+      "pageNo": 16,
+      "title": "NebilerSilsilesi1-14",
+      "fileName": "sayfa_16.html"
+    },
+    {
+      "pageNo": 17,
+      "title": "Tûfânı ile Yeryüzü Küfürden Temizlenen HAZRET-İ NÛH -aleyhisselâm-",
+      "fileName": "sayfa_17.html"
+    },
+    {
+      "pageNo": 18,
+      "title": "SABIR",
+      "fileName": "sayfa_18.html"
+    },
+    {
+      "pageNo": 19,
+      "title": "NebilerSilsilesi1-17",
+      "fileName": "sayfa_19.html"
+    },
+    {
+      "pageNo": 20,
+      "title": "NebilerSilsilesi1-18",
+      "fileName": "sayfa_20.html"
+    },
+    {
+      "pageNo": 21,
+      "title": "Fırtınalarla Alt-Üst Edilen Âd Kavmi’nin Peygamberi HAZRET-İ HÛD -aleyhisselâm-",
+      "fileName": "sayfa_21.html"
+    },
+    {
+      "pageNo": 22,
+      "title": "NebilerSilsilesi1-20",
+      "fileName": "sayfa_22.html"
+    },
+    {
+      "pageNo": 23,
+      "title": "NebilerSilsilesi1-21",
+      "fileName": "sayfa_23.html"
+    },
+    {
+      "pageNo": 24,
+      "title": "Azgınlık ve Taşkınlıkları Sebebiyle Zelzelelerle Kökünden Sarsılan Semûd Kavmi’nin Peygamberi HAZRET-İ SÂLİH -aleyhisselâm-",
+      "fileName": "sayfa_24.html"
+    },
+    {
+      "pageNo": 25,
+      "title": "KAVİMLERİN HELÂKİ",
+      "fileName": "sayfa_25.html"
+    },
+    {
+      "pageNo": 26,
+      "title": "NebilerSilsilesi1-24",
+      "fileName": "sayfa_26.html"
+    },
+    {
+      "pageNo": 27,
+      "title": "NebilerSilsilesi1-25",
+      "fileName": "sayfa_27.html"
+    },
+    {
+      "pageNo": 28,
+      "title": "Nemrûd’un Zulüm ve Tehditlerine Meydan Okuyan, Ateş Yığınlarını Gül Bahçelerine Çeviren HAZRET-İ İBRÂHÎM -aleyhisselâm-",
+      "fileName": "sayfa_28.html"
+    },
+    {
+      "pageNo": 29,
+      "title": "NebilerSilsilesi1-27",
+      "fileName": "sayfa_29.html"
+    },
+    {
+      "pageNo": 30,
+      "title": "NebilerSilsilesi1-28",
+      "fileName": "sayfa_30.html"
+    },
+    {
+      "pageNo": 31,
+      "title": "İhlâs, Sadâkat, Tevekkül ve Teslîmiyeti ile Sembolleşen HAZRET-İ İSMÂÎL -aleyhisselâm-",
+      "fileName": "sayfa_31.html"
+    },
+    {
+      "pageNo": 32,
+      "title": "NebilerSilsilesi1-30",
+      "fileName": "sayfa_32.html"
+    },
+    {
+      "pageNo": 33,
+      "title": "Neslinden Benî İsrâîl Peygamberleri Gelen HAZRET-İ İSHÂK -aleyhisselâm-",
+      "fileName": "sayfa_33.html"
+    },
+    {
+      "pageNo": 34,
+      "title": "TEVEKKÜL, TESLÎMİYET ve HAC",
+      "fileName": "sayfa_34.html"
+    },
+    {
+      "pageNo": 35,
+      "title": "NebilerSilsilesi1-33",
+      "fileName": "sayfa_35.html"
+    },
+    {
+      "pageNo": 36,
+      "title": "NebilerSilsilesi1-34",
+      "fileName": "sayfa_36.html"
+    },
+    {
+      "pageNo": 37,
+      "title": "Azgınlık ve Ahlâksızlıkta Her Türlü Bedbahtlığa Sürüklenen Sodom Halkını Hidâyete Çağıran HAZRET-İ LÛT -aleyhisselâm-",
+      "fileName": "sayfa_37.html"
+    },
+    {
+      "pageNo": 38,
+      "title": "AHLÂK GÜZELLİĞİ ve NESLİN KORUNMASI",
+      "fileName": "sayfa_38.html"
+    },
+    {
+      "pageNo": 39,
+      "title": "NebilerSilsilesi1-37",
+      "fileName": "sayfa_39.html"
+    }
+  ]
+}
