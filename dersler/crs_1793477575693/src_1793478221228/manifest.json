@@ -1,0 +1,816 @@
+{
+  "id": "src_1793478221228",
+  "courseId": "crs_1793477575693",
+  "name": "Nebiler Silsilesi 3",
+  "metadata": {
+    "workTitle": "Nebiler Silsilesi 3",
+    "author": "Osman Nuri Topbaş",
+    "publisher": "Erkam Yayınları",
+    "pubYear": "",
+    "extra": ""
+  },
+  "customCss": "",
+  "footnotes": {
+    "footnote-001-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-5.xhtml#footnote-001\">[1]</a>",
+    "footnote-000-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-5.xhtml#footnote-000\">[2]</a>",
+    "footnote-001": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-5.xhtml#footnote-001-backlink\">[1]</a>. Ebrâr (hayr u hasenât ve takvâ sâhipleri) için hasene (sevap) olan bazı hâl ve ameller, onlardan daha üst mertebede bulunan mukarrebler (Allâh’a çok yakın kullar) için seyyie (günah) addedilir.</p>",
+    "footnote-000": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-5.xhtml#footnote-000-backlink\">[2]</a>. Bkz. Buhârî, Büyû’ 15; Enbiyâ 37.</p>",
+    "footnote-004-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-6.xhtml#footnote-004\">[3]</a>",
+    "footnote-003-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-6.xhtml#footnote-003\">[4]</a>",
+    "footnote-002-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-6.xhtml#footnote-002\">[5]</a>",
+    "footnote-004": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-6.xhtml#footnote-004-backlink\">[3]</a>. Bkz. el-Enbiyâ, 79.</p>",
+    "footnote-003": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-6.xhtml#footnote-003-backlink\">[4]</a>. Bkz. Sebe’, 10.</p>",
+    "footnote-002": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-6.xhtml#footnote-002-backlink\">[5]</a>. Zikir ve tesbîh, iki türlüdür: </p>\n\t\t\t\t\t<p class=\"normalnesil\">a. <span class=\"idebold\">Teshîrî zikir:</span> Bu tarz zikir, mahlûkâtın kendiliğinden, gayr-i irâdî olarak yaptığı zikir ve tesbîhtir. Nebâtât ve hayvanâtın ömürleri, yaptıkları bu zikre bağlıdır. Bu zikir, onlar için âdeta bir hayat nefesidir. Zikri bitenin, ömrü de nihâyet bulur. </p>\n\t\t\t\t\t<p class=\"normalnesil\">b. <span class=\"idebold\">İrâdî zikir:</span> Beşerin, kendi irâdesiyle yaptığı zikir ve tesbîhtir.</p>",
+    "footnote-010-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-010\">[6]</a>",
+    "footnote-009-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-009\">[7]</a>",
+    "footnote-008-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-008\">[8]</a>",
+    "footnote-007-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-007\">[9]</a>",
+    "footnote-006-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-006\">[10]</a>",
+    "footnote-005-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-005\">[11]</a>",
+    "footnote-010": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-010-backlink\">[6]</a>. Bkz. Müslim, Selâm, 151-155.</p>",
+    "footnote-009": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-009-backlink\">[7]</a>. Hüdhüd kuşu: Çavuş kuşu.</p>",
+    "footnote-008": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-008-backlink\">[8]</a>. İbn-i Abbâs -radıyallâhu anh-’ın bildirdiğine göre Hüdhüd, nerede su olduğunu bilir ve Süleyman -aleyhisselâm-’a su bulurdu. Suyun yakınlığını ve uzaklığını da bilirdi. Suyun bulunduğu yeri gagalar, cinler de gelip orayı kazarak su çıkarırlardı. İbn-i Abbâs’a:</p>\n\t\t\t\t\t<p class=\"normalnesil\">“Hüdhüd böyle bir haslete sâhip olduğu hâlde, bir çocuk tuzak kurup, üzerini azıcık bir toprakla örtünce, toprağın altındaki tuzağı görmez, gelir üstüne basar da tuzağa yakalanır. Hâlbuki o, toprağın altındaki suyu görmektedir.” denildi. İbn-i Abbâs -radıyallâhu anh- da:</p>\n\t\t\t\t\t<p class=\"normalnesil\">«Kazâ ve kaderin vakti gelince, göz görmez olur; akıl baştan gider.» cevâbını verdi.</p>",
+    "footnote-007": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-007-backlink\">[9]</a>. Sûre başlarındaki “besmele”ler, İmâm Ebû Hanîfe Hazretleri, İmâm Mâlik Hazretleri ve İmâm Ahmed bin Hanbel Hazretleri’ne göre sûre aralarını ayırmak içindir. İmâm Şâfiî Hazretleri’ne göre ise, her biri birer âyettir.</p>",
+    "footnote-006": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-006-backlink\">[10]</a>. İfrît: Tuttuğunu deviren, kuvvetli, becerikli, ele avuca sığmaz demektir. Ayrıca, kötülük ve münkerde son dereceyi bulmuş, şeytanlıkta ileri gitmiş mânâsı taşır. Bu kelime, insanlar için de kullanıldığından, âyette <span class=\"idebold\">“cinlerden bir ifrît”</span> şeklinde ifâde buyrulmuştur.</p>",
+    "footnote-005": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-9.xhtml#footnote-005-backlink\">[11]</a>. Bkz. Kurtubî, <span class=\"ideitalik\">Tefsîr</span>, XV, 204.</p>",
+    "footnote-012-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-10.xhtml#footnote-012\">[12]</a>",
+    "footnote-011-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-10.xhtml#footnote-011\">[13]</a>",
+    "footnote-012": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-10.xhtml#footnote-012-backlink\">[12]</a>. Buhârî, Enbiyâ, 54; Müslim, Selâm, 151-152.</p>",
+    "footnote-011": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-10.xhtml#footnote-011-backlink\">[13]</a>. Bkz. Buhârî, Ezân, 36.</p>",
+    "footnote-013-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-13.xhtml#footnote-013\">[14]</a>",
+    "footnote-013": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-13.xhtml#footnote-013-backlink\">[14]</a>. Bkz. Bursevî, <span class=\"ideitalik\">Rûhu’l-Beyân</span>, II, 512-513, Erkam Yay. İstanbul 2005.</p>",
+    "footnote-016-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-14.xhtml#footnote-016\">[15]</a>",
+    "footnote-015-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-14.xhtml#footnote-015\">[16]</a>",
+    "footnote-014-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-14.xhtml#footnote-014\">[17]</a>",
+    "footnote-016": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-14.xhtml#footnote-016-backlink\">[15]</a>. Ölümden sonra dirilişe dâir Kur’ân-ı Kerîm’de verilen misâllerin bir diğeri de Bakara Sûresi’nin 260. âyet-i kerîmesinde yer alan kuşların dirilmesi hâdisesidir. Mâlumât için bkz. <span class=\"ideitalik\">Nebîler Silsilesi</span>, c. I, sf. 338-343.</p>",
+    "footnote-015": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-14.xhtml#footnote-015-backlink\">[16]</a>. Bkz. Süyûtî, <span class=\"ideitalik\">el-Câmiu’s-Sağîr</span>, I, 98.</p>",
+    "footnote-014": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-14.xhtml#footnote-014-backlink\">[17]</a>. Bkz. İ. Hakkı Bursevî, <span class=\"ideitalik\">Rûhu’l-Beyân</span>, V, 226.</p>",
+    "footnote-018-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-16.xhtml#footnote-018\">[18]</a>",
+    "footnote-017-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-16.xhtml#footnote-017\">[19]</a>",
+    "footnote-018": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-16.xhtml#footnote-018-backlink\">[18]</a>. Kur’ân-ı Kerîm’de hastalığın ismi belirtilmemiştir. Çünkü burada esas anlatılmak istenen hastalık değil, Eyyûb -aleyhisselâm-’ın sabrı ve her hâlükârda Allah’tan râzı olmasıdır.</p>",
+    "footnote-017": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-16.xhtml#footnote-017-backlink\">[19]</a>. Bkz. Kurtubî, <span class=\"ideitalik\">Tefsîr</span>, XI, 323, 327.</p>",
+    "footnote-019-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-17.xhtml#footnote-019\">[20]</a>",
+    "footnote-019": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-17.xhtml#footnote-019-backlink\">[20]</a>. Herkes iyidir; kötü olan benim!..</p>",
+    "footnote-020-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-20.xhtml#footnote-020\">[21]</a>",
+    "footnote-020": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-20.xhtml#footnote-020-backlink\">[21]</a>. Ninova şehri, Dicle Nehri’nin kenarında, şimdiki Musul civârında bulunmaktaydı.</p>",
+    "footnote-021-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-23.xhtml#footnote-021\">[22]</a>",
+    "footnote-021": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-23.xhtml#footnote-021-backlink\">[22]</a>. Şimdi bu şehre Ba‘lebek denmektedir.</p>",
+    "footnote-023-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-30.xhtml#footnote-023\">[23]</a>",
+    "footnote-022-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-30.xhtml#footnote-022\">[24]</a>",
+    "footnote-023": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-30.xhtml#footnote-023-backlink\">[23]</a>. Bkz. Sâlebî, <span class=\"ideitalik\">Arâis</span>, s. 391.</p>",
+    "footnote-022": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-30.xhtml#footnote-022-backlink\">[24]</a>. Secde âyeti.</p>",
+    "footnote-024-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-31.xhtml#footnote-024\">[25]</a>",
+    "footnote-024": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-31.xhtml#footnote-024-backlink\">[25]</a>. Bkz. Aclûnî, <span class=\"ideitalik\">Keşfü’l-Hafâ</span>, II, 361.</p>",
+    "footnote-026-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-34.xhtml#footnote-026\">[26]</a>",
+    "footnote-025-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-34.xhtml#footnote-025\">[27]</a>",
+    "footnote-026": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-34.xhtml#footnote-026-backlink\">[26]</a>. Mesîh, İbrânîce bir kelime olup, Hazret-i Îsâ’nın lakâbıdır ve “mübârek” anlamına gelmektedir.</p>",
+    "footnote-025": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-34.xhtml#footnote-025-backlink\">[27]</a>. Benzer ifâdeler için Barnabas İncîli’nin 39 ve 41. bâblarına da bakılabilir.</p>",
+    "footnote-033-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-033\">[28]</a>",
+    "footnote-032-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-032\">[29]</a>",
+    "footnote-031-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-031\">[30]</a>",
+    "footnote-030-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-030\">[31]</a>",
+    "footnote-029-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-029\">[32]</a>",
+    "footnote-028-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-028\">[33]</a>",
+    "footnote-027-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-027\">[34]</a>",
+    "footnote-033": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-033-backlink\">[28]</a>. Hristiyanların kutsal kitaplarında peygamberlerle ilgili olarak yer alan haksız isnatlar için bkz. Tekvin, 12/11-13, 19/30-38, 20/1-7, 30/32-4 II. Samuel, 11. bâb; I. Krallar, 11/1-13.</p>",
+    "footnote-032": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-032-backlink\">[29]</a>. Ancak günümüzde hristiyanlardan Protestanlık mezhebine bağlı olanlar, Papa’nın yanılmazlığını ve günah affetme yetkisini kabûl etmezler.</p>",
+    "footnote-031": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-031-backlink\">[30]</a>. Bkz. Müslim, Cihâd, 3; Ebû Dâvûd, Cihâd, 82.</p>",
+    "footnote-030": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-030-backlink\">[31]</a>. Bkz. Matta, 12/18.</p>",
+    "footnote-029": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-029-backlink\">[32]</a>. Bkz. en-Nisâ, 172.</p>",
+    "footnote-028": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-028-backlink\">[33]</a>. Bkz. Matta, 12/18; İşaya, 42/1.</p>",
+    "footnote-027": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-35.xhtml#footnote-027-backlink\">[34]</a>. Bkz. Yuhanna, 1/1, 14.</p>",
+    "footnote-036-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-36.xhtml#footnote-036\">[35]</a>",
+    "footnote-035-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-36.xhtml#footnote-035\">[36]</a>",
+    "footnote-034-backlink": "<a class=\"_idFootnoteLink _idGenColorInherit\" href=\"NebilerSilsilesi3-36.xhtml#footnote-034\">[37]</a>",
+    "footnote-036": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-36.xhtml#footnote-036-backlink\">[35]</a>. der-âğûş: Kucaklamak.</p>",
+    "footnote-035": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-36.xhtml#footnote-035-backlink\">[36]</a>. hem-makber: Aynı kabirde olmak.</p>",
+    "footnote-034": "<p class=\"normalnesil\"><a class=\"_idFootnoteAnchor _idGenColorInherit\" href=\"NebilerSilsilesi3-36.xhtml#footnote-034-backlink\">[37]</a>. dest-i yetîmânelerinden: Yetim kalmış ellerinden.</p>"
+  },
+  "toc": [
+    {
+      "title": "cover",
+      "pageNo": 1,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi3",
+      "pageNo": 2,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi3-1",
+      "pageNo": 3,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "KUR’ÂN-I KERÎM IŞIĞINDA NEBÎLER SİLSİLESİ-3",
+      "pageNo": 4,
+      "level": 1,
+      "anchor": "_idParaDest-1"
+    },
+    {
+      "title": "NebilerSilsilesi3-3",
+      "pageNo": 5,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi3-4",
+      "pageNo": 6,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Zikri ile Dağları, Taşları ve Vahşî Hayvanları İstiğrak Hâline Getiren HAZRET-İ DÂVUD -aleyhisselâm-",
+      "pageNo": 7,
+      "level": 1,
+      "anchor": "_idParaDest-2"
+    },
+    {
+      "title": "Tâlût, Câlût ve Tâbût",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-3"
+    },
+    {
+      "title": "İmtihan",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-4"
+    },
+    {
+      "title": "Hazret-i Dâvud ve Zafer",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-5"
+    },
+    {
+      "title": "Dâvud -aleyhisselâm-’ın İmtihân Edilmesi",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-6"
+    },
+    {
+      "title": "Ashâb-ı Sebt (Cumartesi Ashâbı) Hâdisesi",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-7"
+    },
+    {
+      "title": "Hazret-i Dâvud’dan Kalan Hâtıra: “Savm-ı Dâvud”",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-8"
+    },
+    {
+      "title": "Dâvud -aleyhisselâm-’ın Fazîleti",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-9"
+    },
+    {
+      "title": "Dâvud -aleyhisselâm-’ın Vefâtı",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-10"
+    },
+    {
+      "title": "Zebûr ve Muhtevâsı",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "_idParaDest-11"
+    },
+    {
+      "title": "EN GÜZEL KELÂMI GÜZEL OKUMAK",
+      "pageNo": 8,
+      "level": 1,
+      "anchor": "_idParaDest-12"
+    },
+    {
+      "title": "NebilerSilsilesi3-7",
+      "pageNo": 9,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi3-8",
+      "pageNo": 10,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Muazzam Dünyâ Servet ve Tasarrufunu Kalbinin Dışında Taşıyan HAZRET-İ SÜLEYMAN -aleyhisselâm-",
+      "pageNo": 11,
+      "level": 1,
+      "anchor": "_idParaDest-13"
+    },
+    {
+      "title": "Süleyman -aleyhisselâm-’ın At Sevgisi",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-14"
+    },
+    {
+      "title": "Süleyman -aleyhisselâm-’ın İmtihan Edilmesi",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-15"
+    },
+    {
+      "title": "Beyt-i Makdis’in İnşâsı",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-16"
+    },
+    {
+      "title": "Süleyman -aleyhisselâm- ve Karıncalar",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-17"
+    },
+    {
+      "title": "Süleyman -aleyhisselâm-, Hüdhüd Kuşu ve Belkıs",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-18"
+    },
+    {
+      "title": "Kerâmet",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-19"
+    },
+    {
+      "title": "Süleyman -aleyhisselâm-’ın Vefâtı",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-20"
+    },
+    {
+      "title": "Saltanat ve Tevâzu",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-21"
+    },
+    {
+      "title": "Hazret-i Süleyman’ın Ardından",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-22"
+    },
+    {
+      "title": "Hârût ve Mârût Kıssası",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-23"
+    },
+    {
+      "title": "Rasûlullâh Efendimiz’in, Hazret-i Süleyman Üzerine Fazîleti",
+      "pageNo": 11,
+      "level": 2,
+      "anchor": "_idParaDest-24"
+    },
+    {
+      "title": "MÜLK ALLÂH’INDIR",
+      "pageNo": 12,
+      "level": 1,
+      "anchor": "_idParaDest-25"
+    },
+    {
+      "title": "İnfakta Edep",
+      "pageNo": 12,
+      "level": 2,
+      "anchor": "_idParaDest-26"
+    },
+    {
+      "title": "NebilerSilsilesi3-11",
+      "pageNo": 13,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi3-12",
+      "pageNo": 14,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Yüz Senelik Bir Ölümden Sonra Tekrar Diriltilerek Kıyâmetteki Yeniden Yaratılışa Misâl Olan HAZRET-İ ÜZEYR -aleyhisselâm-",
+      "pageNo": 15,
+      "level": 1,
+      "anchor": "_idParaDest-27"
+    },
+    {
+      "title": "BA‘SÜ BA‘DE’L-MEVT",
+      "pageNo": 16,
+      "level": 1,
+      "anchor": "_idParaDest-28"
+    },
+    {
+      "title": "Ashâb-ı Kehf",
+      "pageNo": 16,
+      "level": 2,
+      "anchor": "_idParaDest-29"
+    },
+    {
+      "title": "NebilerSilsilesi3-15",
+      "pageNo": 17,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Derin Tefekkürü İle Sabrın Bileyi Taşı Olan HAZRET-İ EYYÛB -aleyhisselâm-",
+      "pageNo": 18,
+      "level": 1,
+      "anchor": "_idParaDest-30"
+    },
+    {
+      "title": "İmtihan, Sabır ve Mükâfat",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-31"
+    },
+    {
+      "title": "Hastalıktan Kurtuluş",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-32"
+    },
+    {
+      "title": "Rahme Hâtun’un Hizmetinin Mükâfâtı",
+      "pageNo": 18,
+      "level": 2,
+      "anchor": "_idParaDest-33"
+    },
+    {
+      "title": "RIZÂ",
+      "pageNo": 19,
+      "level": 1,
+      "anchor": "_idParaDest-34"
+    },
+    {
+      "title": "NebilerSilsilesi3-18",
+      "pageNo": 20,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi3-19",
+      "pageNo": 21,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Büyük Bir Vecd Hâlinde, İstiğfâr, Duâ ve Zikrin Hakîkatinde Derinleşerek Karanlıkları Aşan HAZRET-İ YUNUS -aleyhisselâm-",
+      "pageNo": 22,
+      "level": 1,
+      "anchor": "_idParaDest-35"
+    },
+    {
+      "title": "Ninovalılar",
+      "pageNo": 22,
+      "level": 2,
+      "anchor": "_idParaDest-36"
+    },
+    {
+      "title": "Îman, Tevbe ve Af",
+      "pageNo": 22,
+      "level": 2,
+      "anchor": "_idParaDest-37"
+    },
+    {
+      "title": "Hazret-i Yunus Ninova’dan Ayrılınca",
+      "pageNo": 22,
+      "level": 2,
+      "anchor": "_idParaDest-38"
+    },
+    {
+      "title": "Yunus -aleyhisselâm-’ın Kıssasından Alınacak İbretler:",
+      "pageNo": 22,
+      "level": 2,
+      "anchor": "_idParaDest-39"
+    },
+    {
+      "title": "NebilerSilsilesi3-21",
+      "pageNo": 23,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi3-22",
+      "pageNo": 24,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Ardından «İlyas’a Selâm Olsun!» Diye Bir Ün Bırakan HAZRET-İ İLYAS -aleyhisselâm-",
+      "pageNo": 25,
+      "level": 1,
+      "anchor": "_idParaDest-40"
+    },
+    {
+      "title": "NebilerSilsilesi3-24",
+      "pageNo": 26,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi3-25",
+      "pageNo": 27,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Âlemlere Üstün Kılınan HAZRET-İ ELYESA’ -aleyhisselâm-",
+      "pageNo": 28,
+      "level": 1,
+      "anchor": "_idParaDest-41"
+    },
+    {
+      "title": "NebilerSilsilesi3-27",
+      "pageNo": 29,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "İlâhî Rahmete Gark Edilen Sâlih Peygamber HAZRET-İ ZÜLKİFL -aleyhisselâm-",
+      "pageNo": 30,
+      "level": 1,
+      "anchor": "_idParaDest-42"
+    },
+    {
+      "title": "NebilerSilsilesi3-29",
+      "pageNo": 31,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Hikmetli Nasihatleriyle Destanlaşan, Zâhirî ve Bâtınî Hekimlerin Pîri HAZRET-İ LOKMAN HAKÎM -aleyhisselâm-",
+      "pageNo": 32,
+      "level": 1,
+      "anchor": "_idParaDest-43"
+    },
+    {
+      "title": "HAMD VE ŞÜKÜR",
+      "pageNo": 33,
+      "level": 1,
+      "anchor": "_idParaDest-44"
+    },
+    {
+      "title": "NebilerSilsilesi3-32",
+      "pageNo": 34,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "NebilerSilsilesi3-33",
+      "pageNo": 35,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "Testere İle İkiye Bölünerek Şehîd Edilen Mazlum Peygamber HAZRET-İ ZEKERİYYÂ -aleyhisselâm-; Babası Gibi Şehîdlikle Rabbine Kavuşan HAZRET-İ YAHYÂ -aleyhisselâm-; ve Hastalara Şifâ Veren, Ölüleri Dirilten, Semâvî HAZRET-İ ÎSÂ -aleyhisselâm-",
+      "pageNo": 36,
+      "level": 1,
+      "anchor": "_idParaDest-45"
+    },
+    {
+      "title": "Zekeriyyâ -aleyhisselâm-",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-46"
+    },
+    {
+      "title": "Yahyâ -aleyhisselâm-",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-47"
+    },
+    {
+      "title": "Îsâ -aleyhisselâm-",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-48"
+    },
+    {
+      "title": "Yoktan Var Eden, Babasız da Yaratır!",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-49"
+    },
+    {
+      "title": "Hazret-i Îsâ’nın Peygamberliği",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-50"
+    },
+    {
+      "title": "Semâdan Sofra İnmesi (Mâide)",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-51"
+    },
+    {
+      "title": "Havârîlerin ve Îsâ -aleyhisselâm-’ın Nusaybin’e Gitmeleri",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-52"
+    },
+    {
+      "title": "Habîb en-Neccâr",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-53"
+    },
+    {
+      "title": "Îsâ -aleyhisselâm-’ın Semâya Ref’ Edilmesi",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-54"
+    },
+    {
+      "title": "Îsâ -aleyhisselâm- Semâya Ref’ Edildikten Sonra",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-55"
+    },
+    {
+      "title": "Îsâ -aleyhisselâm-’ın Semâdan Nüzûlü",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-56"
+    },
+    {
+      "title": "Îsâ -aleyhisselâm-’ın Mûcizeleri",
+      "pageNo": 36,
+      "level": 2,
+      "anchor": "_idParaDest-57"
+    },
+    {
+      "title": "BUGÜNKÜ HRİSTİYANLIK",
+      "pageNo": 37,
+      "level": 1,
+      "anchor": "_idParaDest-58"
+    },
+    {
+      "title": "Teslîs (Üç Tanrı) İnancı",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-59"
+    },
+    {
+      "title": "Dört İncîl’in Mâhiyeti",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-60"
+    },
+    {
+      "title": "Matta",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-61"
+    },
+    {
+      "title": "Markos",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-62"
+    },
+    {
+      "title": "Luka",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-63"
+    },
+    {
+      "title": "Yuhanna",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-64"
+    },
+    {
+      "title": "Dört İncîl’deki Tenâkuzlar",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-65"
+    },
+    {
+      "title": "Hristiyanlara Göre Hazret-i Îsâ’nın Çarmıha Gerilmesinin Sebebi",
+      "pageNo": 37,
+      "level": 2,
+      "anchor": "_idParaDest-66"
+    },
+    {
+      "title": "GURBET",
+      "pageNo": 38,
+      "level": 1,
+      "anchor": "_idParaDest-67"
+    },
+    {
+      "title": "NebilerSilsilesi3-37",
+      "pageNo": 39,
+      "level": 1,
+      "anchor": ""
+    }
+  ],
+  "pagesIndex": [
+    {
+      "pageNo": 1,
+      "title": "cover",
+      "fileName": "sayfa_1.html"
+    },
+    {
+      "pageNo": 2,
+      "title": "NebilerSilsilesi3",
+      "fileName": "sayfa_2.html"
+    },
+    {
+      "pageNo": 3,
+      "title": "NebilerSilsilesi3-1",
+      "fileName": "sayfa_3.html"
+    },
+    {
+      "pageNo": 4,
+      "title": "KUR’ÂN-I KERÎM IŞIĞINDA NEBÎLER SİLSİLESİ-3",
+      "fileName": "sayfa_4.html"
+    },
+    {
+      "pageNo": 5,
+      "title": "NebilerSilsilesi3-3",
+      "fileName": "sayfa_5.html"
+    },
+    {
+      "pageNo": 6,
+      "title": "NebilerSilsilesi3-4",
+      "fileName": "sayfa_6.html"
+    },
+    {
+      "pageNo": 7,
+      "title": "Zikri ile Dağları, Taşları ve Vahşî Hayvanları İstiğrak Hâline Getiren HAZRET-İ DÂVUD -aleyhisselâm-",
+      "fileName": "sayfa_7.html"
+    },
+    {
+      "pageNo": 8,
+      "title": "EN GÜZEL KELÂMI GÜZEL OKUMAK",
+      "fileName": "sayfa_8.html"
+    },
+    {
+      "pageNo": 9,
+      "title": "NebilerSilsilesi3-7",
+      "fileName": "sayfa_9.html"
+    },
+    {
+      "pageNo": 10,
+      "title": "NebilerSilsilesi3-8",
+      "fileName": "sayfa_10.html"
+    },
+    {
+      "pageNo": 11,
+      "title": "Muazzam Dünyâ Servet ve Tasarrufunu Kalbinin Dışında Taşıyan HAZRET-İ SÜLEYMAN -aleyhisselâm-",
+      "fileName": "sayfa_11.html"
+    },
+    {
+      "pageNo": 12,
+      "title": "MÜLK ALLÂH’INDIR",
+      "fileName": "sayfa_12.html"
+    },
+    {
+      "pageNo": 13,
+      "title": "NebilerSilsilesi3-11",
+      "fileName": "sayfa_13.html"
+    },
+    {
+      "pageNo": 14,
+      "title": "NebilerSilsilesi3-12",
+      "fileName": "sayfa_14.html"
+    },
+    {
+      "pageNo": 15,
+      "title": "Yüz Senelik Bir Ölümden Sonra Tekrar Diriltilerek Kıyâmetteki Yeniden Yaratılışa Misâl Olan HAZRET-İ ÜZEYR -aleyhisselâm-",
+      "fileName": "sayfa_15.html"
+    },
+    {
+      "pageNo": 16,
+      "title": "BA‘SÜ BA‘DE’L-MEVT",
+      "fileName": "sayfa_16.html"
+    },
+    {
+      "pageNo": 17,
+      "title": "NebilerSilsilesi3-15",
+      "fileName": "sayfa_17.html"
+    },
+    {
+      "pageNo": 18,
+      "title": "Derin Tefekkürü İle Sabrın Bileyi Taşı Olan HAZRET-İ EYYÛB -aleyhisselâm-",
+      "fileName": "sayfa_18.html"
+    },
+    {
+      "pageNo": 19,
+      "title": "RIZÂ",
+      "fileName": "sayfa_19.html"
+    },
+    {
+      "pageNo": 20,
+      "title": "NebilerSilsilesi3-18",
+      "fileName": "sayfa_20.html"
+    },
+    {
+      "pageNo": 21,
+      "title": "NebilerSilsilesi3-19",
+      "fileName": "sayfa_21.html"
+    },
+    {
+      "pageNo": 22,
+      "title": "Büyük Bir Vecd Hâlinde, İstiğfâr, Duâ ve Zikrin Hakîkatinde Derinleşerek Karanlıkları Aşan HAZRET-İ YUNUS -aleyhisselâm-",
+      "fileName": "sayfa_22.html"
+    },
+    {
+      "pageNo": 23,
+      "title": "NebilerSilsilesi3-21",
+      "fileName": "sayfa_23.html"
+    },
+    {
+      "pageNo": 24,
+      "title": "NebilerSilsilesi3-22",
+      "fileName": "sayfa_24.html"
+    },
+    {
+      "pageNo": 25,
+      "title": "Ardından «İlyas’a Selâm Olsun!» Diye Bir Ün Bırakan HAZRET-İ İLYAS -aleyhisselâm-",
+      "fileName": "sayfa_25.html"
+    },
+    {
+      "pageNo": 26,
+      "title": "NebilerSilsilesi3-24",
+      "fileName": "sayfa_26.html"
+    },
+    {
+      "pageNo": 27,
+      "title": "NebilerSilsilesi3-25",
+      "fileName": "sayfa_27.html"
+    },
+    {
+      "pageNo": 28,
+      "title": "Âlemlere Üstün Kılınan HAZRET-İ ELYESA’ -aleyhisselâm-",
+      "fileName": "sayfa_28.html"
+    },
+    {
+      "pageNo": 29,
+      "title": "NebilerSilsilesi3-27",
+      "fileName": "sayfa_29.html"
+    },
+    {
+      "pageNo": 30,
+      "title": "İlâhî Rahmete Gark Edilen Sâlih Peygamber HAZRET-İ ZÜLKİFL -aleyhisselâm-",
+      "fileName": "sayfa_30.html"
+    },
+    {
+      "pageNo": 31,
+      "title": "NebilerSilsilesi3-29",
+      "fileName": "sayfa_31.html"
+    },
+    {
+      "pageNo": 32,
+      "title": "Hikmetli Nasihatleriyle Destanlaşan, Zâhirî ve Bâtınî Hekimlerin Pîri HAZRET-İ LOKMAN HAKÎM -aleyhisselâm-",
+      "fileName": "sayfa_32.html"
+    },
+    {
+      "pageNo": 33,
+      "title": "HAMD VE ŞÜKÜR",
+      "fileName": "sayfa_33.html"
+    },
+    {
+      "pageNo": 34,
+      "title": "NebilerSilsilesi3-32",
+      "fileName": "sayfa_34.html"
+    },
+    {
+      "pageNo": 35,
+      "title": "NebilerSilsilesi3-33",
+      "fileName": "sayfa_35.html"
+    },
+    {
+      "pageNo": 36,
+      "title": "Testere İle İkiye Bölünerek Şehîd Edilen Mazlum Peygamber HAZRET-İ ZEKERİYYÂ -aleyhisselâm-; Babası Gibi Şehîdlikle Rabbine Kavuşan HAZRET-İ YAHYÂ -aleyhisselâm-; ve Hastalara Şifâ Veren, Ölüleri Dirilten, Semâvî HAZRET-İ ÎSÂ -aleyhisselâm-",
+      "fileName": "sayfa_36.html"
+    },
+    {
+      "pageNo": 37,
+      "title": "BUGÜNKÜ HRİSTİYANLIK",
+      "fileName": "sayfa_37.html"
+    },
+    {
+      "pageNo": 38,
+      "title": "GURBET",
+      "fileName": "sayfa_38.html"
+    },
+    {
+      "pageNo": 39,
+      "title": "NebilerSilsilesi3-37",
+      "fileName": "sayfa_39.html"
+    }
+  ]
+}
