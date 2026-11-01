@@ -1,0 +1,425 @@
+{
+  "id": "src_1793477808704",
+  "courseId": "crs_1793477468301",
+  "name": "Riyazü's Salihin 1",
+  "metadata": {
+    "workTitle": "Riyazü's Salihin 1",
+    "author": "İmam Nevevî",
+    "publisher": "Erkam Yayınları",
+    "pubYear": "2026",
+    "extra": ""
+  },
+  "customCss": "\nbody, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {\r\n  margin: 0;\r\n  padding: 0;\r\n  border-width: 0;\r\n}\r\ntd, th {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntbody {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntr {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\nthead {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntfoot {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntable {\r\n  border-collapse: collapse;\r\n}\r\nli {\r\n  display: block;\r\n}\r\nbody {\r\n  -epub-hyphens: auto;\r\n}\r\n@page {\r\n  margin: 0.5px 0.5px 0.5px 0.5px;\r\n}\r\n.leftFloat {\r\n  float: left;\r\n}\r\n.rightFloat {\r\n  float: right;\r\n}\r\n.kitapickapak {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 2em;\r\n  margin: 0.25em 0;\r\n}\r\n.kitapickapak2 {\r\n  text-align: center;\r\n  font-size: 1.40em;\r\n  margin: 0.25em 0;\r\n}\r\n.normal {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n}\r\n.normal2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-weight: bold;\r\n}\r\n.normal3 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n}\r\n.normal4 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.normalnesililk {\r\n  text-align: justify;\r\n  text-indent: 0;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesilsplit {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil5mmbefore {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.normalnesilson {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0 1em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-weight: bold;\r\n}\r\n.normalnesil3 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n}\r\n.normalnesil4 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.indentmetinilk {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinilk2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinson {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-bottom: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetin {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  font-size: 1em;\r\n}\r\n.indentmetintek {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  margin-bottom: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinitalik {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  font-style: italic;\r\n  font-size: 1em;\r\n}\r\n.indentmetinbold {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-weight: bold;\r\n  font-size: 1em;\r\n}\r\n.baslik {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.5em;\r\n  margin-bottom: 1em;\r\n}\r\n.Arapca {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.5em;\r\n}\r\n.h1baslik {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n  margin-bottom: 1em;\r\n}\r\n.h2baslik {\r\n  text-align: justify;\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  margin: 0.85em 0 0.50em 0;\r\n}\r\n.h2baslikbol {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  margin: 0.85em 0 0.50em 0;\r\n}\r\n.solbaslik {\r\n  text-align: justify;\r\n  margin: 0.85em 0 0.20em 0;\r\n  font-size: 1.1em;\r\n  font-weight: bold;\r\n}\r\n.sagbaslik {\r\n  text-align: right;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  font-size: 1.1em;\r\n  font-weight: bold;\r\n}\r\n.bolum {\r\n  font-size: 2em;\r\n  text-align: center;\r\n  font-weight: normal;\r\n}\r\n.kapakmetin {\r\n  text-align: center;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n}\r\n.kunye {\r\n  text-align: left;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n  margin-left: 3em;\r\n}\r\n.kunyenesil {\r\n  text-align: center;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n}\r\n.idebold {\r\n  font-weight: bold;\r\n}\r\n.ideitalik {\r\n  font-style: italic;\r\n}\r\n.idebolditalik {\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.ortaitalik {\r\n  text-align: center;\r\n  margin-bottom: 1em;\r\n  font-style: italic;\r\n}\r\n.ortayazi {\r\n  text-align: center;\r\n  font-size: 1.3em;\r\n  margin: 20px;\r\n}\r\n.sagic {\r\n  float: right;\r\n  text-align: justify;\r\n  font-style: normal;\r\n  margin: 0 0 30px 30px;\r\n  width: 40%;\r\n  clear: both;\r\n}\r\n.sagitalik {\r\n  text-align: right;\r\n  font-style: italic;\r\n}\r\n.sagbold {\r\n  text-align: right;\r\n  font-weight: bold;\r\n}\r\n.sagnormal {\r\n  text-align: right;\r\n  margin-top: 1em;\r\n  margin-bottom: 1em;\r\n  font-style: normal;\r\n}\r\n.sagbolditalik {\r\n  text-align: right;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.rightimage {\r\n  float: right;\r\n  margin-bottom: 15px;\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n.leftimage {\r\n  float: left;\r\n  margin-bottom: 15px;\r\n  margin-right: 15px;\r\n  margin-top: 15px;\r\n}\r\n.resimalti {\r\n  text-align: center;\r\n  font-style: italic;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n  font-size: 0.8em;\r\n}\r\n.clrb {\r\n  clear: both;\r\n}\r\n.resim {\r\n  padding: 10px;\r\n  text-align: center;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n}\r\n.generictable {\r\n  width: 100%;\r\n  border: 0;\r\n  border-collapse: collapse;\r\n}\r\n.generictable td, th {\r\n  border: 1px solid #ffffff;\r\n  background-color: #eeeeee;\r\n  margin: 0;\r\n  padding: 0.2em 0.3em;\r\n  font-family: Arial , sans-serif;\r\n  font-size: 0.8em;\r\n  text-align: left;\r\n}\r\n.tablo25 {\r\n  width: 25%;\r\n  display: inline-block;\r\n}\r\n.tablo50 {\r\n  width: 50%;\r\n  display: inline-block;\r\n}\r\n.tablo75 {\r\n  width: 75%;\r\n  display: inline-block;\r\n}\r\n.tablo100 {\r\n  width: 100%;\r\n  display: inline-block;\r\n}\r\n.ustyazi {\r\n  vertical-align: super;\r\n}\r\n.altyazi {\r\n  vertical-align: sub;\r\n  font-size: 13px;\r\n}\r\n",
+  "footnotes": {},
+  "toc": [
+    {
+      "pageNo": 1,
+      "anchor": "",
+      "level": 1,
+      "title": "RiyazusSalihin_1"
+    },
+    {
+      "title": "RiyazusSalihin_1-1",
+      "anchor": "",
+      "level": 1,
+      "pageNo": 2
+    },
+    {
+      "level": 1,
+      "pageNo": 3,
+      "title": "RiyazusSalihin_1-2",
+      "anchor": ""
+    },
+    {
+      "level": 1,
+      "title": "SUNUŞ",
+      "pageNo": 4,
+      "anchor": "_idParaDest-1"
+    },
+    {
+      "level": 1,
+      "title": "ÖNSÖZ",
+      "pageNo": 5,
+      "anchor": "_idParaDest-2"
+    },
+    {
+      "level": 1,
+      "pageNo": 6,
+      "anchor": "_idParaDest-3",
+      "title": "GİRİŞ: HADİS - SÜNNET, NEVEVÎ VE RİYÂZÜ’S-SÂLİHÎN"
+    },
+    {
+      "anchor": "_idParaDest-4",
+      "pageNo": 7,
+      "title": "I: HADİS - SÜNNET",
+      "level": 1
+    },
+    {
+      "level": 2,
+      "pageNo": 7,
+      "title": "A. Tarifler",
+      "anchor": "tarifler"
+    },
+    {
+      "anchor": "hadis",
+      "pageNo": 7,
+      "level": 3,
+      "title": "1. Hadis"
+    },
+    {
+      "pageNo": 7,
+      "level": 3,
+      "anchor": "sunnet",
+      "title": "2. Sünnet"
+    },
+    {
+      "title": "B. Peygamber ve Sünnete Olan İhtiyaç",
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "peygambervesunneteolanihtiyac"
+    },
+    {
+      "pageNo": 7,
+      "level": 2,
+      "anchor": "sunnetleilgilibazimeseleler",
+      "title": "C. Sünnetle İlgili Bazı Meseleler"
+    },
+    {
+      "level": 3,
+      "pageNo": 7,
+      "anchor": "sunnetinkaynagi",
+      "title": "1. Sünnetin Kaynağı"
+    },
+    {
+      "title": "2. Sünnetin Dindeki Yeri",
+      "anchor": "sunnetindindekiyeri",
+      "level": 3,
+      "pageNo": 7
+    },
+    {
+      "pageNo": 7,
+      "level": 3,
+      "anchor": "sunnetinbaglayiciligi",
+      "title": "3. Sünnetin Bağlayıcılığı"
+    },
+    {
+      "anchor": "sunnetinevrenselbutunlugu",
+      "pageNo": 7,
+      "title": "4. Sünnetin Evrensel Bütünlüğü",
+      "level": 3
+    },
+    {
+      "title": "5. Sünnetin Korunmuşluğu",
+      "anchor": "sunnetinkorunmuslugu",
+      "pageNo": 7,
+      "level": 3
+    },
+    {
+      "pageNo": 7,
+      "anchor": "sunnetinkurtariciligi",
+      "level": 3,
+      "title": "6. Sünnetin Kurtarıcılığı"
+    },
+    {
+      "anchor": "_idParaDest-5",
+      "title": "II: İMAM NEVEVÎ, HAYATI VE ESERLERİ",
+      "pageNo": 8,
+      "level": 1
+    },
+    {
+      "title": "III: RİYÂZÜ’S-SÂLİHÎN",
+      "anchor": "_idParaDest-6",
+      "pageNo": 9,
+      "level": 1
+    },
+    {
+      "level": 1,
+      "pageNo": 10,
+      "anchor": "_idParaDest-7",
+      "title": "Peygamberimiz'den Hayat Ölçüleri"
+    },
+    {
+      "level": 2,
+      "pageNo": 11,
+      "title": "Müellifin Mukaddimesi",
+      "anchor": "_idParaDest-8"
+    },
+    {
+      "anchor": "_idParaDest-9",
+      "pageNo": 12,
+      "title": "Müslümanın Hayat Ölçüleri Bölümü",
+      "level": 1
+    },
+    {
+      "level": 2,
+      "anchor": "_idParaDest-10",
+      "title": "İhlâs ve Niyet",
+      "pageNo": 13
+    },
+    {
+      "level": 2,
+      "title": "Tövbe",
+      "pageNo": 14,
+      "anchor": "_idParaDest-11"
+    },
+    {
+      "title": "Sabır",
+      "level": 2,
+      "anchor": "_idParaDest-12",
+      "pageNo": 15
+    },
+    {
+      "anchor": "_idParaDest-13",
+      "title": "Doğru Sözlülük (Sıdk)",
+      "pageNo": 16,
+      "level": 2
+    },
+    {
+      "level": 2,
+      "pageNo": 17,
+      "anchor": "_idParaDest-14",
+      "title": "Allah'ın Kullan Denetlemesi (Murakabe)"
+    },
+    {
+      "anchor": "_idParaDest-15",
+      "title": "Takvâ",
+      "pageNo": 18,
+      "level": 2
+    },
+    {
+      "pageNo": 19,
+      "level": 2,
+      "anchor": "_idParaDest-16",
+      "title": "Tereddütsüz İman ve Allah' a Tam Güven (Yakîn ve Tevekkül)"
+    },
+    {
+      "pageNo": 20,
+      "level": 2,
+      "anchor": "_idParaDest-17",
+      "title": "Doğruluk (İstikamet)"
+    },
+    {
+      "title": "Tefekkür",
+      "anchor": "_idParaDest-18",
+      "level": 2,
+      "pageNo": 21
+    },
+    {
+      "title": "Hayırlı İşlere Koşmak",
+      "anchor": "_idParaDest-19",
+      "pageNo": 22,
+      "level": 2
+    },
+    {
+      "anchor": "_idParaDest-20",
+      "level": 2,
+      "pageNo": 23,
+      "title": "Mücâhede"
+    },
+    {
+      "title": "Ömrün Sonlarında Hayrı Artırmaya Teşvik",
+      "anchor": "_idParaDest-21",
+      "level": 2,
+      "pageNo": 24
+    },
+    {
+      "pageNo": 25,
+      "anchor": "_idParaDest-22",
+      "level": 2,
+      "title": "Hayır Yollarının Sayısızlığı"
+    },
+    {
+      "title": "Allah' ın Emirlerine Uymada Ölçülü Olmak",
+      "level": 2,
+      "anchor": "_idParaDest-23",
+      "pageNo": 26
+    },
+    {
+      "title": "İbadetleri ve Hayırlı İşleri Sürekli Yapmak",
+      "anchor": "_idParaDest-24",
+      "level": 2,
+      "pageNo": 27
+    },
+    {
+      "anchor": "_idParaDest-25",
+      "title": "Sünneti Korumak",
+      "pageNo": 28,
+      "level": 2
+    },
+    {
+      "anchor": "_idParaDest-26",
+      "level": 2,
+      "pageNo": 29,
+      "title": "Allah'ın Hükmüne Boyun Eğmek"
+    },
+    {
+      "anchor": "",
+      "title": "RiyazusSalihin_1-29",
+      "pageNo": 30,
+      "level": 1
+    },
+    {
+      "anchor": "",
+      "level": 1,
+      "pageNo": 31,
+      "title": "Riyazü’s Salihin-1"
+    }
+  ],
+  "pagesIndex": [
+    {
+      "pageNo": 1,
+      "title": "RiyazusSalihin_1",
+      "fileName": "sayfa_1.html"
+    },
+    {
+      "pageNo": 2,
+      "title": "RiyazusSalihin_1-1",
+      "fileName": "sayfa_2.html"
+    },
+    {
+      "pageNo": 3,
+      "title": "RiyazusSalihin_1-2",
+      "fileName": "sayfa_3.html"
+    },
+    {
+      "pageNo": 4,
+      "title": "SUNUŞ",
+      "fileName": "sayfa_4.html"
+    },
+    {
+      "pageNo": 5,
+      "title": "ÖNSÖZ",
+      "fileName": "sayfa_5.html"
+    },
+    {
+      "pageNo": 6,
+      "title": "GİRİŞ: HADİS - SÜNNET, NEVEVÎ VE RİYÂZÜ’S-SÂLİHÎN",
+      "fileName": "sayfa_6.html"
+    },
+    {
+      "pageNo": 7,
+      "title": "I: HADİS - SÜNNET",
+      "fileName": "sayfa_7.html"
+    },
+    {
+      "pageNo": 8,
+      "title": "II: İMAM NEVEVÎ, HAYATI VE ESERLERİ",
+      "fileName": "sayfa_8.html"
+    },
+    {
+      "pageNo": 9,
+      "title": "III: RİYÂZÜ’S-SÂLİHÎN",
+      "fileName": "sayfa_9.html"
+    },
+    {
+      "pageNo": 10,
+      "title": "Peygamberimiz'den Hayat Ölçüleri",
+      "fileName": "sayfa_10.html"
+    },
+    {
+      "pageNo": 11,
+      "title": "Müellifin Mukaddimesi",
+      "fileName": "sayfa_11.html"
+    },
+    {
+      "pageNo": 12,
+      "title": "Müslümanın Hayat Ölçüleri Bölümü",
+      "fileName": "sayfa_12.html"
+    },
+    {
+      "pageNo": 13,
+      "title": "İhlâs ve Niyet",
+      "fileName": "sayfa_13.html"
+    },
+    {
+      "pageNo": 14,
+      "title": "Tövbe",
+      "fileName": "sayfa_14.html"
+    },
+    {
+      "pageNo": 15,
+      "title": "Sabır",
+      "fileName": "sayfa_15.html"
+    },
+    {
+      "pageNo": 16,
+      "title": "Doğru Sözlülük (Sıdk)",
+      "fileName": "sayfa_16.html"
+    },
+    {
+      "pageNo": 17,
+      "title": "Allah'ın Kullan Denetlemesi (Murakabe)",
+      "fileName": "sayfa_17.html"
+    },
+    {
+      "pageNo": 18,
+      "title": "Takvâ",
+      "fileName": "sayfa_18.html"
+    },
+    {
+      "pageNo": 19,
+      "title": "Tereddütsüz İman ve Allah' a Tam Güven (Yakîn ve Tevekkül)",
+      "fileName": "sayfa_19.html"
+    },
+    {
+      "pageNo": 20,
+      "title": "Doğruluk (İstikamet)",
+      "fileName": "sayfa_20.html"
+    },
+    {
+      "pageNo": 21,
+      "title": "Tefekkür",
+      "fileName": "sayfa_21.html"
+    },
+    {
+      "pageNo": 22,
+      "title": "Hayırlı İşlere Koşmak",
+      "fileName": "sayfa_22.html"
+    },
+    {
+      "pageNo": 23,
+      "title": "Mücâhede",
+      "fileName": "sayfa_23.html"
+    },
+    {
+      "pageNo": 24,
+      "title": "Ömrün Sonlarında Hayrı Artırmaya Teşvik",
+      "fileName": "sayfa_24.html"
+    },
+    {
+      "pageNo": 25,
+      "title": "Hayır Yollarının Sayısızlığı",
+      "fileName": "sayfa_25.html"
+    },
+    {
+      "pageNo": 26,
+      "title": "Allah' ın Emirlerine Uymada Ölçülü Olmak",
+      "fileName": "sayfa_26.html"
+    },
+    {
+      "pageNo": 27,
+      "title": "İbadetleri ve Hayırlı İşleri Sürekli Yapmak",
+      "fileName": "sayfa_27.html"
+    },
+    {
+      "pageNo": 28,
+      "title": "Sünneti Korumak",
+      "fileName": "sayfa_28.html"
+    },
+    {
+      "pageNo": 29,
+      "title": "Allah'ın Hükmüne Boyun Eğmek",
+      "fileName": "sayfa_29.html"
+    },
+    {
+      "pageNo": 30,
+      "title": "RiyazusSalihin_1-29",
+      "fileName": "sayfa_30.html"
+    },
+    {
+      "pageNo": 31,
+      "title": "Riyazü’s Salihin-1",
+      "fileName": "sayfa_31.html"
+    }
+  ]
+}
