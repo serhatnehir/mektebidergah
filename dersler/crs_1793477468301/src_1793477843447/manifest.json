@@ -1,0 +1,370 @@
+{
+  "id": "src_1793477843447",
+  "courseId": "crs_1793477468301",
+  "name": "İmam Nevevî - Riyazü's Salihin 3",
+  "metadata": {
+    "workTitle": "Riyazü's Salihin 3",
+    "author": "İmam Nevevî",
+    "publisher": "Erkam Yayınları",
+    "pubYear": "",
+    "extra": ""
+  },
+  "customCss": "\nbody, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {\r\n  margin: 0;\r\n  padding: 0;\r\n  border-width: 0;\r\n}\r\ntd, th {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntbody {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntr {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\nthead {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntfoot {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntable {\r\n  border-collapse: collapse;\r\n}\r\nli {\r\n  display: block;\r\n}\r\nbody {\r\n  -epub-hyphens: auto;\r\n}\r\n@page {\r\n  margin: 0.5px 0.5px 0.5px 0.5px;\r\n}\r\n.leftFloat {\r\n  float: left;\r\n}\r\n.rightFloat {\r\n  float: right;\r\n}\r\n.kitapickapak {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 2em;\r\n  margin: 0.25em 0;\r\n}\r\n.kitapickapak2 {\r\n  text-align: center;\r\n  font-size: 1.40em;\r\n  margin: 0.25em 0;\r\n}\r\n.normal {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n}\r\n.normal2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-weight: bold;\r\n}\r\n.normal3 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n}\r\n.normal4 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.normalnesililk {\r\n  text-align: justify;\r\n  text-indent: 0;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesilsplit {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil5mmbefore {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.normalnesilson {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0 1em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-weight: bold;\r\n}\r\n.normalnesil3 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n}\r\n.normalnesil4 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.indentmetinilk {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinilk2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinson {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-bottom: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetin {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  font-size: 1em;\r\n}\r\n.indentmetintek {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  margin-bottom: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinitalik {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  font-style: italic;\r\n  font-size: 1em;\r\n}\r\n.indentmetinbold {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-weight: bold;\r\n  font-size: 1em;\r\n}\r\n.baslik {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.5em;\r\n  margin-bottom: 1em;\r\n}\r\n.Arapca {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.5em;\r\n}\r\n.h1baslik {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n  margin-bottom: 1em;\r\n}\r\n.h2baslik {\r\n  text-align: justify;\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  margin: 0.85em 0 0.50em 0;\r\n}\r\n.h2baslikbol {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  margin: 0.85em 0 0.50em 0;\r\n}\r\n.solbaslik {\r\n  text-align: justify;\r\n  margin: 0.85em 0 0.20em 0;\r\n  font-size: 1.1em;\r\n  font-weight: bold;\r\n}\r\n.sagbaslik {\r\n  text-align: right;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  font-size: 1.1em;\r\n  font-weight: bold;\r\n}\r\n.bolum {\r\n  font-size: 2em;\r\n  text-align: center;\r\n  font-weight: normal;\r\n}\r\n.kapakmetin {\r\n  text-align: center;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n}\r\n.kunye {\r\n  text-align: left;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n  margin-left: 3em;\r\n}\r\n.kunyenesil {\r\n  text-align: center;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n}\r\n.idebold {\r\n  font-weight: bold;\r\n}\r\n.ideitalik {\r\n  font-style: italic;\r\n}\r\n.idebolditalik {\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.ortaitalik {\r\n  text-align: center;\r\n  margin-bottom: 1em;\r\n  font-style: italic;\r\n}\r\n.ortayazi {\r\n  text-align: center;\r\n  font-style: normal;\r\n  font-size: 1.5em;\r\n  margin: 20px;\r\n}\r\n.sagic {\r\n  float: right;\r\n  text-align: justify;\r\n  font-style: normal;\r\n  margin: 0 0 30px 30px;\r\n  width: 40%;\r\n  clear: both;\r\n}\r\n.sagitalik {\r\n  text-align: right;\r\n  font-style: italic;\r\n}\r\n.sagbold {\r\n  text-align: right;\r\n  font-weight: bold;\r\n}\r\n.sagnormal {\r\n  text-align: right;\r\n  margin-top: 1em;\r\n  margin-bottom: 1em;\r\n  font-style: normal;\r\n}\r\n.sagbolditalik {\r\n  text-align: right;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.rightimage {\r\n  float: right;\r\n  margin-bottom: 15px;\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n.leftimage {\r\n  float: left;\r\n  margin-bottom: 15px;\r\n  margin-right: 15px;\r\n  margin-top: 15px;\r\n}\r\n.resimalti {\r\n  text-align: center;\r\n  font-style: italic;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n  font-size: 0.8em;\r\n}\r\n.clrb {\r\n  clear: both;\r\n}\r\n.resim {\r\n  padding: 10px;\r\n  text-align: center;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n}\r\n.generictable {\r\n  width: 100%;\r\n  border: 0;\r\n  border-collapse: collapse;\r\n}\r\n.generictable td, th {\r\n  border: 1px solid #ffffff;\r\n  background-color: #eeeeee;\r\n  margin: 0;\r\n  padding: 0.2em 0.3em;\r\n  font-family: Arial , sans-serif;\r\n  font-size: 0.8em;\r\n  text-align: left;\r\n}\r\n.tablo25 {\r\n  width: 25%;\r\n  display: inline-block;\r\n}\r\n.tablo50 {\r\n  width: 50%;\r\n  display: inline-block;\r\n}\r\n.tablo75 {\r\n  width: 75%;\r\n  display: inline-block;\r\n}\r\n.tablo100 {\r\n  width: 100%;\r\n  display: inline-block;\r\n}\r\n.ustyazi {\r\n  vertical-align: super;\r\n}\r\n.altyazi {\r\n  vertical-align: sub;\r\n  font-size: 13px;\r\n}\r\n",
+  "footnotes": {},
+  "toc": [
+    {
+      "title": "RiyazusSalihin_3",
+      "pageNo": 1,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "RiyazusSalihin_3-1",
+      "pageNo": 2,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "RiyazusSalihin_3-2",
+      "pageNo": 3,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "ALLAH’IN KULUNU SEVMESİ",
+      "pageNo": 4,
+      "level": 1,
+      "anchor": "_idParaDest-1"
+    },
+    {
+      "title": "İYİLERE EZİYET ETMEMEK",
+      "pageNo": 5,
+      "level": 1,
+      "anchor": "_idParaDest-2"
+    },
+    {
+      "title": "GÖRÜNÜŞE GÖRE HÜKÜM VERMEK",
+      "pageNo": 6,
+      "level": 1,
+      "anchor": "_idParaDest-3"
+    },
+    {
+      "title": "ALLAH KORKUSU",
+      "pageNo": 7,
+      "level": 1,
+      "anchor": "_idParaDest-4"
+    },
+    {
+      "title": "ALLAH’IN RAHMETİNİ ÜMİT ETMEK",
+      "pageNo": 8,
+      "level": 1,
+      "anchor": "_idParaDest-5"
+    },
+    {
+      "title": "ALLAH’IN RAHMETİNİ ÜMİT ETMENİN FAYDASI",
+      "pageNo": 9,
+      "level": 1,
+      "anchor": "_idParaDest-6"
+    },
+    {
+      "title": "KORKU VE ÜMİT ARASINDA YAŞAMAK",
+      "pageNo": 10,
+      "level": 1,
+      "anchor": "_idParaDest-7"
+    },
+    {
+      "title": "AĞLAMAK",
+      "pageNo": 11,
+      "level": 1,
+      "anchor": "_idParaDest-8"
+    },
+    {
+      "title": "ZÜHDÜN ÜSTÜNLÜĞÜ",
+      "pageNo": 12,
+      "level": 1,
+      "anchor": "_idParaDest-9"
+    },
+    {
+      "title": "AÇLIĞIN VE SÂDE YAŞAMANIN ÜSTÜNLÜĞÜ",
+      "pageNo": 13,
+      "level": 1,
+      "anchor": "_idParaDest-10"
+    },
+    {
+      "title": "KANAAT VE TOKGÖZLÜLÜK",
+      "pageNo": 14,
+      "level": 1,
+      "anchor": "_idParaDest-11"
+    },
+    {
+      "title": "DİLENMEKSİZİN VE GÖZ DİKMEKSİZİN SADAKA ALMAK",
+      "pageNo": 15,
+      "level": 1,
+      "anchor": "_idParaDest-12"
+    },
+    {
+      "title": "ELİNİN EMEĞİYLE GEÇİNMEK",
+      "pageNo": 16,
+      "level": 1,
+      "anchor": "_idParaDest-13"
+    },
+    {
+      "title": "CÖMERTLİK",
+      "pageNo": 17,
+      "level": 1,
+      "anchor": "_idParaDest-14"
+    },
+    {
+      "title": "CİMRİLİK VE AÇGÖZLÜLÜKTEN SAKINMAK",
+      "pageNo": 18,
+      "level": 1,
+      "anchor": "_idParaDest-15"
+    },
+    {
+      "title": "BAŞKASINI KENDİNE TERCİH ETMEK",
+      "pageNo": 19,
+      "level": 1,
+      "anchor": "_idParaDest-16"
+    },
+    {
+      "title": "AHİRETE HAZIRLANMAK",
+      "pageNo": 20,
+      "level": 1,
+      "anchor": "_idParaDest-17"
+    },
+    {
+      "title": "ŞÜKREDEN ZENGİNİN FAZİLETİ",
+      "pageNo": 21,
+      "level": 1,
+      "anchor": "_idParaDest-18"
+    },
+    {
+      "title": "ÖLÜMÜ ANMAK VE NEFSİN AŞIRI İSTEKLERİNİ DİZGİNLEMEK",
+      "pageNo": 22,
+      "level": 1,
+      "anchor": "_idParaDest-19"
+    },
+    {
+      "title": "KABİR ZİYARETİ",
+      "pageNo": 23,
+      "level": 1,
+      "anchor": "_idParaDest-20"
+    },
+    {
+      "title": "ÖLMEYİ İSTEMENİN DOĞRU BİR ŞEY OLMADIĞI",
+      "pageNo": 24,
+      "level": 1,
+      "anchor": "_idParaDest-21"
+    },
+    {
+      "title": "GÜNAHTAN SAKINMA, GÜNAHA GÖTÜREBİLECEK DAVRANIŞLARDAN KAÇINMA",
+      "pageNo": 25,
+      "level": 1,
+      "anchor": "_idParaDest-22"
+    },
+    {
+      "title": "İNSANLARDAN UZAK YAŞAMAK",
+      "pageNo": 26,
+      "level": 1,
+      "anchor": "_idParaDest-23"
+    },
+    {
+      "title": "İNSANLARLA BİR ARADA YAŞAMANIN DEĞERİ",
+      "pageNo": 27,
+      "level": 1,
+      "anchor": "_idParaDest-24"
+    },
+    {
+      "title": "TEVÂZÛ VE MÜ’MİNLERE KOL KANAT GERMEK",
+      "pageNo": 28,
+      "level": 1,
+      "anchor": "_idParaDest-25"
+    },
+    {
+      "title": "KİBİRLENMENİN VE KENDİNİ BEĞENMENİN HARAM OLDUĞU",
+      "pageNo": 29,
+      "level": 1,
+      "anchor": "_idParaDest-26"
+    },
+    {
+      "title": "GÜZEL AHLÂK",
+      "pageNo": 30,
+      "level": 1,
+      "anchor": "_idParaDest-27"
+    },
+    {
+      "title": "YUMUŞAK HUYLULUK, TEENNÎ, KOLAYLIK",
+      "pageNo": 31,
+      "level": 1,
+      "anchor": "_idParaDest-28"
+    },
+    {
+      "title": "HATALARI BAĞIŞLAMAK VE CÂHİLLERE UYMAMAK",
+      "pageNo": 32,
+      "level": 1,
+      "anchor": "_idParaDest-29"
+    }
+  ],
+  "pagesIndex": [
+    {
+      "pageNo": 1,
+      "title": "RiyazusSalihin_3",
+      "fileName": "sayfa_1.html"
+    },
+    {
+      "pageNo": 2,
+      "title": "RiyazusSalihin_3-1",
+      "fileName": "sayfa_2.html"
+    },
+    {
+      "pageNo": 3,
+      "title": "RiyazusSalihin_3-2",
+      "fileName": "sayfa_3.html"
+    },
+    {
+      "pageNo": 4,
+      "title": "ALLAH’IN KULUNU SEVMESİ",
+      "fileName": "sayfa_4.html"
+    },
+    {
+      "pageNo": 5,
+      "title": "İYİLERE EZİYET ETMEMEK",
+      "fileName": "sayfa_5.html"
+    },
+    {
+      "pageNo": 6,
+      "title": "GÖRÜNÜŞE GÖRE HÜKÜM VERMEK",
+      "fileName": "sayfa_6.html"
+    },
+    {
+      "pageNo": 7,
+      "title": "ALLAH KORKUSU",
+      "fileName": "sayfa_7.html"
+    },
+    {
+      "pageNo": 8,
+      "title": "ALLAH’IN RAHMETİNİ ÜMİT ETMEK",
+      "fileName": "sayfa_8.html"
+    },
+    {
+      "pageNo": 9,
+      "title": "ALLAH’IN RAHMETİNİ ÜMİT ETMENİN FAYDASI",
+      "fileName": "sayfa_9.html"
+    },
+    {
+      "pageNo": 10,
+      "title": "KORKU VE ÜMİT ARASINDA YAŞAMAK",
+      "fileName": "sayfa_10.html"
+    },
+    {
+      "pageNo": 11,
+      "title": "AĞLAMAK",
+      "fileName": "sayfa_11.html"
+    },
+    {
+      "pageNo": 12,
+      "title": "ZÜHDÜN ÜSTÜNLÜĞÜ",
+      "fileName": "sayfa_12.html"
+    },
+    {
+      "pageNo": 13,
+      "title": "AÇLIĞIN VE SÂDE YAŞAMANIN ÜSTÜNLÜĞÜ",
+      "fileName": "sayfa_13.html"
+    },
+    {
+      "pageNo": 14,
+      "title": "KANAAT VE TOKGÖZLÜLÜK",
+      "fileName": "sayfa_14.html"
+    },
+    {
+      "pageNo": 15,
+      "title": "DİLENMEKSİZİN VE GÖZ DİKMEKSİZİN SADAKA ALMAK",
+      "fileName": "sayfa_15.html"
+    },
+    {
+      "pageNo": 16,
+      "title": "ELİNİN EMEĞİYLE GEÇİNMEK",
+      "fileName": "sayfa_16.html"
+    },
+    {
+      "pageNo": 17,
+      "title": "CÖMERTLİK",
+      "fileName": "sayfa_17.html"
+    },
+    {
+      "pageNo": 18,
+      "title": "CİMRİLİK VE AÇGÖZLÜLÜKTEN SAKINMAK",
+      "fileName": "sayfa_18.html"
+    },
+    {
+      "pageNo": 19,
+      "title": "BAŞKASINI KENDİNE TERCİH ETMEK",
+      "fileName": "sayfa_19.html"
+    },
+    {
+      "pageNo": 20,
+      "title": "AHİRETE HAZIRLANMAK",
+      "fileName": "sayfa_20.html"
+    },
+    {
+      "pageNo": 21,
+      "title": "ŞÜKREDEN ZENGİNİN FAZİLETİ",
+      "fileName": "sayfa_21.html"
+    },
+    {
+      "pageNo": 22,
+      "title": "ÖLÜMÜ ANMAK VE NEFSİN AŞIRI İSTEKLERİNİ DİZGİNLEMEK",
+      "fileName": "sayfa_22.html"
+    },
+    {
+      "pageNo": 23,
+      "title": "KABİR ZİYARETİ",
+      "fileName": "sayfa_23.html"
+    },
+    {
+      "pageNo": 24,
+      "title": "ÖLMEYİ İSTEMENİN DOĞRU BİR ŞEY OLMADIĞI",
+      "fileName": "sayfa_24.html"
+    },
+    {
+      "pageNo": 25,
+      "title": "GÜNAHTAN SAKINMA, GÜNAHA GÖTÜREBİLECEK DAVRANIŞLARDAN KAÇINMA",
+      "fileName": "sayfa_25.html"
+    },
+    {
+      "pageNo": 26,
+      "title": "İNSANLARDAN UZAK YAŞAMAK",
+      "fileName": "sayfa_26.html"
+    },
+    {
+      "pageNo": 27,
+      "title": "İNSANLARLA BİR ARADA YAŞAMANIN DEĞERİ",
+      "fileName": "sayfa_27.html"
+    },
+    {
+      "pageNo": 28,
+      "title": "TEVÂZÛ VE MÜ’MİNLERE KOL KANAT GERMEK",
+      "fileName": "sayfa_28.html"
+    },
+    {
+      "pageNo": 29,
+      "title": "KİBİRLENMENİN VE KENDİNİ BEĞENMENİN HARAM OLDUĞU",
+      "fileName": "sayfa_29.html"
+    },
+    {
+      "pageNo": 30,
+      "title": "GÜZEL AHLÂK",
+      "fileName": "sayfa_30.html"
+    },
+    {
+      "pageNo": 31,
+      "title": "YUMUŞAK HUYLULUK, TEENNÎ, KOLAYLIK",
+      "fileName": "sayfa_31.html"
+    },
+    {
+      "pageNo": 32,
+      "title": "HATALARI BAĞIŞLAMAK VE CÂHİLLERE UYMAMAK",
+      "fileName": "sayfa_32.html"
+    }
+  ]
+}
