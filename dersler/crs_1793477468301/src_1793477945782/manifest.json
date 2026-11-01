@@ -1,0 +1,535 @@
+{
+  "id": "src_1793477945782",
+  "courseId": "crs_1793477468301",
+  "name": "Riyazü's Salihin 6",
+  "metadata": {
+    "workTitle": "Riyazü's Salihin 6",
+    "author": "İmam Nevevî",
+    "publisher": "Erkam Yayınları",
+    "pubYear": "",
+    "extra": ""
+  },
+  "customCss": "\nbody, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {\r\n  margin: 0;\r\n  padding: 0;\r\n  border-width: 0;\r\n}\r\ntd, th {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntbody {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntr {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\nthead {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntfoot {\r\n  border-style: inherit;\r\n  border-width: inherit;\r\n  border-color: inherit;\r\n}\r\ntable {\r\n  border-collapse: collapse;\r\n}\r\nli {\r\n  display: block;\r\n}\r\nbody {\r\n  -epub-hyphens: auto;\r\n}\r\n@page {\r\n  margin: 0.5px 0.5px 0.5px 0.5px;\r\n}\r\n.leftFloat {\r\n  float: left;\r\n}\r\n.rightFloat {\r\n  float: right;\r\n}\r\n.kitapickapak {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 2em;\r\n  margin: 0.25em 0;\r\n}\r\n.kitapickapak2 {\r\n  text-align: center;\r\n  font-size: 1.40em;\r\n  margin: 0.25em 0;\r\n}\r\n.normal {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n}\r\n.normal2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-weight: bold;\r\n}\r\n.normal3 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n}\r\n.normal4 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.7em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.normalnesililk {\r\n  text-align: justify;\r\n  text-indent: 0;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesilsplit {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil5mmbefore {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.normalnesilson {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0 1em 0;\r\n  font-size: 1em;\r\n}\r\n.normalnesil2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-weight: bold;\r\n}\r\n.normalnesil3 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n}\r\n.normalnesil4 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0em 0;\r\n  font-size: 1em;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.indentmetinilk {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinilk2 {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinson {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-bottom: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetin {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  font-size: 1em;\r\n}\r\n.indentmetintek {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  margin-bottom: 1em;\r\n  font-size: 1em;\r\n}\r\n.indentmetinitalik {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  font-style: italic;\r\n  font-size: 1em;\r\n}\r\n.indentmetinbold {\r\n  text-align: justify;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  margin-left: 3em;\r\n  margin-top: 1em;\r\n  font-weight: bold;\r\n  font-size: 1em;\r\n}\r\n.baslik {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.5em;\r\n  margin-bottom: 1em;\r\n}\r\n.Arapca {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.5em;\r\n}\r\n.h1baslik {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n  margin-bottom: 1em;\r\n}\r\n.h2baslik {\r\n  text-align: justify;\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  margin: 0.85em 0 0.50em 0;\r\n}\r\n.h2baslikbol {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  margin: 0.85em 0 0.50em 0;\r\n}\r\n.solbaslik {\r\n  text-align: justify;\r\n  margin: 0.85em 0 0.20em 0;\r\n  font-size: 1.1em;\r\n  font-weight: bold;\r\n}\r\n.sagbaslik {\r\n  text-align: right;\r\n  text-indent: 0.75em;\r\n  margin: 0.25em 0;\r\n  font-size: 1.1em;\r\n  font-weight: bold;\r\n}\r\n.bolum {\r\n  font-size: 2em;\r\n  text-align: center;\r\n  font-weight: normal;\r\n}\r\n.kapakmetin {\r\n  text-align: center;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n}\r\n.kunye {\r\n  text-align: left;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n  margin-left: 3em;\r\n}\r\n.kunyenesil {\r\n  text-align: center;\r\n  font-size: 0.75em;\r\n  margin: 0em 0;\r\n}\r\n.idebold {\r\n  font-weight: bold;\r\n}\r\n.ideitalik {\r\n  font-style: italic;\r\n}\r\n.idebolditalik {\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.ortaitalik {\r\n  text-align: center;\r\n  margin-bottom: 1em;\r\n  font-style: italic;\r\n}\r\n.ortayazi {\r\n  text-align: center;\r\n  font-style: normal;\r\n  font-size: 1.5em;\r\n  margin: 20px;\r\n}\r\n.sagic {\r\n  float: right;\r\n  text-align: justify;\r\n  font-style: normal;\r\n  margin: 0 0 30px 30px;\r\n  width: 40%;\r\n  clear: both;\r\n}\r\n.sagitalik {\r\n  text-align: right;\r\n  font-style: italic;\r\n}\r\n.sagbold {\r\n  text-align: right;\r\n  font-weight: bold;\r\n}\r\n.sagnormal {\r\n  text-align: right;\r\n  margin-top: 1em;\r\n  margin-bottom: 1em;\r\n  font-style: normal;\r\n}\r\n.sagbolditalik {\r\n  text-align: right;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n}\r\n.rightimage {\r\n  float: right;\r\n  margin-bottom: 15px;\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n.leftimage {\r\n  float: left;\r\n  margin-bottom: 15px;\r\n  margin-right: 15px;\r\n  margin-top: 15px;\r\n}\r\n.resimalti {\r\n  text-align: center;\r\n  font-style: italic;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n  font-size: 0.8em;\r\n}\r\n.clrb {\r\n  clear: both;\r\n}\r\n.resim {\r\n  padding: 10px;\r\n  text-align: center;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n}\r\n.generictable {\r\n  width: 100%;\r\n  border: 0;\r\n  border-collapse: collapse;\r\n}\r\n.generictable td, th {\r\n  border: 1px solid #ffffff;\r\n  background-color: #eeeeee;\r\n  margin: 0;\r\n  padding: 0.2em 0.3em;\r\n  font-family: Arial , sans-serif;\r\n  font-size: 0.8em;\r\n  text-align: left;\r\n}\r\n.tablo25 {\r\n  width: 25%;\r\n  display: inline-block;\r\n}\r\n.tablo50 {\r\n  width: 50%;\r\n  display: inline-block;\r\n}\r\n.tablo75 {\r\n  width: 75%;\r\n  display: inline-block;\r\n}\r\n.tablo100 {\r\n  width: 100%;\r\n  display: inline-block;\r\n}\r\n.ustyazi {\r\n  vertical-align: super;\r\n}\r\n.altyazi {\r\n  vertical-align: sub;\r\n  font-size: 13px;\r\n}\r\n",
+  "footnotes": {},
+  "toc": [
+    {
+      "title": "RiyazusSalihin_6",
+      "pageNo": 1,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "RiyazusSalihin_6-1",
+      "pageNo": 2,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "RiyazusSalihin_6-2",
+      "pageNo": 3,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "CİHAD BÖLÜMÜ",
+      "pageNo": 4,
+      "level": 1,
+      "anchor": "_idParaDest-1"
+    },
+    {
+      "title": "ŞEHİTLERİN ÂHİRETTEKİ SEVABI",
+      "pageNo": 5,
+      "level": 1,
+      "anchor": "_idParaDest-2"
+    },
+    {
+      "title": "KÖLE AZAT ETMENİN FAZİLETİ",
+      "pageNo": 6,
+      "level": 1,
+      "anchor": "_idParaDest-3"
+    },
+    {
+      "title": "KÖLELERE İYİLİK ETMEK",
+      "pageNo": 7,
+      "level": 1,
+      "anchor": "_idParaDest-4"
+    },
+    {
+      "title": "ALLAH’IN VE EFENDİSİNİN HAKKINI YERİNE GETİREN KÖLENİN FAZİLETİ",
+      "pageNo": 8,
+      "level": 1,
+      "anchor": "_idParaDest-5"
+    },
+    {
+      "title": "KARGAŞA VE FİTNE ZAMANINDA İBADETİN FAZİLETİ",
+      "pageNo": 9,
+      "level": 1,
+      "anchor": "_idParaDest-6"
+    },
+    {
+      "title": "ALIŞ-VERİŞLE İLGİLİ FAZİLETLİ DAVRANIŞLAR",
+      "pageNo": 10,
+      "level": 1,
+      "anchor": "_idParaDest-7"
+    },
+    {
+      "title": "İLİM BÖLÜMÜ",
+      "pageNo": 11,
+      "level": 1,
+      "anchor": "_idParaDest-8"
+    },
+    {
+      "title": "ALLAH’A HAMD VE ŞÜKÜR BÖLÜMÜ",
+      "pageNo": 12,
+      "level": 1,
+      "anchor": "_idParaDest-9"
+    },
+    {
+      "title": "SALÂT Ü SELÂM BÖLÜMÜ",
+      "pageNo": 13,
+      "level": 1,
+      "anchor": "_idParaDest-10"
+    },
+    {
+      "title": "ZİKİRLER BÖLÜMÜ",
+      "pageNo": 14,
+      "level": 1,
+      "anchor": "_idParaDest-11"
+    },
+    {
+      "title": "ALLAH’I HER DURUMDA ANMAK",
+      "pageNo": 15,
+      "level": 1,
+      "anchor": "_idParaDest-12"
+    },
+    {
+      "title": "YATAĞA YATINCA VE UYANINCA OKUNACAK DUA",
+      "pageNo": 16,
+      "level": 1,
+      "anchor": "_idParaDest-13"
+    },
+    {
+      "title": "ZİKİR HALKALARININ FAZİLETİ",
+      "pageNo": 17,
+      "level": 1,
+      "anchor": "_idParaDest-14"
+    },
+    {
+      "title": "SABAH VE AKŞAM ALLAH’I ZİKRETMEK",
+      "pageNo": 18,
+      "level": 1,
+      "anchor": "_idParaDest-15"
+    },
+    {
+      "title": "YATAĞA YATINCA OKUNACAK DUA",
+      "pageNo": 19,
+      "level": 1,
+      "anchor": "_idParaDest-16"
+    },
+    {
+      "title": "DUALAR BÖLÜMÜ",
+      "pageNo": 20,
+      "level": 1,
+      "anchor": "_idParaDest-17"
+    },
+    {
+      "title": "YANINDA OLMAYAN BİRİNE DUA ETMENİN FAZİLETİ",
+      "pageNo": 21,
+      "level": 1,
+      "anchor": "_idParaDest-18"
+    },
+    {
+      "title": "DUA İLE İLGİLİ BAZI KONULAR",
+      "pageNo": 22,
+      "level": 1,
+      "anchor": "_idParaDest-19"
+    },
+    {
+      "title": "VELÎLERİN KERÂMET VE FAZİLETLERİ",
+      "pageNo": 23,
+      "level": 1,
+      "anchor": "_idParaDest-20"
+    },
+    {
+      "title": "YASAKLAR BÖLÜMÜ",
+      "pageNo": 24,
+      "level": 1,
+      "anchor": "_idParaDest-21"
+    },
+    {
+      "title": "GIYBET DİNLEME YASAĞI",
+      "pageNo": 25,
+      "level": 1,
+      "anchor": "_idParaDest-22"
+    },
+    {
+      "title": "MÜBAH OLAN GIYBET",
+      "pageNo": 26,
+      "level": 1,
+      "anchor": "_idParaDest-23"
+    },
+    {
+      "title": "NEMİME YASAĞI",
+      "pageNo": 27,
+      "level": 1,
+      "anchor": "_idParaDest-24"
+    },
+    {
+      "title": "YÖNETİCİLERE SÖZ TAŞIMA YASAĞI",
+      "pageNo": 28,
+      "level": 1,
+      "anchor": "_idParaDest-25"
+    },
+    {
+      "title": "İKİYÜZLÜLÜĞÜN KÖTÜLENMESİ",
+      "pageNo": 29,
+      "level": 1,
+      "anchor": "_idParaDest-26"
+    },
+    {
+      "title": "YALAN YASAĞI",
+      "pageNo": 30,
+      "level": 1,
+      "anchor": "_idParaDest-27"
+    },
+    {
+      "title": "YALANIN CÂİZ OLDUĞU YERLER",
+      "pageNo": 31,
+      "level": 1,
+      "anchor": "_idParaDest-28"
+    },
+    {
+      "title": "SÖZÜ SAĞLAMLAŞTIRMAYA TEŞVİK",
+      "pageNo": 32,
+      "level": 1,
+      "anchor": "_idParaDest-29"
+    },
+    {
+      "title": "YALANCI ŞÂHİTLİĞİN ŞİDDETLE YASAKLANMASI",
+      "pageNo": 33,
+      "level": 1,
+      "anchor": "_idParaDest-30"
+    },
+    {
+      "title": "BELLİ BİR İNSAN VEYA HAYVANA LÂNET ETME YASAĞI",
+      "pageNo": 34,
+      "level": 1,
+      "anchor": "_idParaDest-31"
+    },
+    {
+      "title": "GÜNAHKÂRLARA LÂNET ETMEK",
+      "pageNo": 35,
+      "level": 1,
+      "anchor": "_idParaDest-32"
+    },
+    {
+      "title": "MÜSLÜMANA SÖVME YASAĞI",
+      "pageNo": 36,
+      "level": 1,
+      "anchor": "_idParaDest-33"
+    },
+    {
+      "title": "ÖLÜLERE SÖVME YASAĞI",
+      "pageNo": 37,
+      "level": 1,
+      "anchor": "_idParaDest-34"
+    },
+    {
+      "title": "MÜSLÜMANLARI İNCİTMEMEK",
+      "pageNo": 38,
+      "level": 1,
+      "anchor": "_idParaDest-35"
+    },
+    {
+      "title": "BUĞUZ ETME, İLİŞKİ KESME VE SIRT ÇEVİRME YASAĞI",
+      "pageNo": 39,
+      "level": 1,
+      "anchor": "_idParaDest-36"
+    },
+    {
+      "title": "HASET YASAĞI",
+      "pageNo": 40,
+      "level": 1,
+      "anchor": "_idParaDest-37"
+    },
+    {
+      "title": "TECESSÜS YASAĞI",
+      "pageNo": 41,
+      "level": 1,
+      "anchor": "_idParaDest-38"
+    },
+    {
+      "title": "MÜSLÜMANLARA GEREKSİZ YERE SÛ-İ ZANDA BULUNMA YASAĞI",
+      "pageNo": 42,
+      "level": 1,
+      "anchor": "_idParaDest-39"
+    },
+    {
+      "title": "MÜSLÜMANI KÜÇÜK GÖRME, AŞAĞILAMA YASAĞI",
+      "pageNo": 43,
+      "level": 1,
+      "anchor": "_idParaDest-40"
+    },
+    {
+      "title": "MÜSLÜMANIN FELAKETİNİ SEVİNÇLE KARŞILAMA YASAĞI",
+      "pageNo": 44,
+      "level": 1,
+      "anchor": "_idParaDest-41"
+    },
+    {
+      "title": "NESEBE DİL UZATMA YASAĞI",
+      "pageNo": 45,
+      "level": 1,
+      "anchor": "_idParaDest-42"
+    },
+    {
+      "title": "HÎLE YAPMA VE ALDATMA YASAĞI",
+      "pageNo": 46,
+      "level": 1,
+      "anchor": "_idParaDest-43"
+    },
+    {
+      "title": "SÖZDEN CAYMA, AHDİ BOZMA YASAĞI",
+      "pageNo": 47,
+      "level": 1,
+      "anchor": "_idParaDest-44"
+    }
+  ],
+  "pagesIndex": [
+    {
+      "pageNo": 1,
+      "title": "RiyazusSalihin_6",
+      "fileName": "sayfa_1.html"
+    },
+    {
+      "pageNo": 2,
+      "title": "RiyazusSalihin_6-1",
+      "fileName": "sayfa_2.html"
+    },
+    {
+      "pageNo": 3,
+      "title": "RiyazusSalihin_6-2",
+      "fileName": "sayfa_3.html"
+    },
+    {
+      "pageNo": 4,
+      "title": "CİHAD BÖLÜMÜ",
+      "fileName": "sayfa_4.html"
+    },
+    {
+      "pageNo": 5,
+      "title": "ŞEHİTLERİN ÂHİRETTEKİ SEVABI",
+      "fileName": "sayfa_5.html"
+    },
+    {
+      "pageNo": 6,
+      "title": "KÖLE AZAT ETMENİN FAZİLETİ",
+      "fileName": "sayfa_6.html"
+    },
+    {
+      "pageNo": 7,
+      "title": "KÖLELERE İYİLİK ETMEK",
+      "fileName": "sayfa_7.html"
+    },
+    {
+      "pageNo": 8,
+      "title": "ALLAH’IN VE EFENDİSİNİN HAKKINI YERİNE GETİREN KÖLENİN FAZİLETİ",
+      "fileName": "sayfa_8.html"
+    },
+    {
+      "pageNo": 9,
+      "title": "KARGAŞA VE FİTNE ZAMANINDA İBADETİN FAZİLETİ",
+      "fileName": "sayfa_9.html"
+    },
+    {
+      "pageNo": 10,
+      "title": "ALIŞ-VERİŞLE İLGİLİ FAZİLETLİ DAVRANIŞLAR",
+      "fileName": "sayfa_10.html"
+    },
+    {
+      "pageNo": 11,
+      "title": "İLİM BÖLÜMÜ",
+      "fileName": "sayfa_11.html"
+    },
+    {
+      "pageNo": 12,
+      "title": "ALLAH’A HAMD VE ŞÜKÜR BÖLÜMÜ",
+      "fileName": "sayfa_12.html"
+    },
+    {
+      "pageNo": 13,
+      "title": "SALÂT Ü SELÂM BÖLÜMÜ",
+      "fileName": "sayfa_13.html"
+    },
+    {
+      "pageNo": 14,
+      "title": "ZİKİRLER BÖLÜMÜ",
+      "fileName": "sayfa_14.html"
+    },
+    {
+      "pageNo": 15,
+      "title": "ALLAH’I HER DURUMDA ANMAK",
+      "fileName": "sayfa_15.html"
+    },
+    {
+      "pageNo": 16,
+      "title": "YATAĞA YATINCA VE UYANINCA OKUNACAK DUA",
+      "fileName": "sayfa_16.html"
+    },
+    {
+      "pageNo": 17,
+      "title": "ZİKİR HALKALARININ FAZİLETİ",
+      "fileName": "sayfa_17.html"
+    },
+    {
+      "pageNo": 18,
+      "title": "SABAH VE AKŞAM ALLAH’I ZİKRETMEK",
+      "fileName": "sayfa_18.html"
+    },
+    {
+      "pageNo": 19,
+      "title": "YATAĞA YATINCA OKUNACAK DUA",
+      "fileName": "sayfa_19.html"
+    },
+    {
+      "pageNo": 20,
+      "title": "DUALAR BÖLÜMÜ",
+      "fileName": "sayfa_20.html"
+    },
+    {
+      "pageNo": 21,
+      "title": "YANINDA OLMAYAN BİRİNE DUA ETMENİN FAZİLETİ",
+      "fileName": "sayfa_21.html"
+    },
+    {
+      "pageNo": 22,
+      "title": "DUA İLE İLGİLİ BAZI KONULAR",
+      "fileName": "sayfa_22.html"
+    },
+    {
+      "pageNo": 23,
+      "title": "VELÎLERİN KERÂMET VE FAZİLETLERİ",
+      "fileName": "sayfa_23.html"
+    },
+    {
+      "pageNo": 24,
+      "title": "YASAKLAR BÖLÜMÜ",
+      "fileName": "sayfa_24.html"
+    },
+    {
+      "pageNo": 25,
+      "title": "GIYBET DİNLEME YASAĞI",
+      "fileName": "sayfa_25.html"
+    },
+    {
+      "pageNo": 26,
+      "title": "MÜBAH OLAN GIYBET",
+      "fileName": "sayfa_26.html"
+    },
+    {
+      "pageNo": 27,
+      "title": "NEMİME YASAĞI",
+      "fileName": "sayfa_27.html"
+    },
+    {
+      "pageNo": 28,
+      "title": "YÖNETİCİLERE SÖZ TAŞIMA YASAĞI",
+      "fileName": "sayfa_28.html"
+    },
+    {
+      "pageNo": 29,
+      "title": "İKİYÜZLÜLÜĞÜN KÖTÜLENMESİ",
+      "fileName": "sayfa_29.html"
+    },
+    {
+      "pageNo": 30,
+      "title": "YALAN YASAĞI",
+      "fileName": "sayfa_30.html"
+    },
+    {
+      "pageNo": 31,
+      "title": "YALANIN CÂİZ OLDUĞU YERLER",
+      "fileName": "sayfa_31.html"
+    },
+    {
+      "pageNo": 32,
+      "title": "SÖZÜ SAĞLAMLAŞTIRMAYA TEŞVİK",
+      "fileName": "sayfa_32.html"
+    },
+    {
+      "pageNo": 33,
+      "title": "YALANCI ŞÂHİTLİĞİN ŞİDDETLE YASAKLANMASI",
+      "fileName": "sayfa_33.html"
+    },
+    {
+      "pageNo": 34,
+      "title": "BELLİ BİR İNSAN VEYA HAYVANA LÂNET ETME YASAĞI",
+      "fileName": "sayfa_34.html"
+    },
+    {
+      "pageNo": 35,
+      "title": "GÜNAHKÂRLARA LÂNET ETMEK",
+      "fileName": "sayfa_35.html"
+    },
+    {
+      "pageNo": 36,
+      "title": "MÜSLÜMANA SÖVME YASAĞI",
+      "fileName": "sayfa_36.html"
+    },
+    {
+      "pageNo": 37,
+      "title": "ÖLÜLERE SÖVME YASAĞI",
+      "fileName": "sayfa_37.html"
+    },
+    {
+      "pageNo": 38,
+      "title": "MÜSLÜMANLARI İNCİTMEMEK",
+      "fileName": "sayfa_38.html"
+    },
+    {
+      "pageNo": 39,
+      "title": "BUĞUZ ETME, İLİŞKİ KESME VE SIRT ÇEVİRME YASAĞI",
+      "fileName": "sayfa_39.html"
+    },
+    {
+      "pageNo": 40,
+      "title": "HASET YASAĞI",
+      "fileName": "sayfa_40.html"
+    },
+    {
+      "pageNo": 41,
+      "title": "TECESSÜS YASAĞI",
+      "fileName": "sayfa_41.html"
+    },
+    {
+      "pageNo": 42,
+      "title": "MÜSLÜMANLARA GEREKSİZ YERE SÛ-İ ZANDA BULUNMA YASAĞI",
+      "fileName": "sayfa_42.html"
+    },
+    {
+      "pageNo": 43,
+      "title": "MÜSLÜMANI KÜÇÜK GÖRME, AŞAĞILAMA YASAĞI",
+      "fileName": "sayfa_43.html"
+    },
+    {
+      "pageNo": 44,
+      "title": "MÜSLÜMANIN FELAKETİNİ SEVİNÇLE KARŞILAMA YASAĞI",
+      "fileName": "sayfa_44.html"
+    },
+    {
+      "pageNo": 45,
+      "title": "NESEBE DİL UZATMA YASAĞI",
+      "fileName": "sayfa_45.html"
+    },
+    {
+      "pageNo": 46,
+      "title": "HÎLE YAPMA VE ALDATMA YASAĞI",
+      "fileName": "sayfa_46.html"
+    },
+    {
+      "pageNo": 47,
+      "title": "SÖZDEN CAYMA, AHDİ BOZMA YASAĞI",
+      "fileName": "sayfa_47.html"
+    }
+  ]
+}
