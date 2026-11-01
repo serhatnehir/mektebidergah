@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="theme-color" content="#8c5a3c" />
+
+  <!-- Telefon ve Tablet (PWA - Tam Ekran Uygulama) Meta Etiketleri -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Mekteb-i Dergah" />
+  <meta name="application-name" content="Mekteb-i Dergah" />
+  <title>Mekteb-i Dergah</title>
+
+  <!-- Uygulama Logosu / Telefon & Tablet Ana Ekran İkonu -->
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+  <link rel="manifest" id="dynamicManifestLink" />
+
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- PDF.js (Orijinal PDF Sayfa Görünümü & Şeffaf Vurgu Katmanı) & JSZip (EPUB Ayrıştırma) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+  <!-- Google Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+
+  <!-- Stil Dosyası -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+
+  <!-- KAYNAK KOD KORUMA KALKANI UYARI EKRANI (DEVTOOLS / İNCELEME ALGILANDIĞINDA DEVREYE GİRER) -->
+  <div id="securityLockOverlay" class="security-lock-overlay hidden">
+    <div class="security-lock-card">
+      <i class="fa-solid fa-shield-halved security-lock-icon"></i>
+      <h2>Güvenlik Koruması Aktif</h2>
+      <p>Mekteb-i Dergah kaynak kodları ve ders içerikleri korumalıdır. Devam etmek için lütfen geliştirici araçlarını kapatın.</p>
+    </div>
+  </div>
+
+  <!-- MAVİ IŞIK KORUMA FİLTRESİ KATMANI -->
+  <div id="blueLightOverlay" class="blue-light-overlay hidden"></div>
+
+  <!-- 1 SANİYELİK BEYAZ EKRAN & LOGO AÇILIŞ EKRANI (SPLASH SCREEN) -->
+  <div id="splashScreen" class="splash-screen">
+    <img src="logo.png" alt="Mekteb-i Dergah Logo" class="splash-logo" onerror="this.style.display='none'" />
+  </div>
+
+  <!-- ÜYELİK GİRİŞİ VE KAYIT EKRANI -->
+  <div id="authScreen" class="auth-screen hidden">
+    <div class="auth-card">
+      <div class="auth-header">
+        <img src="logo.png" alt="Mekteb-i Dergah" class="auth-logo" onerror="this.style.display='none'" />
+        <h1 class="brand-font">Mekteb-i Dergah</h1>
+      </div>
+
+      <!-- Giriş / Kayıt Sekmeleri -->
+      <div class="auth-tabs" id="authTabsBar">
+        <button id="tabLoginBtn" class="auth-tab active" onclick="switchAuthTab('login')">Giriş Yap</button>
+        <button id="tabRegisterBtn" class="auth-tab" onclick="switchAuthTab('register')">Üye Ol</button>
+      </div>
+
+      <!-- GİRİŞ FORMU -->
+      <form id="loginForm" class="auth-form" onsubmit="handleLogin(event)" autocomplete="on">
+        <div class="form-group">
+          <label>E-Posta Adresi</label>
+          <input type="email" id="loginEmail" name="username" autocomplete="username" required placeholder="ornek@mail.com" class="form-input" />
+        </div>
+        <div class="form-group">
+          <label>Şifre</label>
+          <input type="password" id="loginPassword" name="password" autocomplete="current-password" required placeholder="••••••••" class="form-input" />
+        </div>
+        <div class="form-row-between">
+          <label class="checkbox-label">
+            <input type="checkbox" id="rememberMeCheckbox" checked />
+            <span>Beni Hatırla (Bilgileri Kaydet)</span>
+          </label>
+          <button type="button" class="forgot-pass-link" onclick="switchAuthTab('forgot')">
+            Şifremi Unuttum?
+          </button>
+        </div>
+        <button type="submit" class="btn-primary w-full">
+          <i class="fa-solid fa-right-to-bracket"></i> Giriş Yap
+        </button>
+        <button type="button" class="btn-secondary w-full" onclick="openPwaInstallModal()">
+          <i class="fa-solid fa-mobile-screen-button"></i> Telefon / Tablete Uygulama Olarak Yükle
+        </button>
+      </form>
+
+      <!-- ŞİFREMİ UNUTTUM FORMU -->
+      <form id="forgotPasswordForm" class="auth-form hidden" onsubmit="handleForgotPassword(event)">
+        <p class="hint-text">
+          Kayıtlı e-posta adresinizi girin. Şifre sıfırlama bağlantısı e-posta adresinize gönderilecektir.
+        </p>
+        <div class="form-group">
+          <label>E-Posta Adresi</label>
+          <input type="email" id="forgotEmailInput" required placeholder="ornek@mail.com" class="form-input" />
+        </div>
+        <button type="submit" class="btn-primary w-full">
+          <i class="fa-solid fa-paper-plane"></i> Şifre Sıfırlama Bağlantısı Gönder
+        </button>
+        <button type="button" class="btn-secondary w-full" onclick="switchAuthTab('login')">
+          <i class="fa-solid fa-arrow-left"></i> Giriş Ekranına Dön
+        </button>
+      </form>
+
+      <!-- KAYIT FORMU -->
+      <form id="registerForm" class="auth-form hidden" onsubmit="handleRegister(event)">
+        <div class="grid-2">
+          <div class="form-group">
+            <label>Ad</label>
+            <input type="text" id="regFirstName" required placeholder="Adınız" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label>Soyad</label>
+            <input type="text" id="regLastName" required placeholder="Soyadınız" class="form-input" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>E-Posta Adresi</label>
+          <input type="email" id="regEmail" required placeholder="ornek@mail.com" class="form-input" />
+        </div>
+        <div class="grid-2">
+          <div class="form-group">
+            <label>Şifre</label>
+            <input type="password" id="regPassword1" required minlength="6" placeholder="En az 6 karakter" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label>Şifre (Tekrar)</label>
+            <input type="password" id="regPassword2" required minlength="6" placeholder="Şifreyi doğrulayın" class="form-input" />
+          </div>
+        </div>
+        <button type="submit" class="btn-primary w-full">
+          <i class="fa-solid fa-user-plus"></i> Kaydı Tamamla
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ANA UYGULAMA EKRANI -->
+  <div id="appContainer" class="app-container hidden">
+
+    <!-- ÜST BAR (HEADER) -->
+    <header class="app-header">
+      <div class="header-left">
+        <button class="icon-btn mobile-only" onclick="toggleMobileSidebar()" title="Menü">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="brand-box" onclick="switchMainView('study')">
+          <img src="logo.png" alt="Logo" class="header-logo" onerror="this.style.display='none'" />
+          <span class="brand-title brand-font">Mekteb-i Dergah</span>
+        </div>
+      </div>
+
+      <!-- ÜST BAR SAĞ: DERS ÇALIŞMA, KONU ÖZETİ (ORTADA), SINAV VE KULLANICI AÇILIR MENÜSÜ -->
+      <div class="header-right">
+        <button type="button" id="navStudyBtn" class="nav-btn active" onclick="switchMainView('study')">
+          <i class="fa-solid fa-book-open-reader"></i>
+          <span>Ders Çalışma</span>
+        </button>
+
+        <button type="button" id="navSummaryBtn" class="nav-btn" onclick="openSummaryViewFromHeader()">
+          <i class="fa-solid fa-file-lines"></i>
+          <span>Konu Özeti</span>
+        </button>
+
+        <button type="button" id="navExamsBtn" class="nav-btn" onclick="switchMainView('exams')">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>Sınav</span>
+        </button>
+
+        <!-- Sağ Üst Kullanıcı Açılır Menüsü -->
+        <div class="user-dropdown-wrapper" id="userDropdownWrapper">
+          <button type="button" class="user-dropdown-trigger" onclick="toggleUserDropdownMenu(event)">
+            <i class="fa-solid fa-circle-user user-avatar-icon"></i>
+            <span id="headerUserName">Kullanıcı</span>
+            <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+          </button>
+
+          <div id="userDropdownMenu" class="user-dropdown-menu hidden">
+            <button type="button" id="navProfileBtn" class="dropdown-item" onclick="switchMainView('profile')">
+              <i class="fa-solid fa-user-gear"></i>
+              <span>Profil Bilgileri</span>
+            </button>
+            <button type="button" class="dropdown-item" onclick="openVoiceSettingsModal()">
+              <i class="fa-solid fa-volume-high"></i>
+              <span>Seslendirme Ayarları</span>
+            </button>
+            <button type="button" class="dropdown-item" onclick="openPwaInstallModal()">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <span>Uygulamayı Cihaza Yükle</span>
+            </button>
+
+            <!-- TEMA SEÇENEKLERİ -->
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-section-label">Tema Seçenekleri</div>
+            <div class="dropdown-theme-grid">
+              <button type="button" onclick="setTheme('light')" id="theme-light" class="dropdown-theme-btn active" title="Beyaz (Açık) Tema">
+                <i class="fa-solid fa-sun"></i> Beyaz
+              </button>
+              <button type="button" onclick="setTheme('dark')" id="theme-dark" class="dropdown-theme-btn" title="Koyu Tema">
+                <i class="fa-solid fa-moon"></i> Koyu
+              </button>
+              <button type="button" onclick="setTheme('cream')" id="theme-cream" class="dropdown-theme-btn" title="Krem (Kitap) Teması">
+                <i class="fa-solid fa-book-open"></i> Krem
+              </button>
+              <button type="button" onclick="toggleBlueLightFilter()" id="blueLightBtn" class="dropdown-theme-btn blue-light-btn" title="Mavi Işık Koruma">
+                <i class="fa-solid fa-eye-low-vision"></i> Göz Koruma
+              </button>
+            </div>
+
+            <!-- EKRAN RENGİ (TEMADAN BAĞIMSIZ YAZI EKRANI RENGİ) -->
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-section-label">Ekran Rengi</div>
+            <div class="dropdown-screen-color-grid">
+              <button type="button" onclick="setReaderScreenColor('default')" id="scr-default" class="dropdown-theme-btn active" title="Temaya Uygun Varsayılan">
+                Varsayılan
+              </button>
+              <button type="button" onclick="setReaderScreenColor('white')" id="scr-white" class="dropdown-theme-btn" title="Beyaz Yazı Ekranı">
+                <span class="scr-swatch white"></span> Beyaz
+              </button>
+              <button type="button" onclick="setReaderScreenColor('cream')" id="scr-cream" class="dropdown-theme-btn" title="Krem / Sepya Yazı Ekranı">
+                <span class="scr-swatch cream"></span> Krem
+              </button>
+              <button type="button" onclick="setReaderScreenColor('night')" id="scr-night" class="dropdown-theme-btn" title="Gece Siyahı Yazı Ekranı">
+                <span class="scr-swatch night"></span> Gece
+              </button>
+              <button type="button" onclick="setReaderScreenColor('slate')" id="scr-slate" class="dropdown-theme-btn" title="Antrasit Yazı Ekranı">
+                <span class="scr-swatch slate"></span> Antrasit
+              </button>
+              <button type="button" onclick="setReaderScreenColor('green')" id="scr-green" class="dropdown-theme-btn" title="Yeşil Göz Rahatlığı">
+                <span class="scr-swatch green"></span> Yeşil
+              </button>
+            </div>
+
+            <button type="button" id="navAdminBtn" class="dropdown-item admin-dropdown-item hidden mt-8" onclick="switchMainView('admin')">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>Admin Paneli</span>
+            </button>
+            <div class="dropdown-divider"></div>
+            <button type="button" class="dropdown-item logout-dropdown-item" onclick="handleLogout()">
+              <i class="fa-solid fa-power-off"></i>
+              <span>Çıkış Yap</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ANA GÖVDE: SOL MENÜ + İÇERİK ALANI -->
+    <div class="app-body">
+
+      <!-- SOL MENÜ: ALDIĞIM DERSLER + TÜMÜNÜ AÇ/KAPAT + ALTINDA AÇILAN KAYNAKLAR / İÇİNDEKİLER -->
+      <aside id="leftSidebar" class="left-sidebar">
+        <div class="sidebar-section toc-section">
+          <div class="sidebar-header">
+            <span><i class="fa-solid fa-layer-group"></i> Aldığım Dersler</span>
+            <div class="sidebar-header-btns">
+              <button type="button" id="toggleAllCoursesBtn" class="mini-link-btn" onclick="toggleAllSidebarCourses()" title="Tüm Dersleri Aç / Kapat">
+                <i class="fa-solid fa-angles-down"></i> Tümünü Aç
+              </button>
+              <button type="button" class="mini-link-btn" onclick="switchMainView('profile')" title="Ders ve Kaynak Seçimi">
+                <i class="fa-solid fa-sliders"></i> Seç
+              </button>
+            </div>
+          </div>
+          <div id="enrolledCoursesList" class="sidebar-list"></div>
+        </div>
+
+        <!-- SOL EN ALT KÖŞE: SERHAT NEHİR GELİŞTİRİCİ LOGOSU VE İMZASI -->
+        <div class="sidebar-dev-footer">
+          <img src="sn.png" alt="Serhat Nehir" class="dev-logo" onerror="this.style.display='none'" />
+          <div class="dev-text-box">
+            <span class="dev-name">Serhat Nehir</span>
+            <span class="dev-title">Geliştirici</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ANA İÇERİK BÖLÜMÜ -->
+      <main class="main-content">
+
+        <!-- 1. GÖRÜNÜM: DERS ÇALIŞMA EKRANI -->
+        <section id="viewStudy" class="view-section">
+
+          <!-- Ders Seçilmediyse Boş Durum -->
+          <div id="noCourseSelectedState" class="empty-state-box">
+            <img src="logo.png" alt="Logo" class="empty-logo" onerror="this.style.display='none'" />
+            <h2>Ders Çalışmaya Başlayın</h2>
+            <p>Sol menüden aldığınız bir dersi ve kaynağı seçin veya <strong>Profil Bilgileri</strong> sayfasından ders ve kaynak tercihlerinizi belirleyin.</p>
+            <div class="empty-actions">
+              <button class="btn-primary" onclick="switchMainView('profile')">
+                <i class="fa-solid fa-check-double"></i> Ders ve Kaynak Seç
+              </button>
+            </div>
+          </div>
+
+          <!-- Ders Seçildiyse Çalışma Alanı -->
+          <div id="activeStudyWorkspace" class="study-workspace hidden">
+
+            <!-- ÇALIŞMA EKRANI: SOLDA DERS OKUMA EKRANI + SAĞDA MANUEL KONU NOTLARIM -->
+            <div class="reader-and-notes-grid">
+
+              <!-- DERS OKUMA, YAPAY ZEKA SESLENDİRME VE EPUB/ORİJİNAL PDF GÖRÜNTÜLEME ALANI -->
+              <div class="reader-card">
+                <div class="reader-Subheader">
+                  <div class="reader-nav-controls">
+                    <button class="icon-btn" onclick="navigateStudyPage(-1)" title="Önceki Konu">
+                      <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <span id="currentPageTitleIndicator" class="reader-page-title">Konu</span>
+                    <button class="icon-btn" onclick="navigateStudyPage(1)" title="Sonraki Konu">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                  </div>
+                  <div class="reader-tools-info">
+                    <button class="btn-secondary btn-sm" onclick="resetCurrentUserPageEdits()" title="Bu konudaki vurgularımı sıfırla">
+                      <i class="fa-solid fa-rotate-left"></i> Vurgularımı Sıfırla
+                    </button>
+                  </div>
+                </div>
+
+                <!-- YAPAY ZEKA DERS SESLENDİRME KONTROL ÇUBUĞU (-10 SN, DURDUR, OYNAT/DURAKLAT, +10 SN) -->
+                <div class="tts-player-bar">
+                  <div class="tts-left-info">
+                    <i class="fa-solid fa-volume-high tts-wave-icon"></i>
+                    <div>
+                      <div class="tts-title">Yapay Zeka Seslendirme</div>
+                      <div id="ttsStatusText" class="tts-subtext">Okumaya hazır • Hız: 1.0x</div>
+                    </div>
+                  </div>
+
+                  <div class="tts-controls-group">
+                    <button type="button" class="tts-ctrl-btn" onclick="seekTtsAudio(-10)" title="10 Saniye Geri">
+                      <i class="fa-solid fa-rotate-left"></i> <span>-10 sn</span>
+                    </button>
+                    <button type="button" class="tts-ctrl-btn stop-btn" onclick="stopTtsAudio()" title="Durdur">
+                      <i class="fa-solid fa-stop"></i>
+                    </button>
+                    <button type="button" id="ttsPlayPauseBtn" class="tts-ctrl-btn play-btn" onclick="togglePlayPauseTtsAudio()" title="Oynat / Duraklat">
+                      <i class="fa-solid fa-play"></i> <span>Oynat</span>
+                    </button>
+                    <button type="button" class="tts-ctrl-btn" onclick="seekTtsAudio(10)" title="10 Saniye İleri">
+                      <span>+10 sn</span> <i class="fa-solid fa-rotate-right"></i>
+                    </button>
+                  </div>
+
+                  <button type="button" class="btn-secondary btn-sm" onclick="openVoiceSettingsModal()" title="Seslendirme Ayarları">
+                    <i class="fa-solid fa-sliders"></i> Seslendirme Ayarları
+                  </button>
+                </div>
+
+                <!-- EPUB Orijinal Yazı Tipi, Boyutu ve CSS Stilleri İçin Kapsayıcı -->
+                <div id="epubCustomStylesContainer"></div>
+
+                <!-- Sağ Tıklama ile Biçimlendirilebilir Okuma Alanı (EPUB Orijinal CSS + Orijinal PDF Şeffaf Vurgu Katmanı) -->
+                <div id="studyReaderContent" class="study-reader-content serif-reader" data-reader-screen="default" contenteditable="true" spellcheck="false">
+                </div>
+              </div>
+
+              <!-- KULLANICININ KONUYA ÖZEL MANUEL NOTLARI -->
+              <div class="user-notes-card">
+                <div class="panel-header">
+                  <h3><i class="fa-solid fa-note-sticky"></i> Konu Notlarım</h3>
+                  <span class="badge" id="userNotesCountBadge">0 Not</span>
+                </div>
+
+                <form class="manual-note-form" onsubmit="handleAddManualUserNote(event)">
+                  <input type="text" id="manualNoteTitle" placeholder="Not başlığı / Konu başlığı..." required class="form-input" />
+                  <textarea id="manualNoteBody" rows="3" placeholder="Çalıştığınız konuya ait manuel notunuzu buraya yazın..." required class="form-input"></textarea>
+                  <button type="submit" class="btn-primary btn-sm w-full">
+                    <i class="fa-solid fa-plus"></i> Konuya Manuel Not Ekle
+                  </button>
+                </form>
+
+                <div id="userCourseNotesList" class="user-notes-list"></div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- 1.5 GÖRÜNÜM: KONU ÖZETİ EKRANI (ÜST BARDA DERS ÇALIŞMA İLE SINAV ORTASINDA) -->
+        <section id="viewSummary" class="view-section hidden">
+          <div class="card-panel mb-12">
+            <div class="exam-topic-selector-grid">
+              <div class="form-group">
+                <label>Ders Seçin</label>
+                <select id="summaryCourseSelect" class="form-input" onchange="handleSummaryCourseChange()"></select>
+              </div>
+              <div class="form-group">
+                <label>Kaynak / Kitap Seçin</label>
+                <select id="summarySourceSelect" class="form-input" onchange="handleSummarySourceChange()"></select>
+              </div>
+              <div class="form-group">
+                <label>Başlangıç Konu Başlığı</label>
+                <select id="summaryStartTocSelect" class="form-input" onchange="handleSummaryStartTocChange()"></select>
+              </div>
+              <div class="form-group">
+                <label>Bitiş Konu Başlığı</label>
+                <select id="summaryEndTocSelect" class="form-input"></select>
+              </div>
+            </div>
+            <div class="exam-topic-actions-row mt-12">
+              <button type="button" class="btn-primary" onclick="generateSummaryFromSummaryView()">
+                <i class="fa-solid fa-file-lines"></i> Seçilen Konuların Özetini Çıkar
+              </button>
+            </div>
+          </div>
+
+          <div id="summaryResultPanel" class="summary-panel">
+            <div class="panel-header">
+              <h3><i class="fa-solid fa-scroll"></i> Konu Özeti <span id="summaryRangeBadge" class="badge">Henüz Özet Çıkarılmadı</span></h3>
+              <div class="panel-actions">
+                <button class="btn-secondary btn-sm" onclick="saveSummaryToUserNotes()">
+                  <i class="fa-solid fa-bookmark"></i> Konu Notlarıma Kaydet
+                </button>
+              </div>
+            </div>
+            <div id="summaryResultContent" class="summary-body" data-reader-screen="default">
+              <p class="hint-text">Yukarıdan ders, kaynak ve konu başlığı aralığını seçip <strong>"Seçilen Konuların Özetini Çıkar"</strong> düğmesine tıklayın.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. GÖRÜNÜM: SINAV EKRANI (ÇOKTAN SEÇMELİ SINAV, ÖĞRETİCİ SORULAR, DERS HOCASININ HAZIRLADIĞI SORULAR) -->
+        <section id="viewExams" class="view-section hidden">
+
+          <!-- İÇİNDEKİLER KONU BAŞLIĞI SEÇİM ÇUBUĞU (BAŞLANGIÇTAN ÖNCEKİ BAŞLIKLAR BİTİŞTE GÖRÜNMEZ) -->
+          <div class="card-panel mb-12">
+            <div class="exam-topic-selector-grid">
+              <div class="form-group">
+                <label>Ders Seçin</label>
+                <select id="examCourseSelect" class="form-input" onchange="handleExamCourseChange()"></select>
+              </div>
+              <div class="form-group">
+                <label>Kaynak / Kitap Seçin</label>
+                <select id="examSourceSelect" class="form-input" onchange="handleExamSourceChange()"></select>
+              </div>
+              <div class="form-group">
+                <label>Başlangıç Konu Başlığı (İçindekiler)</label>
+                <select id="startTocSelect" class="form-input" onchange="handleExamStartTocChange()"></select>
+              </div>
+              <div class="form-group">
+                <label>Bitiş Konu Başlığı (İçindekiler)</label>
+                <select id="endTocSelect" class="form-input"></select>
+              </div>
+            </div>
+            <div class="exam-topic-actions-row mt-12">
+              <button type="button" class="btn-primary" onclick="startMultipleChoiceQuizFromRange()">
+                <i class="fa-solid fa-list-check"></i> Çoktan Seçmeli Sınav Başlat
+              </button>
+              <button type="button" class="btn-secondary" onclick="startInstructionalQuestionsFromRange()">
+                <i class="fa-solid fa-chalkboard-user"></i> Öğretici Sorular Hazırla
+              </button>
+              <button type="button" class="btn-secondary" onclick="openTeacherQuestionsTabFromRange()">
+                <i class="fa-solid fa-user-graduate"></i> Ders Hocasının Hazırladığı Sorular
+              </button>
+            </div>
+          </div>
+
+          <!-- Üst Sınav Türü Seçim Sekmeleri -->
+          <div class="exam-mode-switcher-bar mb-12">
+            <button type="button" id="examTabMcqBtn" class="exam-type-tab active" onclick="switchExamSubTab('mcq')">
+              <i class="fa-solid fa-list-check"></i> Çoktan Seçmeli Sınav
+            </button>
+            <button type="button" id="examTabInstBtn" class="exam-type-tab" onclick="switchExamSubTab('instructional')">
+              <i class="fa-solid fa-chalkboard-user"></i> Öğretici Sorular
+            </button>
+            <button type="button" id="examTabTeacherBtn" class="exam-type-tab" onclick="switchExamSubTab('teacher')">
+              <i class="fa-solid fa-user-graduate"></i> Ders Hocasının Hazırladığı Sorular
+            </button>
+          </div>
+
+          <div class="exams-grid">
+
+            <!-- SOL: AKTİF SINAV, ÖĞRETİCİ SORULAR VEYA DERS HOCASININ SORULARI ALANI -->
+            <div class="exam-runner-card">
+
+              <!-- 2A: ÇOKTAN SEÇMELİ SINAV BÖLÜMÜ -->
+              <div id="mcqExamSection">
+                <div class="panel-header">
+                  <div>
+                    <h3><i class="fa-solid fa-list-check"></i> 10 Soruluk Çoktan Seçmeli Sınav</h3>
+                    <div class="ai-prepared-note">
+                      <i class="fa-solid fa-wand-magic-sparkles"></i> Yapay Zeka Desteği ile hazırlanmıştır
+                    </div>
+                  </div>
+                  <span id="activeQuizRangeBadge" class="badge">Henüz Sınav Başlatılmadı</span>
+                </div>
+
+                <div id="quizEmptyState" class="empty-state-small">
+                  <i class="fa-solid fa-circle-question"></i>
+                  <p>Yukarıdan içindekiler konu başlıklarını seçip <strong>"Çoktan Seçmeli Sınav Başlat"</strong> butonuna tıklayın.</p>
+                </div>
+
+                <div id="activeQuizContainer" class="quiz-container hidden">
+                  <div class="quiz-config-bar">
+                    <span id="quizStatsText">Toplam 10 Soru</span>
+                    <button class="btn-primary btn-sm" id="finishQuizBtn" onclick="submitActiveQuiz()">
+                      <i class="fa-solid fa-check-double"></i> Sınavı Bitir ve Notu Kaydet
+                    </button>
+                  </div>
+                  <div id="quizQuestionsList" class="quiz-questions-list"></div>
+                </div>
+              </div>
+
+              <!-- 2B: ÖĞRETİCİ SORULAR BÖLÜMÜ -->
+              <div id="instructionalExamSection" class="hidden">
+                <div class="panel-header">
+                  <div>
+                    <h3><i class="fa-solid fa-chalkboard-user"></i> Öğretici Sorular</h3>
+                    <div class="ai-prepared-note">
+                      <i class="fa-solid fa-lightbulb"></i> Konuyu pekiştiren açıklamalı soru-cevap kartları
+                    </div>
+                  </div>
+                  <span id="activeInstRangeBadge" class="badge">Henüz Başlatılmadı</span>
+                </div>
+
+                <div id="instEmptyState" class="empty-state-small">
+                  <i class="fa-solid fa-book-open-reader"></i>
+                  <p>Yukarıdan içindekiler konu başlıklarını seçip <strong>"Öğretici Sorular Hazırla"</strong> butonuna tıklayın.</p>
+                </div>
+
+                <div id="activeInstContainer" class="quiz-container hidden">
+                  <div class="quiz-config-bar">
+                    <span id="instStatsText">Toplam 10 Öğretici Soru</span>
+                    <button type="button" id="toggleAllInstAnswersBtn" class="btn-secondary btn-sm" onclick="toggleAllInstructionalAnswers()">
+                      <i class="fa-solid fa-eye"></i> Tüm Cevapları Göster
+                    </button>
+                  </div>
+                  <div id="instQuestionsList" class="quiz-questions-list"></div>
+                </div>
+              </div>
+
+              <!-- 2C: DERS HOCASININ HAZIRLADIĞI SORULAR BÖLÜMÜ -->
+              <div id="teacherExamSection" class="hidden">
+                <div class="panel-header">
+                  <div>
+                    <h3><i class="fa-solid fa-user-graduate"></i> Ders Hocasının Hazırladığı Sorular</h3>
+                    <div class="ai-prepared-note">
+                      <i class="fa-solid fa-layer-group"></i> Hocanın farklı zamanlarda verdiği soru gruplarını ayrı ayrı seçip çözebilirsiniz
+                    </div>
+                  </div>
+                  <span id="activeTeacherSetBadge" class="badge">Soru Grupları</span>
+                </div>
+
+                <!-- Hocanın Eklediği Soru Setleri / Grupları Listesi -->
+                <div id="teacherSetsSelectorBar" class="teacher-sets-list mb-12"></div>
+
+                <div id="teacherEmptyState" class="empty-state-small">
+                  <i class="fa-solid fa-folder-open"></i>
+                  <p>Seçili ders için henüz ders hocası tarafından eklenmiş soru grubu bulunmuyor veya yukarıdan bir soru grubu seçin.</p>
+                </div>
+
+                <div id="activeTeacherQuizContainer" class="quiz-container hidden">
+                  <div class="quiz-config-bar">
+                    <span id="teacherQuizStatsText">0 Soru</span>
+                    <div style="display:flex;gap:8px;flex-wrap:wrap;">
+                      <button type="button" id="toggleAllTeacherAnswersBtn" class="btn-secondary btn-sm" onclick="toggleAllTeacherQuizAnswers()">
+                        <i class="fa-solid fa-eye"></i> Tüm Cevapları Göster
+                      </button>
+                      <button type="button" id="finishTeacherQuizBtn" class="btn-primary btn-sm" onclick="submitActiveTeacherQuiz()">
+                        <i class="fa-solid fa-check-double"></i> Cevapları Kontrol Et & Notu Kaydet
+                      </button>
+                    </div>
+                  </div>
+                  <div id="teacherQuestionsList" class="quiz-questions-list"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- SAĞ: GEÇMİŞ SINAV NOTLARI -->
+            <div class="exam-history-card">
+              <div class="panel-header">
+                <h3><i class="fa-solid fa-clock-rotate-left"></i> Geçmiş Sınav Notlarım</h3>
+                <span id="examHistoryCountBadge" class="badge">0 Kayıt</span>
+              </div>
+              <div id="examHistoryList" class="exam-history-list"></div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- 3. GÖRÜNÜM: PROFİL BİLGİLERİ, GEÇMİŞ NOTLARI SIFIRLAMA & DERS VE KAYNAK SEÇİMİ -->
+        <section id="viewProfile" class="view-section hidden">
+          <div class="profile-grid">
+
+            <!-- KULLANICI BİLGİLERİ, ŞİFRE GÜNCELLEME VE GEÇMİŞ SINAV NOTLARINI SIFIRLAMA -->
+            <div class="card-panel">
+              <div class="panel-header">
+                <h3><i class="fa-solid fa-id-card"></i> Profil Bilgileri</h3>
+              </div>
+              <form id="profileUpdateForm" class="auth-form" onsubmit="handleProfileUpdate(event)">
+                <div class="grid-2">
+                  <div class="form-group">
+                    <label>Ad</label>
+                    <input type="text" id="profFirstName" required class="form-input" />
+                  </div>
+                  <div class="form-group">
+                    <label>Soyad</label>
+                    <input type="text" id="profLastName" required class="form-input" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>E-Posta Adresi</label>
+                  <input type="email" id="profEmail" required class="form-input" />
+                </div>
+                <hr class="divider" />
+                <p class="hint-text">Şifrenizi değiştirmek istiyorsanız yeni şifrenizi 2 kez girin (Değiştirmek istemiyorsanız boş bırakın):</p>
+                <div class="grid-2">
+                  <div class="form-group">
+                    <label>Yeni Şifre</label>
+                    <input type="password" id="profPass1" minlength="6" placeholder="Yeni şifre" class="form-input" />
+                  </div>
+                  <div class="form-group">
+                    <label>Yeni Şifre (Tekrar)</label>
+                    <input type="password" id="profPass2" minlength="6" placeholder="Yeni şifre tekrar" class="form-input" />
+                  </div>
+                </div>
+                <button type="submit" class="btn-primary">
+                  <i class="fa-solid fa-floppy-disk"></i> Profil Bilgilerimi Güncelle
+                </button>
+              </form>
+
+              <hr class="divider" />
+
+              <!-- GEÇMİŞ SINAV NOTLARIMI SIFIRLAMA SEÇENEĞİ -->
+              <div class="profile-exam-reset-box">
+                <div>
+                  <h4><i class="fa-solid fa-clock-rotate-left"></i> Geçmiş Sınav Notlarım</h4>
+                  <p class="hint-text" id="profileExamHistoryInfo">Toplam 0 sınav kaydı bulunuyor.</p>
+                </div>
+                <button type="button" class="btn-danger-sm" onclick="handleResetExamHistory()">
+                  <i class="fa-solid fa-trash-can"></i> Geçmiş Sınav Notlarımı Sıfırla
+                </button>
+              </div>
+            </div>
+
+            <!-- DERS VE KAYNAK SEÇ (DERS SIRALAMA OKLARI BURADA YER ALIR) -->
+            <div class="card-panel">
+              <div class="panel-header">
+                <h3><i class="fa-solid fa-book-bookmark"></i> Ders ve Kaynak Seç</h3>
+                <span class="badge">Sıralama & Filtre</span>
+              </div>
+              <p class="hint-text mb-12">
+                Aldığınız dersleri ve kaynakları işaretleyin. Derslerin yanındaki <strong>Yukarı / Aşağı</strong> oklarıyla sol menüdeki ders sıralamanızı değiştirebilirsiniz.
+              </p>
+              <div id="profileCoursesSelectionList" class="profile-courses-list"></div>
+              <div class="mt-16">
+                <button class="btn-primary w-full" onclick="saveStudentCourseSelection()">
+                  <i class="fa-solid fa-check"></i> Seçilen Ders ve Kaynakları Kaydet
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- 4. GÖRÜNÜM: SADECE ADMİN PANELİ -->
+        <section id="viewAdmin" class="view-section hidden">
+          <div class="admin-banner">
+            <div class="admin-banner-row">
+              <div>
+                <h2><i class="fa-solid fa-shield-halved"></i> Mekteb-i Dergah Yönetim (Admin) Paneli</h2>
+              </div>
+              <div class="admin-fs-actions">
+                <button type="button" class="btn-secondary btn-sm" onclick="connectLocalDerslerDirectory()">
+                  <i class="fa-solid fa-folder-open"></i> Uygulama Klasörünü Bağla (dersler/ & sorular.json)
+                </button>
+                <button type="button" class="btn-primary btn-sm" onclick="exportSorularJsonFile()">
+                  <i class="fa-solid fa-file-code"></i> sorular.json İndir / Güncelle
+                </button>
+              </div>
+            </div>
+            <div id="fsConnectionStatus" class="hint-text mt-8"></div>
+          </div>
+
+          <div class="admin-grid">
+
+            <!-- SOL: YENİ DERS EKLEME VE DERS SEÇME LİSTESİ -->
+            <div class="card-panel">
+              <div class="panel-header">
+                <h3><i class="fa-solid fa-folder-plus"></i> 1. Ders Ekle / Seç</h3>
+              </div>
+
+              <!-- Yeni Ders Oluşturma Formu -->
+              <form id="adminCourseForm" class="auth-form" onsubmit="handleAdminCreateCourse(event)">
+                <div class="form-group">
+                  <label>Ders Adı</label>
+                  <input type="text" id="adminCourseName" required placeholder="Örn: Tasavvuf Tarihi" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label>Ders Kategorisi Seç</label>
+                  <div class="category-select-with-btn">
+                    <select id="adminCourseCategorySelect" class="form-input">
+                      <option value="">Kategorisiz</option>
+                    </select>
+                    <button type="button" class="btn-secondary btn-sm nowrap-btn" onclick="openCategoryManagerModal()" title="Kategori Ekle, Düzenle veya Sil">
+                      <i class="fa-solid fa-folder-gear"></i> Kategori Yönet
+                    </button>
+                  </div>
+                </div>
+                <button type="submit" class="btn-primary w-full">
+                  <i class="fa-solid fa-plus"></i> Yeni Ders Oluştur
+                </button>
+              </form>
+
+              <hr class="divider" />
+              <div class="form-row-between mb-12">
+                <h4>Sistemdeki Tüm Dersler</h4>
+                <span class="hint-text">İşlem için derse tıklayın</span>
+              </div>
+              <div id="adminCoursesList" class="admin-list"></div>
+            </div>
+
+            <!-- SAĞ: SOLDA SEÇİLEN DERSE KAYNAK (EPUB / KONU PDF / MANUEL) & DERS HOCASININ SORULARINI YÜKLEME -->
+            <div class="card-panel">
+              <div class="panel-header">
+                <h3><i class="fa-solid fa-cloud-arrow-up"></i> 2. Derse Kaynak & Soru Yükle</h3>
+                <span id="adminSelectedCourseBadge" class="badge">Ders Seçilmedi</span>
+              </div>
+
+              <!-- Seçili Derse Eklenmiş Kitaplar / Kaynaklar Listesi -->
+              <div class="admin-sources-box">
+                <div class="form-row-between">
+                  <h4><i class="fa-solid fa-book"></i> Seçili Derse Eklenen Kaynaklar / Kitaplar</h4>
+                  <span class="hint-text">İçindekiler ve Künye buradan düzenlenir</span>
+                </div>
+                <div id="adminCourseSourcesList" class="admin-list mt-12"></div>
+              </div>
+
+              <!-- 1. AKORDİYON: EPUB KİTAP / KAYNAK YÜKLE -->
+              <details class="admin-accordion">
+                <summary><i class="fa-solid fa-book-atlas"></i> EPUB (.epub) Kitap / Kaynak Yükle</summary>
+                <div class="auth-form mt-12">
+                  <div class="form-group">
+                    <label>Kaynak / Cilt Adı (Boş bırakılırsa EPUB dosya adı kullanılır)</label>
+                    <input type="text" id="adminSourceTitleInput" placeholder="Örn: Riyazü's Salihin 1. Cilt" class="form-input" />
+                  </div>
+                  <div class="upload-zone" onclick="document.getElementById('adminFileInput').click()">
+                    <input type="file" id="adminFileInput" accept=".epub" class="hidden" onchange="handleAdminFileUpload(event)" />
+                    <i class="fa-solid fa-file-arrow-up upload-icon"></i>
+                    <h4>EPUB (.epub) Dosyası Seçmek İçin Tıklayın</h4>
+                    <div id="adminUploadProgress" class="upload-progress hidden">İşleniyor...</div>
+                  </div>
+                </div>
+              </details>
+
+              <!-- 2. AKORDİYON: KAYNAĞA TEK TEK KONU PDF'İ EKLE -->
+              <details class="admin-accordion">
+                <summary><i class="fa-solid fa-file-pdf"></i> Kaynağa Tek Tek Konu PDF'i Ekle (.pdf)</summary>
+                <form class="auth-form mt-12" onsubmit="handleAdminTopicPdfUpload(event)">
+                  <div class="form-group">
+                    <label>Hangi Kaynağa Konu Olarak Eklenecek?</label>
+                    <select id="adminPdfTargetSourceSelect" class="form-input"></select>
+                  </div>
+                  <div class="grid-2">
+                    <div class="form-group">
+                      <label>Konu Başlığı (Boş bırakılırsa PDF adı alınır)</label>
+                      <input type="text" id="adminPdfTopicTitle" placeholder="Örn: 1. Ünite: Giriş ve Kavramlar" class="form-input" />
+                    </div>
+                    <div class="form-group">
+                      <label>İçindekiler Başlık Derecesi</label>
+                      <select id="adminPdfTocLevel" class="form-input">
+                        <option value="1">1. Derece (Ana Konu Başlığı)</option>
+                        <option value="2">2. Derece (Alt Konu Başlığı)</option>
+                        <option value="3">3. Derece (Detay Başlık)</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label>Konu PDF Dosyası Seçin (.pdf — Orijinal PDF Görünümüyle Eklenir)</label>
+                    <input type="file" id="adminTopicPdfInput" accept=".pdf" multiple required class="form-input" />
+                  </div>
+                  <div id="adminPdfUploadProgress" class="upload-progress hidden">Orijinal PDF Sayfaları Hazırlanıyor...</div>
+                  <button type="submit" class="btn-primary w-full">
+                    <i class="fa-solid fa-file-arrow-up"></i> Seçilen Konu PDF'ini Kaynağa Ekle
+                  </button>
+                </form>
+              </details>
+
+              <!-- 3. AKORDİYON: KAYNAĞA MANUEL SAYFA / DERECELİ KONU BAŞLIĞI EKLE -->
+              <details class="admin-accordion">
+                <summary><i class="fa-solid fa-pen-to-square"></i> Kaynağa Manuel Sayfa / Dereceli Konu Başlığı Ekle</summary>
+                <form class="auth-form mt-12" onsubmit="handleAdminManualPageAdd(event)">
+                  <div class="form-group">
+                    <label>Hangi Kaynağa Eklenecek?</label>
+                    <select id="adminManualTargetSourceSelect" class="form-input"></select>
+                  </div>
+                  <div class="grid-2">
+                    <div class="form-group">
+                      <label>İçindekiler Konu Başlığı</label>
+                      <input type="text" id="adminManualPageTitle" required placeholder="Örn: 1. Bölüm: İhlas ve Niyet" class="form-input" />
+                    </div>
+                    <div class="form-group">
+                      <label>Başlık Derecesi</label>
+                      <select id="adminManualTocLevel" class="form-input">
+                        <option value="1">1. Derece (Ana Başlık)</option>
+                        <option value="2">2. Derece (Alt Başlık)</option>
+                        <option value="3">3. Derece (Detay Başlık)</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label>Konu İçeriği (HTML veya Metin)</label>
+                    <textarea id="adminManualPageContent" rows="4" required placeholder="Ders içeriğini buraya girin..." class="form-input"></textarea>
+                  </div>
+                  <button type="submit" class="btn-secondary w-full">
+                    <i class="fa-solid fa-file-circle-plus"></i> Manuel Konuyu Kaydet
+                  </button>
+                </form>
+              </details>
+
+              <!-- 4. AKORDİYON: DERS HOCASININ HAZIRLADIĞI SORULAR -->
+              <details class="admin-accordion">
+                <summary><i class="fa-solid fa-user-graduate"></i> Ders Hocasının Hazırladığı Sorular</summary>
+                <form class="auth-form mt-12" onsubmit="handleAdminAddQuestion(event)">
+
+                  <!-- Soru Grubu / Seti -->
+                  <div class="grid-2">
+                    <div class="form-group">
+                      <label>Soru Grubu / Seti Seç</label>
+                      <select id="adminQSetSelect" class="form-input" onchange="handleAdminQuestionSetSelectChange()"></select>
+                    </div>
+                    <div class="form-group" id="adminNewQSetGroup">
+                      <label>Yeni Soru Grubu Adı</label>
+                      <input type="text" id="adminNewQSetNameInput" placeholder="Örn: 1. Grup Sorular (10 Soru) / Vize Soruları" class="form-input" />
+                    </div>
+                  </div>
+
+                  <div class="grid-3">
+                    <div class="form-group">
+                      <label>İlgili Kaynak / Kitap</label>
+                      <select id="adminQSourceSelect" class="form-input" onchange="populateAdminQuestionTopicSelect()"></select>
+                    </div>
+                    <div class="form-group">
+                      <label>İlgili Konu Başlığı</label>
+                      <select id="adminQTopicSelect" class="form-input"></select>
+                    </div>
+                    <div class="form-group">
+                      <label>Soru Tipi</label>
+                      <select id="adminQTypeSelect" class="form-input" onchange="handleAdminQuestionTypeChange()">
+                        <option value="mcq">Çoktan Seçmeli</option>
+                        <option value="fill">Boşluk Doldurma</option>
+                        <option value="tf">Doğru / Yanlış</option>
+                        <option value="classic">Klasik Soru (Açık Uçlu)</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Soru Metni</label>
+                    <textarea id="adminQText" rows="2" required placeholder="Soruyu yazın" class="form-input"></textarea>
+                  </div>
+
+                  <!-- TİP 1: ÇOKTAN SEÇMELİ ŞIKLAR (E ŞIKKI ZORUNLU DEĞİL) -->
+                  <div id="adminMcqOptionsBox">
+                    <div class="grid-2">
+                      <input type="text" id="adminQOpt0" placeholder="A) Seçeneği" class="form-input" />
+                      <input type="text" id="adminQOpt1" placeholder="B) Seçeneği" class="form-input" />
+                      <input type="text" id="adminQOpt2" placeholder="C) Seçeneği" class="form-input" />
+                      <input type="text" id="adminQOpt3" placeholder="D) Seçeneği" class="form-input" />
+                      <input type="text" id="adminQOpt4" placeholder="E) Seçeneği (İsteğe Bağlı)" class="form-input" />
+                      <div class="form-group">
+                        <select id="adminQCorrectIndex" class="form-input" title="Doğru Şık">
+                          <option value="0">Doğru Cevap: A Şıkkı</option>
+                          <option value="1">Doğru Cevap: B Şıkkı</option>
+                          <option value="2">Doğru Cevap: C Şıkkı</option>
+                          <option value="3">Doğru Cevap: D Şıkkı</option>
+                          <option value="4">Doğru Cevap: E Şıkkı</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- TİP 2: BOŞLUK DOLDURMA DOĞRU CEVAP ALANI -->
+                  <div id="adminFillOptionsBox" class="hidden">
+                    <div class="form-group">
+                      <label>Boşluğa Gelecek Doğru Cevap / İfade</label>
+                      <input type="text" id="adminQFillAnswer" placeholder="Doğru cevabı yazın..." class="form-input" />
+                    </div>
+                  </div>
+
+                  <!-- TİP 3: DOĞRU / YANLIŞ SEÇİM ALANI -->
+                  <div id="adminTfOptionsBox" class="hidden">
+                    <div class="form-group">
+                      <label>Doğru / Yanlış Cevabı</label>
+                      <select id="adminQTfAnswer" class="form-input">
+                        <option value="Doğru">Doğru</option>
+                        <option value="Yanlış">Yanlış</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- TİP 4: KLASİK SORU CEVABI / ÇÖZÜMÜ ALANI -->
+                  <div id="adminClassicOptionsBox" class="hidden">
+                    <div class="form-group">
+                      <label>Klasik Sorunun Doğru Cevabı / Açıklaması</label>
+                      <textarea id="adminQClassicAnswer" rows="3" placeholder="Klasik sorunun cevabını veya çözümünü yazın..." class="form-input"></textarea>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn-secondary w-full mt-12">
+                    <i class="fa-solid fa-plus-circle"></i> Soruyu Gruba ve sorular.json'a Kaydet
+                  </button>
+                </form>
+
+                <hr class="divider" />
+                <div class="form-row-between mb-12">
+                  <h4>Eklenen Tüm Sorular (Gör / Düzenle / Sil)</h4>
+                  <select id="adminFilterQSetSelect" class="form-input" style="max-width:210px;padding:6px 10px;font-size:0.8rem;" onchange="renderAdminAllQuestionsList()"></select>
+                </div>
+                <div id="adminTeacherSetsList" class="admin-list mt-8" style="max-height:420px;overflow-y:auto;"></div>
+              </details>
+
+              <div id="adminCourseContentSummary" class="mt-16 hint-text"></div>
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- TELEFON VE TABLETE UYGULAMA OLARAK YÜKLEME (PWA KURULUM) PENCERESİ -->
+  <div id="pwaInstallModal" class="modal-backdrop hidden" onclick="if(event.target===this) closePwaInstallModal()">
+    <div class="modal-card" style="max-width:480px;">
+      <div class="panel-header">
+        <h3><i class="fa-solid fa-mobile-screen-button"></i> Telefon & Tablete Yükle</h3>
+        <button type="button" class="icon-btn" onclick="closePwaInstallModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div style="text-align:center;margin-bottom:14px;">
+        <img src="logo.png" alt="Mekteb-i Dergah" style="width:72px;height:72px;border-radius:16px;object-fit:contain;margin-bottom:8px;" onerror="this.style.display='none'" />
+        <h4>Mekteb-i Dergah Mobil Uygulaması</h4>
+        <p class="hint-text">Uygulamayı telefonunuza veya tabletinize tam ekran uygulama olarak yükleyebilirsiniz.</p>
+      </div>
+
+      <div id="pwaDirectInstallSection" class="mb-12 hidden">
+        <button type="button" class="btn-primary w-full" onclick="triggerNativePwaInstall()">
+          <i class="fa-solid fa-download"></i> Tek Tıkla Cihaza Yükle
+        </button>
+      </div>
+
+      <div class="pwa-instructions-box">
+        <div class="pwa-inst-item">
+          <strong><i class="fa-brands fa-android" style="color:#10b981;"></i> Android Telefon & Tablet (Chrome / Edge):</strong>
+          <p class="hint-text">Sağ üstteki <strong>⋮ (Üç Nokta)</strong> menüsüne dokunun ve <strong>"Uygulamayı yükle"</strong> veya <strong>"Ana ekrana ekle"</strong> seçeneğine basın.</p>
+        </div>
+        <hr class="divider" />
+        <div class="pwa-inst-item">
+          <strong><i class="fa-brands fa-apple"></i> iPhone & iPad (Safari):</strong>
+          <p class="hint-text">Alt çubuktaki <strong>Paylaş (<i class="fa-solid fa-arrow-up-from-bracket"></i>)</strong> düğmesine dokunun, aşağı kaydırıp <strong>"Ana Ekrana Ekle"</strong> seçeneğine basın.</p>
+        </div>
+      </div>
+
+      <div class="modal-footer-btns mt-16">
+        <button type="button" class="btn-primary" onclick="closePwaInstallModal()">Tamam</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- DERS HOCASININ SORUSUNU DÜZENLEME PENCERESİ (TÜM SORULARI GÖRÜP DEĞİŞTİRME) -->
+  <div id="editTeacherQuestionModal" class="modal-backdrop hidden" onclick="if(event.target===this) closeEditTeacherQuestionModal()">
+    <div class="modal-card modal-card-wide">
+      <div class="panel-header">
+        <h3><i class="fa-solid fa-pen-to-square"></i> Soruyu Düzenle</h3>
+        <button type="button" class="icon-btn" onclick="closeEditTeacherQuestionModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <form class="auth-form" onsubmit="handleSaveEditedTeacherQuestion(event)">
+        <div class="grid-3">
+          <div class="form-group">
+            <label>Soru Grubu / Seti Adı</label>
+            <input type="text" id="editQGroupName" required class="form-input" />
+          </div>
+          <div class="form-group">
+            <label>Konu Başlığı</label>
+            <input type="text" id="editQTopicTitle" required class="form-input" />
+          </div>
+          <div class="form-group">
+            <label>Soru Tipi</label>
+            <select id="editQTypeSelect" class="form-input" onchange="handleEditQuestionTypeChange()">
+              <option value="mcq">Çoktan Seçmeli</option>
+              <option value="fill">Boşluk Doldurma</option>
+              <option value="tf">Doğru / Yanlış</option>
+              <option value="classic">Klasik Soru (Açık Uçlu)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Soru Metni</label>
+          <textarea id="editQText" rows="3" required placeholder="Soruyu yazın" class="form-input"></textarea>
+        </div>
+
+        <!-- Düzenleme: Çoktan Seçmeli Şıklar -->
+        <div id="editMcqOptionsBox">
+          <div class="grid-2">
+            <input type="text" id="editQOpt0" placeholder="A) Seçeneği" class="form-input" />
+            <input type="text" id="editQOpt1" placeholder="B) Seçeneği" class="form-input" />
+            <input type="text" id="editQOpt2" placeholder="C) Seçeneği" class="form-input" />
+            <input type="text" id="editQOpt3" placeholder="D) Seçeneği" class="form-input" />
+            <input type="text" id="editQOpt4" placeholder="E) Seçeneği (İsteğe Bağlı)" class="form-input" />
+            <div class="form-group">
+              <select id="editQCorrectIndex" class="form-input">
+                <option value="0">Doğru Cevap: A Şıkkı</option>
+                <option value="1">Doğru Cevap: B Şıkkı</option>
+                <option value="2">Doğru Cevap: C Şıkkı</option>
+                <option value="3">Doğru Cevap: D Şıkkı</option>
+                <option value="4">Doğru Cevap: E Şıkkı</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Düzenleme: Boşluk Doldurma -->
+        <div id="editFillOptionsBox" class="hidden">
+          <div class="form-group">
+            <label>Boşluğa Gelecek Doğru Cevap</label>
+            <input type="text" id="editQFillAnswer" class="form-input" />
+          </div>
+        </div>
+
+        <!-- Düzenleme: Doğru / Yanlış -->
+        <div id="editTfOptionsBox" class="hidden">
+          <div class="form-group">
+            <label>Doğru / Yanlış Cevabı</label>
+            <select id="editQTfAnswer" class="form-input">
+              <option value="Doğru">Doğru</option>
+              <option value="Yanlış">Yanlış</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Düzenleme: Klasik Soru -->
+        <div id="editClassicOptionsBox" class="hidden">
+          <div class="form-group">
+            <label>Klasik Sorunun Doğru Cevabı / Açıklaması</label>
+            <textarea id="editQClassicAnswer" rows="3" class="form-input"></textarea>
+          </div>
+        </div>
+
+        <div class="modal-footer-btns mt-12">
+          <button type="button" class="btn-secondary" onclick="closeEditTeacherQuestionModal()">İptal</button>
+          <button type="submit" class="btn-primary">
+            <i class="fa-solid fa-floppy-disk"></i> Değişiklikleri Kaydet
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- KATEGORİ YÖNETİM PENCERESİ (EKLE, İSMİNİ DEĞİŞTİR, SİL) -->
+  <div id="categoryManagerModal" class="modal-backdrop hidden" onclick="if(event.target===this) closeCategoryManagerModal()">
+    <div class="modal-card" style="max-width:480px;">
+      <div class="panel-header">
+        <h3><i class="fa-solid fa-folder-gear"></i> Kategori Yönet</h3>
+        <button type="button" class="icon-btn" onclick="closeCategoryManagerModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <form class="auth-form" onsubmit="handleConfirmAddCategory(event)">
+        <div class="form-group">
+          <label>Yeni Kategori Ekle</label>
+          <div class="category-select-with-btn">
+            <input type="text" id="modalCategoryNameInput" required placeholder="Örn: Tasavvuf, Fıkıh, Hadis..." class="form-input" />
+            <button type="submit" class="btn-primary btn-sm nowrap-btn">
+              <i class="fa-solid fa-plus"></i> Ekle
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <hr class="divider" />
+      <label class="small-label mb-12">Mevcut Kategoriler (İsmini Değiştir veya Sil)</label>
+      <div id="categoryManagerList" class="admin-list" style="max-height:260px;overflow-y:auto;"></div>
+
+      <div class="modal-footer-btns mt-16">
+        <button type="button" class="btn-secondary" onclick="closeCategoryManagerModal()">Kapat</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- KAYNAK / KİTAP KÜNYE BİLGİLERİNİ DÜZENLEME PENCERESİ -->
+  <div id="sourceMetaEditorModal" class="modal-backdrop hidden" onclick="if(event.target===this) closeSourceMetaEditorModal()">
+    <div class="modal-card" style="max-width:500px;">
+      <div class="panel-header">
+        <h3><i class="fa-solid fa-book"></i> Kaynak & Künye Bilgilerini Düzenle</h3>
+        <button type="button" class="icon-btn" onclick="closeSourceMetaEditorModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <form class="auth-form" onsubmit="handleSaveSourceMetadata(event)">
+        <div class="form-group">
+          <label>Kaynak / Cilt Görünen Adı</label>
+          <input type="text" id="editSourceDisplayName" required class="form-input" />
+        </div>
+        <div class="grid-2">
+          <div class="form-group">
+            <label>Eserin Adı</label>
+            <input type="text" id="editMetaWorkTitle" placeholder="İsteğe bağlı" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label>Yazar (Müellif)</label>
+            <input type="text" id="editMetaAuthor" placeholder="İsteğe bağlı" class="form-input" />
+          </div>
+        </div>
+        <div class="grid-2">
+          <div class="form-group">
+            <label>Yayınevi</label>
+            <input type="text" id="editMetaPublisher" placeholder="İsteğe bağlı" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label>Basım Yılı</label>
+            <input type="text" id="editMetaPubYear" placeholder="İsteğe bağlı" class="form-input" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Çevirmen / Hazırlayan / Ek Bilgi</label>
+          <input type="text" id="editMetaExtra" placeholder="İsteğe bağlı" class="form-input" />
+        </div>
+        <div class="modal-footer-btns mt-12">
+          <button type="button" class="btn-secondary" onclick="closeSourceMetaEditorModal()">İptal</button>
+          <button type="submit" class="btn-primary">
+            <i class="fa-solid fa-floppy-disk"></i> Künye Bilgilerini Kaydet
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- SESLENDİRME AYARLARI PENCERESİ (SADECE 4 YAPAY ZEKA SESİ) -->
+  <div id="voiceSettingsModal" class="modal-backdrop hidden" onclick="if(event.target===this) closeVoiceSettingsModal()">
+    <div class="modal-card" style="max-width:460px;">
+      <div class="panel-header">
+        <h3><i class="fa-solid fa-sliders"></i> Seslendirme Ayarları</h3>
+        <button type="button" class="icon-btn" onclick="closeVoiceSettingsModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="auth-form">
+        <div class="form-group">
+          <label>Seslendirecek Kişi (Yapay Zeka Okuyucu Seçimi)</label>
+          <select id="ttsVoiceSelect" class="form-input" onchange="handleVoiceSettingsChange()"></select>
+        </div>
+
+        <div class="form-group">
+          <div class="form-row-between">
+            <label>Okuma Hızı Ayarlayıcı</label>
+            <span id="ttsRateValueBadge" class="badge">1.0x</span>
+          </div>
+          <input type="range" id="ttsRateRangeInput" min="0.5" max="2.0" step="0.1" value="1.0" class="rate-slider" oninput="handleVoiceRateSliderInput(this.value)" />
+          <div class="rate-presets-row">
+            <button type="button" class="btn-secondary btn-sm" onclick="setVoiceRatePreset(0.75)">0.75x</button>
+            <button type="button" class="btn-secondary btn-sm" onclick="setVoiceRatePreset(1.0)">1.0x (Normal)</button>
+            <button type="button" class="btn-secondary btn-sm" onclick="setVoiceRatePreset(1.25)">1.25x</button>
+            <button type="button" class="btn-secondary btn-sm" onclick="setVoiceRatePreset(1.5)">1.5x</button>
+            <button type="button" class="btn-secondary btn-sm" onclick="setVoiceRatePreset(2.0)">2.0x</button>
+          </div>
+        </div>
+
+        <div class="modal-footer-btns mt-12">
+          <button type="button" class="btn-secondary" onclick="testSelectedVoiceSample()">
+            <i class="fa-solid fa-volume-high"></i> Sesi Test Et
+          </button>
+          <button type="button" class="btn-primary" onclick="closeVoiceSettingsModal()">
+            <i class="fa-solid fa-check"></i> Tamam
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DERS ÇALIŞMA EKRANI ÖZEL SAĞ TIK (CONTEXT MENU) MENÜSÜ -->
+  <div id="studyContextMenu" class="custom-context-menu hidden">
+    <div class="ctx-group">
+      <button type="button" onclick="applyReaderCommand('bold')"><i class="fa-solid fa-bold"></i> Kalın</button>
+      <button type="button" onclick="applyReaderCommand('italic')"><i class="fa-solid fa-italic"></i> İtalik</button>
+      <button type="button" onclick="applyReaderCommand('underline')"><i class="fa-solid fa-underline"></i> Altı Çizili</button>
+    </div>
+    <div class="ctx-divider"></div>
+    <div class="ctx-label">Vurgu Rengi Seç</div>
+    <div class="ctx-colors">
+      <button type="button" class="color-dot yellow" onclick="applyHighlightColor('rgba(253, 224, 71, 0.38)')" title="Sarı Şeffaf Vurgu"></button>
+      <button type="button" class="color-dot green" onclick="applyHighlightColor('rgba(134, 239, 172, 0.38)')" title="Yeşil Şeffaf Vurgu"></button>
+      <button type="button" class="color-dot blue" onclick="applyHighlightColor('rgba(147, 197, 253, 0.38)')" title="Mavi Şeffaf Vurgu"></button>
+      <button type="button" class="color-dot red" onclick="applyHighlightColor('rgba(252, 165, 165, 0.38)')" title="Kırmızı Şeffaf Vurgu"></button>
+      <button type="button" class="color-dot clear" onclick="applyHighlightColor('transparent')" title="Vurguyu Kaldır">
+        <i class="fa-solid fa-eraser"></i>
+      </button>
+    </div>
+    <div class="ctx-divider"></div>
+    <div class="ctx-group">
+      <button type="button" onclick="takeNoteFromSelection()"><i class="fa-solid fa-note-sticky"></i> Seçili Metne Not Al</button>
+      <button type="button" onclick="handleClipboardAction('copy')"><i class="fa-solid fa-copy"></i> Kopyala</button>
+    </div>
+  </div>
+
+  <!-- SEÇİLİ METNE NOT ALMA PENCERESİ -->
+  <div id="inlineNoteCreateModal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <div class="panel-header">
+        <h3><i class="fa-solid fa-highlighter"></i> Seçili Metne Not Al</h3>
+        <button type="button" class="icon-btn" onclick="closeInlineNoteCreateModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="selected-quote-preview" id="inlineNoteSelectedPreview"></div>
+      <form class="auth-form mt-12" onsubmit="confirmSaveInlineHighlightedNote(event)">
+        <div class="form-group">
+          <label>Not Başlığı</label>
+          <input type="text" id="inlineNoteTitleInput" required placeholder="Örn: Önemli Kavram / Açıklama" class="form-input" />
+        </div>
+        <div class="form-group">
+          <label>Notunuz</label>
+          <textarea id="inlineNoteBodyInput" rows="4" required placeholder="Bu kısım hakkında notunuzu yazın..." class="form-input"></textarea>
+        </div>
+        <div class="modal-footer-btns">
+          <button type="button" class="btn-secondary" onclick="closeInlineNoteCreateModal()">İptal</button>
+          <button type="submit" class="btn-primary">
+            <i class="fa-solid fa-check"></i> Metni Vurgula ve Notu Kaydet
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- DİPNOT, KİTAP KÜNYESİ VEYA VURGULU NOT GÖSTERİM PENCERESİ -->
+  <div id="popupViewerModal" class="modal-backdrop hidden" onclick="if(event.target===this) closePopupViewerModal()">
+    <div class="modal-card">
+      <div class="panel-header">
+        <h3 id="popupViewerTitle"><i class="fa-solid fa-book-open"></i> Detay</h3>
+        <button type="button" class="icon-btn" onclick="closePopupViewerModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="popupViewerQuote" class="selected-quote-preview hidden"></div>
+      <div id="popupViewerBody" class="popup-viewer-body"></div>
+      <div class="modal-footer-btns mt-16">
+        <button type="button" id="popupDeleteNoteBtn" class="btn-danger-sm hidden" onclick="deleteActivePopupInlineNote()">
+          <i class="fa-solid fa-trash"></i> Bu Notu ve Vurguyu Kaldır
+        </button>
+        <button type="button" class="btn-primary btn-sm" onclick="closePopupViewerModal()">Kapat</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ADMİNE ÖZEL İÇİNDEKİLER (TOC) SERBEST DÜZENLEME PENCERESİ -->
+  <div id="tocEditorModal" class="modal-backdrop hidden">
+    <div class="modal-card modal-card-wide">
+      <div class="panel-header">
+        <h3><i class="fa-solid fa-list-check"></i> İçindekiler Tablosunu Düzenle — <span id="tocEditorSourceTitle">Kaynak</span></h3>
+        <button type="button" class="icon-btn" onclick="closeTocEditorModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <p class="hint-text mb-12">
+        İçindekiler başlıklarını istediğiniz gibi değiştirebilir, başlık derecelerini (1: Ana Başlık, 2: Alt Başlık, 3: Detay) düzenleyebilir, sıralamayı kaydırabilir, yeni başlık ekleyebilir veya silebilirsiniz.
+      </p>
+      <div id="tocEditorRowsContainer" class="toc-editor-rows"></div>
+      <div class="modal-footer-btns mt-16" style="justify-content:space-between;">
+        <button type="button" class="btn-secondary" onclick="addTocEditorRow()">
+          <i class="fa-solid fa-plus"></i> Yeni Başlık Satırı Ekle
+        </button>
+        <div style="display:flex;gap:8px;">
+          <button type="button" class="btn-secondary" onclick="closeTocEditorModal()">İptal</button>
+          <button type="button" class="btn-primary" onclick="saveTocEditorChanges()">
+            <i class="fa-solid fa-floppy-disk"></i> İçindekiler Değişikliklerini Kaydet
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BİLDİRİM (TOAST) KUTUSU -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- İKİYE BÖLÜNMÜŞ JAVASCRIPT DOSYALARI -->
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
