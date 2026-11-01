@@ -1,0 +1,106 @@
+{
+  "id": "src_1793485017096_0",
+  "courseId": "crs_1793477724297",
+  "name": "Nûru'l Misbâh",
+  "metadata": {
+    "workTitle": "Nûru'l Misbâh",
+    "author": "",
+    "publisher": "",
+    "pubYear": "",
+    "extra": ""
+  },
+  "customCss": "",
+  "footnotes": {},
+  "toc": [
+    {
+      "anchor": "",
+      "title": "1- Giriş",
+      "level": 1,
+      "pageNo": 1
+    },
+    {
+      "title": "2- Takriz",
+      "pageNo": 2,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "3- Musannif Hakkında",
+      "pageNo": 3,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "4- Hanefi Mezhebinin Fakihleri",
+      "pageNo": 4,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "5- Fıkha Başlarken",
+      "pageNo": 5,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "6- Şer'i Hükümler",
+      "pageNo": 6,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "7- Önsöz",
+      "pageNo": 7,
+      "level": 1,
+      "anchor": ""
+    },
+    {
+      "title": "8- Taharet Kitabı",
+      "pageNo": 8,
+      "level": 1,
+      "anchor": ""
+    }
+  ],
+  "pagesIndex": [
+    {
+      "pageNo": 1,
+      "title": "1- Giriş",
+      "fileName": "sayfa_1.html"
+    },
+    {
+      "pageNo": 2,
+      "title": "2- Takriz",
+      "fileName": "sayfa_2.html"
+    },
+    {
+      "pageNo": 3,
+      "title": "3- Musannif Hakkında",
+      "fileName": "sayfa_3.html"
+    },
+    {
+      "pageNo": 4,
+      "title": "4- Hanefi Mezhebinin Fakihleri",
+      "fileName": "sayfa_4.html"
+    },
+    {
+      "pageNo": 5,
+      "title": "5- Fıkha Başlarken",
+      "fileName": "sayfa_5.html"
+    },
+    {
+      "pageNo": 6,
+      "title": "6- Şer'i Hükümler",
+      "fileName": "sayfa_6.html"
+    },
+    {
+      "pageNo": 7,
+      "title": "7- Önsöz",
+      "fileName": "sayfa_7.html"
+    },
+    {
+      "pageNo": 8,
+      "title": "8- Taharet Kitabı",
+      "fileName": "sayfa_8.html"
+    }
+  ]
+}
